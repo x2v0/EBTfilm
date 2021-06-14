@@ -18,4 +18,4 @@ http://www.gafchromic.com/gafchromic-film/radiotherapy-films/EBT/index.asp
 
 Подобное описание https://x2v0.github.io/EBTfilm/
 
-![ISO](HTML/iso1.png)
+![snapshot](snapshot.jpg)

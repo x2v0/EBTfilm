@@ -1,0 +1,45 @@
+
+#pageContent {
+position: relative;
+z-index: 1;
+width:auto;
+overflow: hidden;
+}
+
+#pageScroller {
+width: auto;
+overflow: hidden;
+padding-right: 0px;
+padding-bottom: 10px;
+} 
+
+#hmpagePageHeader {
+ display: -moz-box;
+ display: -webkit-box;
+ display: box;
+ -moz-box-orient: horizontal;
+ -webkit-box-orient: horizontal;
+ box-orient: horizontal;
+ margin-bottom: 5px;
+}
+div#hmpageHeaderBox {
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	border-bottom: 1px solid silver;
+	margin-right: 5px;
+
+ }
+
+
+
+#unzoomer {
+display: none;
+}
+
+#zoomer, #unzoomer {
+width:120px;
+}
+
+
+

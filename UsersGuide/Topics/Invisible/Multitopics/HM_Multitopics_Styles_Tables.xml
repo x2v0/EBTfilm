@@ -1,0 +1,60 @@
+﻿<topic class="Popup" template="Popup" lasteditedby="Tim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Styles in tables</title>
+  <body>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Table styles define the formatting of the table itself </text><text styleclass="Body Text" style="font-family:Arial;" translate="true">–</text><text styleclass="Body Text" translate="true"> the table width and width mode, borders and border style, background colors and so on. They do not define the formatting of the text inside the tables </text><text styleclass="Body Text" style="font-family:Arial;" translate="true">–</text><text styleclass="Body Text" translate="true"> that must be formatted with styles or the manual formatting tools. </text></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How to align a table with a paragraph style]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="cell-padding:0px; cell-spacing:0px; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text" style="margin-left:24px;"><text styleclass="Body Text" translate="true">You can control the alignment of a table by applying a style to the paragraph containing the table </text><text styleclass="Body Text" style="font-family:Arial;" translate="true">–</text><text styleclass="Body Text" translate="true"> for example to center a fixed-width table or to indent the left and right sides of the table from the margins of the page. Only the paragraph attributes will have an effect, text attributes will be ignored. </text></para>
+          <list id="4" type="ol" listtype="decimal" formatstring="%0:s." levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Click on </text><image src="BTN_paramarks.bmp" scale="100.00%" styleclass="HowTo Numbered"></image><text styleclass="HowTo Numbered" translate="true"> in </text><text styleclass="T_Menu" translate="true">Write &gt; Paragraph</text><text styleclass="HowTo Numbered" translate="true"> to display paragraph marks (this makes it easier to see what you are doing).</text><text styleclass="HowTo Numbered" style="font-weight:bold;" translate="true"> </text></li>
+          </list>
+          <para styleclass="Body Text HowTo" style="margin-left:48px;"><image src="ed_tablepara.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+          <list id="4" type="ol" listtype="decimal" formatstring="%0:s." levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Click to the right of the table between the table and its paragraph mark so that you can see the blinking editing cursor between the right margin of the table and the paragraph mark.</text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Select the style you want to apply in the drop-down style list in the Toolbar.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How to apply styles to the contents of tables]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="cell-padding:0px; cell-spacing:0px; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">If you select all or part of a table and apply text or paragraph styles the styles will be applied to the text in the selected cells inside the table. </text></para>
+          <list id="5" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Body Text" style="margin-left:24px; font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Body Text" style="margin-left:24px;"><text styleclass="Body Text" translate="true">Select text and paragraphs in the table cells and apply styles just as you would in the normal editor. You can also apply styles to multiple paragraphs in multiple cells by selecting the cells and then applying the style.</text></li>
+          </list>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Note that if you want to apply a style to </text><text styleclass="Body Text HowTo" style="text-decoration:underline;" translate="true">all</text><text styleclass="Body Text HowTo" translate="true"> the paragraphs in a table you must select the entire table by clicking and dragging inside the table. If you click in the left margin to select the table you will not be able to apply styles because then the table is selected and not its contents.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How to apply a table style to a table]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="cell-padding:0px; cell-spacing:0px; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <list id="6" type="ol" listtype="decimal" formatstring="%0:s." levelreset="false" legalstyle="false" startfrom="1" styleclass="Body Text" style="margin-left:24px; font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="Body Text" style="margin-left:24px;"><text styleclass="Body Text" translate="true">Click in the table you want to format.</text><text styleclass="Body Text" style="font-weight:bold;" translate="true"> </text></li>
+            <li styleclass="Body Text" style="margin-left:24px;"><text styleclass="Body Text" translate="true">Select </text><text styleclass="Body Text" style="font-style:italic;" translate="true">Properties</text><text styleclass="Body Text" translate="true"> in the </text><text styleclass="T_Menu" translate="true">Table</text><text styleclass="Body Text" translate="true"> tab and then select the table style you want to use and click on OK.</text></li>
+          </list>
+          <para styleclass="Body Text" style="margin-left:24px;"><text styleclass="Body Text" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Tables_Styles" styleclass="Body Text" translate="true">Working with Tables &gt; Table styles</link><text styleclass="Body Text" translate="true"> for full details.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How to define a table style]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="cell-padding:0px; cell-spacing:0px; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <list id="7" type="ol" listtype="decimal" formatstring="%0:s." levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Select </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Styles &gt; Edit Styles</text><text styleclass="HowTo Numbered" translate="true"> in the </text><text styleclass="T_Menu" translate="true">Write</text><text styleclass="HowTo Numbered" translate="true"> tab.</text><text styleclass="HowTo Numbered" style="font-weight:bold;" translate="true"> </text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Click in the </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Table Styles</text><text styleclass="HowTo Numbered" translate="true"> section at the top, then select </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Add Style.</text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Enter a name for the style in the </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Style Name:</text><text styleclass="HowTo Numbered" translate="true"> field. </text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">If you want to base the style on another style select the parent style in the </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Based on Style:</text><text styleclass="HowTo Numbered" translate="true"> field.</text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Click on </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Modify Layout</text><text styleclass="HowTo Numbered" translate="true"> to define the attributes of the style. The settings are just the same as the </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ribbon_Tables_Props" styleclass="HowTo Numbered" translate="true">normal table settings</link><text styleclass="HowTo Numbered" translate="true">, although there are a couple of table settings that cannot be included in table styles.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

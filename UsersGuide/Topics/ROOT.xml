@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Установка ROOT</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Установка ROOT</text></para>
+    </header>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"><text styleclass="Normal" style="font-family:Arial; font-size:12pt; font-weight:normal; color:#000000;" translate="true">Установка программы включает в себя установку системы </text><text styleclass="Normal" style="font-family:Arial; font-size:12pt; font-weight:bold; color:#000000;" translate="true">ROOT</text></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"><br/><text styleclass="Normal" style="font-family:Arial; font-size:12pt; font-weight:normal; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; В процессе </text><text styleclass="Normal" translate="true">установки </text><text styleclass="Normal" style="font-family:Arial; font-size:12pt; font-weight:normal; color:#000000;" translate="true">системы</text><text styleclass="Normal" style="font-family:Arial; font-size:12pt; font-weight:bold; color:#000000;" translate="true"> ROOT </text><text styleclass="Normal" style="font-family:Arial; font-size:12pt; font-weight:normal; color:#000000;" translate="true">появится установочный диалог. </text></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"><text styleclass="Normal" style="font-family:Arial; font-size:12pt; font-weight:bold; color:#000000;" translate="true">Рекомендуется использовать параметры установки предлагаемые по умолчанию.</text><br/></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"><image src="install1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"><image src="install2.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"><image src="install3.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"><image src="install4.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-indent:39px; margin-right:0px; margin-left:0px; tabstops:none;"></para>
+  </body>
+</topic>

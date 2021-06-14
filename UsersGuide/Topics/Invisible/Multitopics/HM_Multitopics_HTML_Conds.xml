@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="TimMBP64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">HTML Template Conditions</title>
+  <body>
+    <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">You can use all of Help &amp; Manual&apos;s standard conditional output options in HTML templates, both your </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_Conditions_DefiningIncludes" style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">user-defined include options</link><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true"> and options based on the current output format. In addition to this there are a few special conditional switches which are only for use in Help &amp; Manual&apos;s WebHelp output, because they are only relevant there. See the lists below for details.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">These conditions are like special HTML tags. They are used to enclose blocks of HTML code in your template that you want to include in the output only if the condition is fulfilled. </text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">In HTML templates you can only use output format conditions for HTML-based output formats (CHM, HTML, EBOOK and HXS). This is because these templates are only used for HTML-based output </text><text styleclass="Body Text" style="font-family:Arial;" translate="true">–</text><text styleclass="Body Text" translate="true"> so </text><text styleclass="T_Code" translate="true">&lt;IF_PDF&gt;</text><text styleclass="Body Text" translate="true"> would not have any meaning, for example. Note that the EBOOK condition applies both for Windows Exe and ePub eBooks. </text></para>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">Conditions are stripped before publishing</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">All the condition tags are stripped from your code before actually generating the HTML output. No proprietary tags are included in your output!</text></para>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">Predefined HTML template conditions:</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">In addition to the predefined conditions listed here you can also use your own </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_Conditions_DefiningIncludes" styleclass="Body Text" translate="true">user-defined include options</link><text styleclass="Body Text" translate="true"> as conditions in HTML templates. See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_HTMLTemplates_Conditions" styleclass="Body Text" translate="true">Conditional output in HTML templates</link><text styleclass="Body Text" translate="true"> for details on how to use the conditions.</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="14" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="width:220px; background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Conditions</text></para>
+        </td>
+        <td style="background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Function of the condition</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_CHM&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True when you generate HTML Help</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_EBOOK&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True when you generate e-Books, applies for both Windows Exe and ePub eBooks</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_FRAMES&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True if WebHelp is exported with frames (a frame-based format is selected in the </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_ProjectProps_HTMLEx_Navigation" styleclass="Body Text" translate="true">Navigation</link><text styleclass="Body Text" translate="true"> options). This could be used for entering a link from topic pages to your TOC page when you select the </text><text styleclass="T_Entry" translate="true">No Frames, No Scripts</text><text styleclass="Body Text" translate="true"> layout option, for example. Only relevant for WebHelp.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_HTML&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True when you generate WebHelp (HTML)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_HXS&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True when you generate Visual Studio Help (2008 or 2010)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_INDEX_PAGE&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True if a keyword index is included in the output. Only relevant for WebHelp.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_NEXT_PAGE&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True if a next page exists. Used to suppress or display a grayed-out version of the </text><text styleclass="T_Entry" translate="true">Next</text><text styleclass="Body Text" translate="true"> button in the very last topic.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_PREVIOUS_PAGE&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True if a previous page exists (the variable </text><text styleclass="T_Code" translate="true">&lt;%HREF_PREVIOUS_PAGE%&gt;</text><text styleclass="Body Text" translate="true"> is not empty). Used to suppress or display a grayed-out version of the </text><text styleclass="T_Entry" translate="true">Previous</text><text styleclass="Body Text" translate="true"> navigation button in the very first topic.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_SEARCH_PAGE&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True of full-text search is included in the output. Only relevant for WebHelp.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_TOGGLES&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True if the current topic contains one or more </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Toggles" styleclass="Body Text" translate="true">toggles</link><text styleclass="Body Text" translate="true"> (expanding text and images).</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_TOPIC_BREADCRUMBS&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True if the </text><text styleclass="T_Code" translate="true">&lt;%TOPIC_BREADCRUMBS%&gt;</text><text styleclass="Body Text" translate="true"> variable is not empty (see </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Variables_HTML" styleclass="Body Text" translate="true">HTML template variables</link><text styleclass="Body Text" translate="true">). For example, this variable is always empty in topics in the Invisible Topics section and in top-level topics.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_TOPIC_HEADER&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True if the current topic has a header and the header is not empty (the variable </text><text styleclass="T_Code" translate="true">&lt;%TOPIC_HEADER%&gt;</text><text styleclass="Body Text" translate="true"> is not equal to &quot;&quot;).</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;IF_XHTML&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">True if XHTML 1.1 output is activated in your </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_ProjectProps_HTMLEx_HTMLEx" styleclass="Body Text" translate="true">HTML Export Options.</link><text styleclass="Body Text" translate="true"> You will generally only need this in reusable skins, when the skin may be used for projects published with either normal HTML or XHTML. </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">&quot;IFNOT&quot; versions negate the meaning of the conditions:</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="14" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="width:220px; background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Exclude Conditions</text></para>
+        </td>
+        <td style="background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Function of the exclude condition</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_CHM&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_EBOOK&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_FRAMES&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_HTML&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_HXS&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_NEXT_PAGE&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_PREVIOUS_PAGE&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_SEARCH_PAGE&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_TOGGLES&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_TOPIC_BREADCRUMBS&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_TOPIC_HEADER&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;IFNOT_XHTML&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:220px;">
+          <para style="margin-bottom:10px;"><text styleclass="T_Code" translate="true">&lt;INOTF_INDEX_PAGE&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Negates the positive version of the condition.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="SeeAlso"><text styleclass="SeeAlso" translate="true">See also:</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_Conditions_DefiningIncludes" styleclass="Normal" translate="true">User-defined include options</link></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_HTMLTemplates" styleclass="Normal" translate="true">Using HTML Templates</link></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_HTMLTemplates_Conditions" styleclass="Normal" translate="true">Conditional output in HTML templates</link></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_HWindows" styleclass="Normal" translate="true">Help Windows</link></para>
+  </body>
+</topic>

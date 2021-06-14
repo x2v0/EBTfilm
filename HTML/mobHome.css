@@ -1,0 +1,149 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body, table, tr, th /* Normal */
+{
+ font-family: Arial, Helvetica, Sans-Serif;
+ font-size: 10pt;
+ }
+
+@media screen and (orientation: portrait)
+{
+div#hmnavbox {
+  width: 170px;
+  }
+div#hmtopicpane {
+  left: 171px;
+  }
+iframe#hmnavigation, iframe#hmindex {
+  width: 170px;
+  }
+}
+
+@media screen and (orientation: landscape)
+{
+div#hmnavbox {
+  width: 230px;
+  }
+div#hmtopicpane {
+  left: 231px;
+  }
+iframe#hmnavigation, iframe#hmindex {
+  width: 230px;
+  }
+
+}
+
+div#hmheader {
+ position: absolute;
+ top: 0px; left:0; right: 0;
+ 
+
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ 	border-bottom:1px solid #000;
+	background-image: -webkit-gradient(linear, 0 0, 0 100, from(#f4f5f7), to(#999da9));
+ height: 60px;
+}
+div#hmTopicTitle {
+  border: 0px solid red;
+  background-color: transparent;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  padding: 6px 10px 0px 10px;
+}
+div#hmTopicNavBar {
+  -moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+  padding: 0px 10px;
+
+}
+
+div#hmHelpNav, div#hmTopicNav {
+  background-color: transparent;
+  border: 0px solid red;
+  padding: 0px 0px 6px 0px;
+}
+div#hmHelpNav {
+float: left;
+margin-left: 10px;
+}
+div#hmTopicNav {
+float: right;
+}
+p.hmHelpTitle {
+  font-family: Tahoma, Verdana, Arial, Sans-Serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  white-space: nowrap;
+  border: 0px solid red;
+  text-align: center;
+
+ }
+ div#hmcontainer {
+  position: absolute;
+  top: 61px; bottom: 0; left: 0; right: 0;
+  border: 0px solid red;
+  }
+div#hmzoom {
+  display: none;
+  padding: 15px;
+  border: 0px solid red;
+}
+div#hmsearchbox {
+	display: none;
+	position: absolute; 
+	top: 0px; left: 0px;
+	z-index: 150;
+	background-color: rgba(0, 0, 0, 0.35);
+	border: 0px solid red;
+	padding: 0;
+}
+div#hmnavbox {
+  position: absolute;
+  left: 0; bottom: 0;
+  top: 0px;
+  background-color: #fff;
+  border-right: 1px solid #666;
+  overflow: hidden;
+  }
+div#hmtopicpane {
+  position: absolute;
+  right: 0px;
+  top: 0px; bottom: 0px;
+  border: 0px solid red;
+  overflow: hidden;
+  }
+iframe#hmnavigation, iframe#hmindex {
+  position: absolute;
+  left: 0px; top: 0px; 
+  height: 100%;
+  border: 0px solid red;
+  overflow: hidden;
+  }
+iframe#hmindex {
+  visibility: hidden;
+}
+iframe#hmnavigation {
+display: block;
+}
+iframe#hmsearch {
+  position: absolute;
+  left: 0px; top: 8px; 
+  border: 0px solid red;
+  overflow: hidden;
+  background-color: transparent;
+}
+iframe#hmcontent {
+  position: absolute;
+  left: 0px; top: 0px; 
+  width: 100%;
+  height: 100%;
+  border: 0px solid red;
+  overflow: hidden;
+ }
+

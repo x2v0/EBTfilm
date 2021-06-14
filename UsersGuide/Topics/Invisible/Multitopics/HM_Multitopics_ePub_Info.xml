@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Multitopics_ePub_Info</title>
+  <body>
+    <para styleclass="Body Text" style="text-align:center;"><table id="callout-table" rowcount="1" colcount="1" style="width:300px; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#000000; border-style:solid; background-color:#eeeeee; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:300px; background-color:#ffffff;">
+          <para styleclass="Tip Heading"><conditional-text type="IFNOT" value="PDF"/><image id="callout-icon-flag" src="flag_green.gif" scale="100.00%" styleclass="Tip Heading"></image><text styleclass="Tip Heading" translate="true">        </text><conditional-text type="END"/><text styleclass="Tip Heading" translate="true">Key Information</text></para>
+          <para styleclass="Tip Body"><text styleclass="Tip Body" translate="true">Kep your ePub projects simple. Avoid complex layouts and formatting, only use simple tables and don&apos;t use invisible topics. Only </text><text styleclass="Tip Body" style="font-style:italic;" translate="true">a..z, A..Z, 0..9 </text><text styleclass="Tip Body" translate="true">and _ are permitted in topic IDs in ePub eBooks!</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

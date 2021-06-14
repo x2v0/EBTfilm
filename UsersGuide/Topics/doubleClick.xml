@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Запуск по двойному щелчку мыши</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Запуск по двойному щелчку мыши</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">При установке программы, все файлы с расширением </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">.tiff</text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true"> ассоциируются с программой (программа будет запускатся по двойному щелчку мыши по файлу с расширением </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">.tiff</text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">).</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">Но если по какой-либо причине (после установки другой программы) эта ассоциация была нарушена её можно восстановить запустив батч файл &#160;</text><text styleclass="Normal" style="font-weight:bold;" translate="true">Tif2RootReg.bat </text><text styleclass="Normal" style="font-weight:normal;" translate="true">расположенный в директории</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> %ROOTSYS%\macros</text><br/><br/><text styleclass="Normal" style="font-weight:normal;" translate="true">Ассоциацию можно сбросить выполнив файл</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> RemoveTif.reg </text><text styleclass="Normal" style="font-weight:normal;" translate="true">расположенный в той же директории </text><text styleclass="Normal" style="font-weight:bold;" translate="true">%ROOTSYS%\macros</text><text styleclass="Normal" style="font-weight:normal;" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">&#32;</text></para>
+  </body>
+</topic>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Multitopics_ePub_Settings</title>
+  <body>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">Font embedding</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">You can embed fonts used in your ePub books. This is required for languages with special character sets on some readers, including Adobe Digital Editions. Apple iBooks does not require font embedding for special characters, but you may wish to embed fonts to get more control over your book&apos;s appearance. </text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Embedding fonts can make your eBook considerably larger and </text><text styleclass="Body Text HowTo" style="text-decoration:underline;" translate="true">you must have permission from the font copyright holder</text><text styleclass="Body Text HowTo" translate="true"> to distribute the fonts you embed.</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_ConfigOutput_ePub_Fonts" styleclass="Body Text HowTo" translate="true">Managing Fonts in ePub</link><text styleclass="Body Text HowTo" translate="true"> for full details.</text></para>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">Cover pictures</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Just click and select an image to add front and/or back cover pictures. You must use an HTML-compatible format (JPG, PNG or GIF).</text></para>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">Configuration options</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">The only fields that are absolutely required are the book ID (UID), which is the unique identifier for your eBook, and the title, without which your eBook will not display its title properly in readers. Most of the other options are recommended, however.</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">You can use </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Variables" styleclass="Body Text HowTo" translate="true">text variables</link><text styleclass="Body Text HowTo" translate="true"> in all the fields listed below. </text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="11" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Book ID:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; text-decoration:underline; color:#ff0000;" translate="true">Required!</text><text styleclass="Body Text" style="font-weight:normal; font-style:italic;" translate="true"> </text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">Also referred to as the UID. This is the unique identifier of your eBook, so you should attempt to make it genuinely unique to avoid confusion with other available publications. You can use any alphanumeric text string here – for example your web address plus the name of the book. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">URI:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Optional but recommended</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">A web link, for example to a page with information about the book on your website. It&apos;s a good idea to include this as eBook readers often have online access. Always include the </text><text styleclass="Code Example" translate="true">http://</text><text styleclass="Body Text" style="font-weight:normal;" translate="true"> prefix with the URI, plain </text><text styleclass="T_Code" translate="true">www.</text><text styleclass="Body Text" style="font-weight:normal;" translate="true"> addresses will probably fail!</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">ISBN:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Optional, recommended if you have one</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">If your book has an ISBN code then enter it here.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Book Title:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Technically optional but required for proper display of book title in readers</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">The title of your eBook.  You can use the </text><text styleclass="T_Code" translate="true">&lt;\%TITLE%&gt;</text><text styleclass="Body Text" style="font-weight:normal;" translate="true"> variable to insert the title of your project here.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Subject: </text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Optional but recommended</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">A short description of your eBook&apos;s subject matter.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Description:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Optional, generally helpful</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">A longer description of your eBook.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Author:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Optional but recommended</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">The author of your eBook. If you have entered the author of your project in your Common Properties you can insert the </text><text styleclass="T_Code" translate="true">&lt;%\AUTHOR%&gt;</text><text styleclass="Body Text" style="font-weight:normal;" translate="true"> variable here to use the same text string automatically.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">File Author as:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Optional</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">An additional attribute for the author that shows explicitly how the author is to be filed officially. For example, you might enter </text><text styleclass="T_Code" translate="true">Rev. Dr. Martin Luther King Jr.</text><text styleclass="Body Text" style="font-weight:normal;" translate="true"> for </text><text styleclass="Body Text" style="font-weight:normal; font-style:italic;" translate="true">Author</text><text styleclass="Body Text" style="font-weight:normal;" translate="true"> and </text><text styleclass="T_Code" translate="true">King, Martin Luther Jr.</text><text styleclass="Body Text" style="font-weight:normal;" translate="true"> for</text><text styleclass="Body Text" style="font-weight:normal; font-style:italic;" translate="true"> File As</text><text styleclass="Body Text" style="font-weight:normal;" translate="true">.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Publisher:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Optional but recommended</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">The publisher (i.e. your company) of the eBook. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Copyright:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Optional but recommended</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">Your copyright notice. You can use the </text><text styleclass="T_Code" translate="true">&lt;\%COPYRIGHT%&gt;</text><text styleclass="Body Text" style="font-weight:normal;" translate="true"> variable to insert the standard copyright notice stored in your project.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:193px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Relation:</text><br/><text styleclass="Body Text" style="font-weight:normal; font-style:italic; color:#ff0000;" translate="true">Optional</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:normal;" translate="true">Relation information for your eBook, this can be an URI (weblink, the new term for URLs) or other information. This is defined as an &quot;auxiliary resource and its relationship to the publication&quot;.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

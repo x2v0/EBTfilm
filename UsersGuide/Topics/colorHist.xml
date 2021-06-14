@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">2D цветовая гистограмма </title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Цветовая гистограмма. Гистограммы X,Y срезов</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Цветовая гистограмма представляет двумерное дозное распределение представленное в цветовой шкале.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">&#32;</text><image src="color1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Эта гистограмма также используется для создания гистограмм X,Y срезов</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Кликнув мышью на любую точку внутри гистограммы создаются гистограммы X,Y срезов соответствующие координатам этой точки.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="slice1.png" scale="100.00%" styleclass="Image Caption"></image><br/><br/></para>
+  </body>
+</topic>

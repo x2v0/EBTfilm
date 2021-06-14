@@ -1,0 +1,9 @@
+﻿<topic template="Default" lasteditedby="Tim">
+  <title translate="true">New topic</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">%TEXT%</text></para>
+    </header>
+    <para styleclass="Body Text"></para>
+  </body>
+</topic>

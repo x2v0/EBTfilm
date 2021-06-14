@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Multitopics_Tasks_CommandLine</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Multitopics_Tasks_CommandLine</text></para>
+    </header>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Using publishing tasks in the command line]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass=" " style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">The easiest way to publish to multiple output formats from the command line is to call predefined publishing tasks created with the Publishing Task Manager using the </text><text styleclass="T_Code" translate="true">/TSK=</text><text styleclass="Body Text HowTo" translate="true"> switch. See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Compile_Tasks" styleclass="Body Text HowTo" translate="true">&lt;%TARGETTITLE%&gt;</link><text styleclass="Body Text HowTo" translate="true"> for full instructions on using the Task Manager.</text></para>
+          <para styleclass="Heading Toggle_atocs_"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Heading Toggle_atocs_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" src-print="none" styleclass="Heading Toggle_atocs_"><caption translate="true"><![CDATA[Calling tasks in batch and INI files]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+          <para styleclass="Heading Toggle_atocs_"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Technically, it is possible to include the </text><text styleclass="T_Code" translate="true">/TSK=</text><text styleclass="Body Text" translate="true"> switch as just one switch among many in a single command line. However, there is no real benefit to this and it makes your batch files more difficult to read and debug. </text></para>
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Unlike other switches, the </text><text styleclass="T_Code" translate="true">/TSK=</text><text styleclass="Body Text" translate="true"> switch can be used on its own. All you need is </text><text styleclass="T_Code" translate="true">HM Program + Project File + /TSK</text><text styleclass="Body Text" translate="true">. For clarity, it is really better to call this switch on its own on a single command line.</text></para>
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The switch can be used in INI files in the same way as other switches. Just use the syntax:</text></para>
+                <para styleclass="Body Text" style="margin-left:24px;"><text styleclass="T_Entry" translate="true">TSK=taskname:actionname</text></para>
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">As always with INI files, don&apos;t use any quotes around the components of the line.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Heading Toggle_atocs_"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Heading Toggle_atocs_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" src-print="none" styleclass="Heading Toggle_atocs_"><caption translate="true"><![CDATA[Create task command lines with the Task Manager:]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+          <para styleclass="Heading Toggle_atocs_"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+            <tr style="vertical-align:top">
+              <td>
+                <para styleclass=" " style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="Body Text" translate="true">You can generate command lines for single and multiple actions from the Task Manager. Just select the actions in a task, the select the Generate Publish Batch File option to create a batch file. You can the copy the command line from that file to use it in your own manually-created batch files.</text></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Although it is possible to mix the </text><text styleclass="T_Code" translate="true">/TSK=</text><text styleclass="Body Text HowTo" translate="true"> switch with other switches it is easier to manage if you call publishing tasks on individual lines of their own. Unlike other switches, all you need for this switch is the HELPMAN.EXE filename, the project filename and the </text><text styleclass="T_Code" translate="true">/TSK=</text><text styleclass="Body Text HowTo" translate="true"> switch with the task and action names.</text></para>
+          <para styleclass="Heading3" style="margin-left:24px;"><text styleclass="Heading3" translate="true">Publishing all the actions in a task:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">To publish all the actions in a task just include the task name on its own, like this:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Entry" translate="true">&lt;%PROGNAME%&gt; D:\Projects\widgets.hmxp /TSK=&quot;Daily Build&quot;</text></para>
+          <para styleclass="Heading3" style="margin-left:24px;"><text styleclass="Heading3" translate="true">Publishing single actions in a task:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">To publish a single actions in a task add the name of the action after the name of the task, separated by a colon (</text><text styleclass="Body Text HowTo" style="font-weight:bold;" translate="true">:</text><text styleclass="Body Text HowTo" translate="true">) character:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Entry" translate="true">&lt;%PROGNAME%&gt; D:\Projects\widgets.hmxp /TSK=&quot;Daily Build:Full CHM Output&quot;</text></para>
+          <para styleclass="Heading3" style="margin-left:24px;"><text styleclass="Heading3" translate="true">Publishing multiple selected actions in a task:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">To publish a multiple (but not all) actions in a task use the /TSK= switch multiple times, once for each action. Alternatively, you can also write separate command lines for each action if you like. The result will be the same. </text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Entry" translate="true">&lt;%PROGNAME%&gt; D:\Projects\widgets.hmxp /TSK=&quot;Daily Build:Full CHM Output&quot; /TSK=&quot;Daily Build:Full HTML Output&quot;</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

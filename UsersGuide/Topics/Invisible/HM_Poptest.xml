@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Poptest</title>
+  <body>
+    <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold; text-decoration:underline;" translate="true">A JavaScript Popup</text><text styleclass="Body Text" style="font-weight:bold;" translate="true">:</text></para>
+    <para styleclass=" " style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><table rowcount="1" colcount="1" style="width:400px; cell-padding:0px; cell-spacing:0px; page-break-inside:avoid; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:448px;">
+          <para styleclass=" " style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="help.gif" align="left" scale="100.00%" styleclass="Body Text"></image><text styleclass="Body Text" translate="true">This is an example of a JavaScript popup containing two different fonts, a graphic, </text><text styleclass="Body Text" style="font-weight:bold; font-style:italic;" translate="true">formatted text</text><text styleclass="Body Text" translate="true">, </text><link displaytype="text" defaultstyle="true" type="weblink" href="http://www.ec-software.com/" target="_blank" styleclass="Body Text" translate="true">an Internet link</link><text styleclass="Body Text" translate="true"> and a </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Topics_Popups" styleclass="Body Text" translate="true">topic link</link><text styleclass="Body Text" translate="true">. It could also contain animation or video files, and in HTML Help and MS Internet Explorer it has a drop shadow and an animated fade-in effect.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

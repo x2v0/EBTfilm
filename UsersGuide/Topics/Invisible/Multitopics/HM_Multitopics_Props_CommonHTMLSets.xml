@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Common HTML Settings</title>
+  <body>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">Shared settings:</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">The options in the </text><text styleclass="Body Text HowTo" style="font-weight:bold;" translate="true">HTML Export Options</text><text styleclass="Body Text HowTo" translate="true"> section are shared by all HTML-based output formats (HTML Help, WebHelp, Windows Exe and ePub eBooks and Visual Studio Help). These settings are accessible in the </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_ProjectProps_HTMLEx_HTMLEx" styleclass="Body Text HowTo" translate="true">WebHelp</link><text styleclass="Body Text HowTo" translate="true"> and </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_ProjectProps_CHMEx_HTML" styleclass="Body Text HowTo" translate="true">HTML Help</link><text styleclass="Body Text HowTo" translate="true"> sections of your project configuration. Some settings are not relevant for some formats and they are ignored in those formats.</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">These are the general settings for all HTML output formats, including image conversion and export options and the options for the CSS style sheet used to export the style formatting information from your project. Here too, there is only one CSS style sheet and one set of HTML Export Options for all these output formats. You cannot enter different settings for each output format.</text></para>
+  </body>
+</topic>

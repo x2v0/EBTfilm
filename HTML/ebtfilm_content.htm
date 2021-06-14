@@ -1,0 +1,122 @@
+﻿<!DOCTYPE HTML>
+<html><head>
+   <title>&nbsp;</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+   <meta name="robots" content="noindex,follow" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ 
+   <!-- This line includes the general project style sheet (not required) -->
+   <link type="text/css" href="styles.css" rel="stylesheet" />
+
+   <!-- This block defines the styles of the TOC headings, change them as needed -->
+   <style type="text/css">
+       body { }
+       .heading1 { font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading2 { font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading3 { font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading4 { font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading5 { font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading6 { font-size: 10pt; color: #000000; text-decoration: none; }
+
+       .hilight1 { font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight2 { font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight3 { font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight4 { font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight5 { font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight6 { font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+
+       /* TOC LIST CSS */
+       #toc    { padding:0; margin:0 }
+       #toc li { margin-top:2px; margin-left:0; padding:1px }
+       #toc ul { padding-left:0; margin-left:0px }       
+       /* TOC LIST CSS */
+   </style>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript">
+     var parentScope = (parent.hmNavigationFrame);
+     if (!parentScope) {
+		      var s = document.createElement("script");
+		      s.setAttribute("type","text/javascript");
+		      s.setAttribute("src", "helpman_navigation.js");
+		      document.getElementsByTagName("head")[0].appendChild(s);
+	    }
+     else {
+       if (initialtocstate != "expandall") parent.hmAddCss(document, "#toc li ul { display: none }");
+     }
+     function loadicons() { var icons = new Array(); for (i=0; i<arguments.length; i++) { icons[i] = new Image(); icons[i].src = arguments[i]; } }
+     function loadtoc() { if (parentScope) parent.loadstate(document.getElementById("toc")); else loadstate(document.getElementById("toc")); }
+     function savetoc() { if (parentScope) parent.savestate(document.getElementById("toc")); else savestate(document.getElementById("toc")); }
+     function clicked(node, event) { deselect(); if (parentScope) parent.hmNodeClicked(node, event); else hmNodeClicked(node, event); }
+     function dblclicked(node) { if (parentScope) parent.hmNodeDblclicked(node); else hmNodeDblclicked(node); }
+     function deselect() { if (window.getSelection) window.getSelection().removeAllRanges(); else if (document.selection) document.selection.empty(); }
+     $(document).ready(function(){
+       loadtoc();
+       $(window).onunload = savetoc;
+     });
+   </script>
+</head>
+<body>
+<ul id="toc" style="list-style-type:none;display:block;padding-left:0">
+<li class="heading1" id="i1" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading1" id="a1" href="basicinfo.htm" target="hmcontent"><span class="heading1" id="s1">Введение</span></a>
+</li>
+<li class="heading1" id="i2" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading1" id="a2" href="ebt.htm" target="hmcontent"><span class="heading1" id="s2">Обработка плёнок</span></a>
+</li>
+<li class="heading1" id="i3" data-bg="cicon1.gif;cicon2.gif" style="background:url(cicon2.gif) no-repeat;cursor:pointer;padding-left:20px" onclick="return clicked(this,event)"><a class="heading1" id="a3" href="installprog.htm" target="hmcontent"><span class="heading1" id="s3" ondblclick="return dblclicked(this)">Установка и запуск программы</span></a>
+<ul id="ul3" style="list-style-type:none">
+<li class="heading2" id="i3.1" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a3.1" href="systemreq.htm" target="hmcontent"><span class="heading2" id="s3.1">Системные требования</span></a>
+</li>
+<li class="heading2" id="i3.2" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a3.2" href="installprogram.htm" target="hmcontent"><span class="heading2" id="s3.2">Комплект файлов для установки программы</span></a>
+</li>
+<li class="heading2" id="i3.3" data-bg="cicon1.gif;cicon2.gif" style="background:url(cicon2.gif) no-repeat;cursor:pointer;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a3.3" href="steps.htm" target="hmcontent"><span class="heading2" id="s3.3" ondblclick="return dblclicked(this)">Установка программы</span></a>
+<ul id="ul3.3" style="list-style-type:none">
+<li class="heading3" id="i3.3.1" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading3" id="a3.3.1" href="root.htm" target="hmcontent"><span class="heading3" id="s3.3.1">Установка ROOT</span></a>
+</li>
+<li class="heading3" id="i3.3.2" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading3" id="a3.3.2" href="analizemacros.htm" target="hmcontent"><span class="heading3" id="s3.3.2">Ассоциация TIFF файлов</span></a>
+</li>
+</ul>
+</li>
+<li class="heading2" id="i3.4" data-bg="cicon1.gif;cicon2.gif" style="background:url(cicon2.gif) no-repeat;cursor:pointer;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a3.4" href="quickstart.htm" target="hmcontent"><span class="heading2" id="s3.4" ondblclick="return dblclicked(this)">Запуск программы</span></a>
+<ul id="ul3.4" style="list-style-type:none">
+<li class="heading3" id="i3.4.1" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading3" id="a3.4.1" href="rootstrart.htm" target="hmcontent"><span class="heading3" id="s3.4.1">Запуск из под ROOTа</span></a>
+</li>
+<li class="heading3" id="i3.4.2" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading3" id="a3.4.2" href="cmdline.htm" target="hmcontent"><span class="heading3" id="s3.4.2">Запуск из командной строки</span></a>
+</li>
+<li class="heading3" id="i3.4.3" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading3" id="a3.4.3" href="doubleclick.htm" target="hmcontent"><span class="heading3" id="s3.4.3">Запуск по двойному щелчку мыши</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i4" data-bg="cicon1.gif;cicon2.gif" style="background:url(cicon2.gif) no-repeat;cursor:pointer;padding-left:20px" onclick="return clicked(this,event)"><a class="heading1" id="a4" href="finish.htm" target="hmcontent"><span class="heading1" id="s4" ondblclick="return dblclicked(this)">Анализ данных</span></a>
+<ul id="ul4" style="list-style-type:none">
+<li class="heading2" id="i4.1" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.1" href="1d.htm" target="hmcontent"><span class="heading2" id="s4.1">Гистограмма сигналов</span></a>
+</li>
+<li class="heading2" id="i4.2" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.2" href="iso.htm" target="hmcontent"><span class="heading2" id="s4.2">Изодозная гистограмма</span></a>
+</li>
+<li class="heading2" id="i4.3" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.3" href="colorhist.htm" target="hmcontent"><span class="heading2" id="s4.3">Цветовая гистограмма. Гистограммы X,Y срезов</span></a>
+</li>
+<li class="heading2" id="i4.4" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.4" href="3dhist.htm" target="hmcontent"><span class="heading2" id="s4.4">3D гистограмма</span></a>
+</li>
+<li class="heading2" id="i4.5" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.5" href="imagehist.htm" target="hmcontent"><span class="heading2" id="s4.5">Image гистограмма</span></a>
+</li>
+<li class="heading2" id="i4.6" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.6" href="calibrcurve.htm" target="hmcontent"><span class="heading2" id="s4.6">Калибровочная кривая</span></a>
+</li>
+<li class="heading2" id="i4.7" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.7" href="yproject.htm" target="hmcontent"><span class="heading2" id="s4.7">Y проекция. Пик Брэгга</span></a>
+</li>
+<li class="heading2" id="i4.8" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.8" href="dah.htm" target="hmcontent"><span class="heading2" id="s4.8">Гистограмма Доза-Площадь</span></a>
+</li>
+<li class="heading2" id="i4.9" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.9" href="intens.htm" target="hmcontent"><span class="heading2" id="s4.9">Измерение интенсивности протонного пучка</span></a>
+</li>
+<li class="heading2" id="i4.10" style="background:url(cicon9.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.10" href="config.htm" target="hmcontent"><span class="heading2" id="s4.10">Конфигурационный файл</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i5" style="background:url(cicon2.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading1" id="a5" href="calib.htm" target="hmcontent"><span class="heading1" id="s5">Процедура калибровки плёнок EBT</span></a>
+</li>
+<li class="heading1" id="i6" style="background:url(cicon2.gif) no-repeat;padding-left:20px" onclick="return clicked(this,event)"><a class="heading1" id="a6" href="develop.htm" target="hmcontent"><span class="heading1" id="s6">Для разработчиков</span></a>
+</li>
+</ul>
+<script type="text/javascript">loadicons('cicon9.gif','cicon2.gif','cicon1.gif');</script>
+</body>
+</html>

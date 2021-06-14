@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Измерение интенсивности протонного пучка</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Измерение интенсивности протонного пучка</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Разместив дозиметрическую плёнку поперёк пучка, &quot;на пролёт&quot;, её можно использовать как &quot;ионизационную камеру&quot;.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Зная суммарную дозу выделенную в плёнке, энергию протонного пучка, </text><text styleclass="Normal" style="font-weight:bold;" translate="true">dE/dx </text><text styleclass="Normal" translate="true">для протонов заданной энергии в воде и плотность плёнки, можно вычислить число протонов прошедших через плёнку.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-indent:58px; margin-right:0px; margin-left:0px; tabstops:none;"><image src="Intensity2.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">Dpi</text><text styleclass="Normal" style="color:#000000;" translate="true"> - число пикселей (гранул) плёнки на дюйм.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">dE/dx(Energy)</text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true"> - потеря энергии протона на единицу пути для воды.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="color:#000000;" translate="true">Примечательно, что в формуле отсутствует зависимость от толщины плёнки.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="color:#000000;" translate="true">Это означает, что плёнка может располагаться не строго перпендикулярно к направлению пучка.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Эта формула задана в файле </text><text styleclass="Normal" style="font-weight:bold;" translate="true">doseHist.C, </text><text styleclass="Normal" style="font-weight:normal;" translate="true">в </text><text styleclass="Normal" translate="true">функции </text><text styleclass="Normal" style="font-weight:bold;" translate="true">double Intensity(int Energy)</text></para>
+    <para styleclass="Normal"><br/><text styleclass="Normal" translate="true">Вызвав эту функцию из командной строки</text><text styleclass="Normal" style="font-weight:bold;" translate="true">&#32;</text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">ROOTa</text><text styleclass="Normal" style="color:#000000;" translate="true">, с указанием энергии протонного пучка, можно получить его интенсивность.</text></para>
+    <para styleclass="Normal"><br/></para>
+  </body>
+</topic>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">New topic</title>
+  <body>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">When you insert a module in runtime mode it will </text><text styleclass="Body Text HowTo" style="text-decoration:underline;" translate="true">only</text><text styleclass="Body Text HowTo" translate="true"> be published to HTML Help (CHM).  If you want to publish the same module to other formats you must insert it in your TOC a second time in publish-time mode. When you do this you should also set the include options for each version so that the correct version gets published automatically depending on the output format you choose:</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true"> </text><image src="exp_runpublishduo.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Setting the include options:</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Just right-click on the main module &quot;node&quot; (spiky green icon) in the TOC, select Include in Builds in the context menu and then set the include options appropriately. Make sure that you set the options so that it is not possible to export both versions together!</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">You can also access the include options in </text><text styleclass="Body Text HowTo" style="font-style:italic;" translate="true">Manage Topics &gt; Change</text><text styleclass="Body Text HowTo" translate="true"> in the </text><text styleclass="T_Menu" translate="true">Project</text><text styleclass="Body Text HowTo" translate="true"> tab. See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_Conditions" styleclass="Body Text HowTo" translate="true">Conditions and Customized Output</link><text styleclass="Body Text HowTo" translate="true"> for more details on using include options.</text></para>
+  </body>
+</topic>

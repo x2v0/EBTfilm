@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">HTML Export Options</title>
+  <keywords>
+    <keyword translate="true">archive bit folder synching for FTP</keyword>
+    <keyword translate="true">BOM, switch off for PHP</keyword>
+    <keyword translate="true">FTP<keyword translate="true">archive bit mode for folder synching</keyword><keyword translate="true">Second Copy folder synching program</keyword></keyword>
+    <keyword translate="true">PHP, switch off the BOM for compatibility</keyword>
+    <keyword translate="true">Second Copy FTP folder synching program</keyword>
+    <keyword translate="true">UTF-8 BOM, switch off for PHP</keyword>
+    <keyword translate="true">WebHelp<keyword translate="true">FTP folder synching with archive bits</keyword></keyword>
+  </keywords>
+  <body>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">These options control many key aspects of how your project content is converted to HTML code for all the HTML-based output formats, including how the styles used in your project are exported to a CSS cascading style sheet file, how graphic images are converted and exported and a number of other important settings. </text></para>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">This is a shared section:</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Note that these options are shared by all HTML-based output formats (HTML Help, Visual Studio Help, WebHelp and Windows Exe and ePub eBooks). They are accessible in several locations in your project Configuration but no matter where you edit them you are always editing the same settings. You cannot save different HTML Export settings for the individual HTML-based output formats. </text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">With a couple of exceptions (noted in the descriptions of the individual settings) all the options are used by all output formats. &#160;</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="15" colcount="2" style="width:100%; cell-padding:5px; cell-spacing:0px; page-break-inside:avoid; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:161px; height:62px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Extension for HTML topic files:</text></para>
+        </td>
+        <td style="height:62px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">By default all HTML topic files are exported with the extension </text><text styleclass="T_Entry" translate="true">.htm.</text><text styleclass="Body Text" translate="true"> You can change this to </text><text styleclass="T_Entry" translate="true">.html, .asp,</text><text styleclass="Body Text" translate="true">&#32;</text><text styleclass="T_Entry" translate="true">.php</text><text styleclass="Body Text" translate="true"> or a manually-entered extension but these extensions are only supported in WebHelp. </text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The </text><text styleclass="T_Entry" translate="true">.htm</text><text styleclass="Body Text" translate="true"> extension is always used for topic files in HTML Help and Visual Studio Help. </text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This setting is also irrelevant for eBooks.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px; height:46px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">CSS stylesheet file name:</text></para>
+        </td>
+        <td style="height:46px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This setting allows you to change the name of the stylesheet file exported with the CSS style information. The default file name is </text><text styleclass="T_Code" translate="true">default.css.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Font size encoding:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This setting allows you to choose how font sizes are defined in your output. You can choose </text><text styleclass="T_Menu" translate="true">pt</text><text styleclass="Body Text" translate="true"> (points), </text><text styleclass="T_Menu" translate="true">px</text><text styleclass="Body Text" translate="true"> (pixels), </text><text styleclass="T_Menu" translate="true">%</text><text styleclass="Body Text" translate="true"> (percent) or </text><text styleclass="T_Menu" translate="true">ems</text><text styleclass="Body Text" translate="true"> (where 1 em = 100%). Which setting you choose controls how fonts are displayed on the user&apos;s screen and whether or not the user can change the font size.</text></para>
+          <para styleclass=" " style="text-align:left; text-indent:-27px; margin-top:0px; margin-right:24px; margin-bottom:3px; margin-left:51px; line-height:1.0; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><image src="Arrow_r.bmp" scale="100.00%" styleclass="Callouts Bulleted"></image><tab /><text styleclass="Callouts Bulleted" translate="true">Choose </text><text styleclass="Callouts Bulleted" style="font-weight:bold;" translate="true">pt</text><text styleclass="Callouts Bulleted" translate="true"> or </text><text styleclass="Callouts Bulleted" style="font-weight:bold;" translate="true">px</text><text styleclass="Callouts Bulleted" translate="true"> to lock your font size and layout, </text><text styleclass="Callouts Bulleted" style="font-weight:bold;" translate="true">%</text><text styleclass="Callouts Bulleted" translate="true"> or </text><text styleclass="Callouts Bulleted" style="font-weight:bold;" translate="true">ems</text><text styleclass="Callouts Bulleted" translate="true"> to allow the user to change the font size.</text></para>
+          <para styleclass="Callouts Bulleted"><image src="Arrow_r.bmp" scale="100.00%" styleclass="Callouts Bulleted"></image><tab /><text styleclass="Callouts Bulleted" translate="true">Always choose </text><text styleclass="Callouts Bulleted" style="font-weight:bold;" translate="true">%</text><text styleclass="Callouts Bulleted" translate="true"> or ems for </text><text styleclass="Callouts Bulleted" style="font-weight:bold;" translate="true">ePub</text><text styleclass="Callouts Bulleted" translate="true"> eBooks, otherwise many readers will not allow font size changing.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Points:</text><br/><text styleclass="Body Text" translate="true">When you export the font size in points the user cannot adjust the font size. However, the size of the fonts displayed on the user&apos;s computer screen will vary depending on the Windows screen DPI setting and/or font size settings. For example, if you develop your help on a machine with Windows set to 96dpi (the standard) your text layout may be incorrect on computers set to 120dpi (fonts look much too big, text in hanging indents may be wider than the indent etc). This is because the size of the fonts changes but the size of the other layout elements (indents, locked table cells etc.) doesn&apos;t.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Pixels:</text><br/><text styleclass="Body Text" translate="true">This is the only setting that ensures that the fonts and your layout will always be displayed exactly as you see them on your development machine. The font size is always uses the same number of pixels, so it is always the same size relative to other elements of your layout like indents, graphics and so on.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Percent or Ems:</text><br/><text styleclass="Body Text" translate="true">If you select percent or Ems the user will be able to adjust the font size in the help, for example by holding down </text><text styleclass="T_Entry" translate="true">Ctrl</text><text styleclass="Body Text" translate="true"> and turning the mouse scroll wheel. This may or may not be a good thing, because the size of other layout elements (graphics, indents, locked table cells etc.) will not change, so the user adjustments may &quot;break&quot; your layout.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Font size of Normal style:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">If you choose percent or ems for font size encoding (see above) you can also use this setting to define the size of the Normal style in relation to the default font of the user&apos;s browser. The value is expressed in percent and the default is 100%. This is normally preferable because most users will have set the default font in their browsers to the size of font they prefer.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Export WebHelp with UTF-8 BOM:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Only switch this off if you are using PHP code in your project and your server&apos;s PHP system is having trouble with the BOM at the beginning of your webhelp files. If you don&apos;t know what PHP is you don&apos;t need to turn this off!</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">All Help &amp; Manual webhelp files are stored in UTF-8 Unicode. The UTF-8 BOM (Byte Order Mark) is a special character code at the beginning of the file that identifies it as a UTF-8 Unicode file. It is generally better to leave this in because it will prevent old and badly-configured servers from misinterpreting the UTF-8 Unicode formatting. However, the PHP installations on some servers still have trouble with the BOM and so you may need to switch the BOM off if you are using PHP.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Apply date and time stamp of topic to HTML topic files:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">When this is on (default setting) the timestamps of your HTML topic files will be set to the date and time of the topic in your project, which is equivalent to the time of the last change. This makes it easier to synchronize your output folder with an old version on your web server, for example. This is only really relevant for WebHelp output – in CHM help the topic files are all hidden inside the CHM.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">If you turn this off the timestamps of all HTML files will always be the date and time at which your entire project was published. </text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Do not turn this setting off unless you have a specific reason to do so.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Modify archive bit of topic files depending on changes:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Turning this on will automatically clear the archive bits of all modified files in your WebHelp output folder. Use this if you have an FTP program like </text><image src="weblink.bmp" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Image Caption" translate="true"> </text><link displaytype="text" defaultstyle="true" type="weblink" href="http://www.secondcopy.com/index.html" target="_blank" styleclass="Body Text" translate="true">Second Copy<title translate="true">Advanced server synching program for Webhelp</title></link><text styleclass="Body Text" translate="true"> that can synchronize your output folder with your web server folder using archive bits.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The advantage of this is that it automatically flags </text><text styleclass="Body Text" style="text-decoration:underline;" translate="true">all</text><text styleclass="Body Text" translate="true"> modified files, even if their timestamps have not changed. This is important because the timestamps of your topic files are only changed if the topics have actually been edited. For example, if you change your HTML templates this will change all your topic files but it will not change the timestamps of topic files that have not been edited, even though their contents change because of the template changes. Using archive bits guarantees that all modified files are identified.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Using this option only makes sense if you have an FTP program that supports folder synchronization on the basis of archive bits, however...</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Export style names:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">When this is selected Help &amp; Manual uses the full names of your styles in the stylesheet. This makes the sheet much easier to read if you ever want to view or edit it manually.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">If you deselect this option the style names are converted to brief, alphanumeric codes that are not so &quot;human-friendly&quot;. This can make your project a little bit smaller but not much.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Export lists as text:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This setting is recommended. When it is selected numbered and bulleted lists are managed with &lt;span&gt; tags formatted as </text><text styleclass="T_Code" translate="true">inline-block</text><text styleclass="Body Text" translate="true"> in HTML-based output. This will generally provide better list formatting across browsers than the standard lists generated when you turn it off. Even in HTML Help, which uses MS Internet Explorer for HTML rendering, you will find that lists display better with this setting.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">If you deselect this option lists will be exported as standard </text><text styleclass="T_Code" translate="true">&lt;OL&gt;</text><text styleclass="Body Text" translate="true"> and </text><text styleclass="T_Code" translate="true">&lt;UL&gt;</text><text styleclass="Body Text" translate="true"> lists with </text><text styleclass="T_Code" translate="true">&lt;LI&gt;</text><text styleclass="Body Text" translate="true"> list elements. Unless you use very simple lists the rendering of these elements will be unsatisfactory in many browsers.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Animate dynamic content:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">When this is on an animation effect will be used for opening and closing expanding toggles, the TOC in WebHelp and JavaScript popups. This will only work in modern browsers.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><anchor id="lightbox" styleclass="T_Menu"></anchor><text styleclass="T_Menu" translate="true">Display toggle images in a lightbox:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Turning this on displays expanding image toggles in a &quot;lightbox&quot;: The the topic page is darkened to become semi-transparent and the image is displayed overlaid over the page. Best used with an animated transition (see above). The lightbox display will be constrained to the size of the browser or help viewer window if possible. However, the image can&apos;t be made smaller than 50% of the full size display.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">When this is off expanding images will be displayed as part of the normal page content.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">If an image has no caption export file name as hint:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Images in HTML pages can have an ALT attribute that displays a small text in a &quot;tooltip&quot; when the user positions the mouse pointer over the image. </text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Selecting this option exports the image file name as the ALT attribute if the image doesn&apos;t have a caption. Unless your graphics files have very descriptive names it is normally advisable to switch this off.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Conversion options for non-HTML image formats:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This option controls how images in your project not compatible with HTML are converted and exported when you publish to HTML-based formats. It does not affect JPEG, GIF and PNG images, which are exported without conversion.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Which option provides the best results depends on the type of images in your project. GIF and PNG generally provide the smallest files with the best quality for screenshots with 256 colors or less. PNG files are usually too large for images with more than 256 colors; JPEG is the better choice for those.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Screenshots often do not look so good when converted to JPEG so you should always choose your settings to make sure that this doesn&apos;t happen. It is better to use GIF or PNG and no more than 256 colors for screenshots.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">JPEG and true-color PNG are really only needed for photographs and continuous-tone graphics, and JPEG is generally preferable for this because it produces much smaller files for true color images. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Output quality for JPEG images:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">You can reduce graphic file size by decreasing the quality but this will also make the images look less good. A value of between 80 and 90 is normally acceptable.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Note that this quality setting is only applied to JPEG images actually generated by the program on the basis of the conversion settings (see above). JPEG images that you insert in your project directly are not affected. They are used as they are, without any changes.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:161px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Export topics of class &quot;Popup&quot; as JavaScript popup windows:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Activate this to use JavaScript popups in WebHelp, CHM and Visual Studio Help. See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Topics_Popups" styleclass="Body Text" translate="true">Creating popup topics</link><text styleclass="Body Text" translate="true"> and </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Topics_JSPops" styleclass="Body Text" translate="true">Using JavaScript popups</link><text styleclass="Body Text" translate="true"> for full details.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="SeeAlso"><text styleclass="SeeAlso" translate="true">See also:</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_ConfigOutput" styleclass="Normal" translate="true">Configuring Your Output</link></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_ConfigOutput" styleclass="Normal" translate="true">Publishing Your Projects</link></para>
+  </body>
+</topic>

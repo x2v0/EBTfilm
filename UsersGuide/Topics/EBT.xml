@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="plan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Обработка плёнок</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Обработка плёнок</text></para>
+    </header>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:0px; tabstops:none;"><text styleclass="Normal" translate="true">Плёнки сканируются с помощью сканера </text><text styleclass="Normal" style="font-weight:bold;" translate="true">EPSON PERFECTCTION V700 PHOTO</text><text styleclass="Normal" translate="true"> с разрешением </text><text styleclass="Normal" style="font-weight:bold;" translate="true">720 dpi</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Плёнки представляют из себя прямоугольные листы и сканирование может производится, либо в продольном (</text><text styleclass="Normal" style="font-weight:bold;" translate="true">Portrait</text><text styleclass="Normal" translate="true">), либо в поперечном (</text><text styleclass="Normal" style="font-weight:bold;" translate="true">Landscape</text><text styleclass="Normal" translate="true">) направлении. Разные направления сканирования дают разные результаты.. </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">По умолчанию используется </text><text styleclass="Normal" style="font-weight:bold;" translate="true">продольное направление</text><text styleclass="Normal" translate="true"> (</text><text styleclass="Normal" style="font-weight:bold;" translate="true">Portrait</text><text styleclass="Normal" translate="true">) сканирования.</text><br/><text styleclass="Normal" translate="true">Обычно используется не полный лист, а вырезанный из него участок, поэтому важно помнить его начальную ориентацию, &#160;для того чтобы сканировать в продольном направлении.</text></para>
+    <para styleclass="Normal"><br/><text styleclass="Normal" translate="true">В результате сканирования создаётся файл в формате </text><text styleclass="Normal" style="font-weight:bold;" translate="true">48-bit TIFF </text><text styleclass="Normal" style="font-weight:normal;" translate="true">с расширением </text><text styleclass="Normal" style="font-weight:bold;" translate="true">tiff</text><text styleclass="Normal" style="font-weight:normal;" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">После обработки фaйла, в памяти создаётся объект </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Image -</text><text styleclass="Normal" translate="true">&#32;</text><text styleclass="Normal" style="font-weight:bold;" translate="true">48-bit RGB</text><text styleclass="Normal" translate="true"> (красная, зелёная, синяя компонента) изображение, на основе которого производится последующий анализ данных.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

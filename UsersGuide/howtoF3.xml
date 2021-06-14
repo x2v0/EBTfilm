@@ -1,0 +1,12 @@
+<topic template="" lasteditedby="Tim64">
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How To]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

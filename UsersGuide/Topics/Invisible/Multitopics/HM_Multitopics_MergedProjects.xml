@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">New topic</title>
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How to access a child project's files and configuration settings]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Even when the TOC of the your child project is visible in the master TOC you cannot see all the child&apos;s Topic Files and Configuration settings directly. Only the topics with TOC entries are actually displayed in the master TOC. You can access topic files without TOC entries and the child&apos;s configuration settings in the Merged Projects section in the Project Explorer:</text></para>
+          <para styleclass="Body Text HowTo" style="margin-left:48px;"><image src="exp_mergedprojects.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">This section is located right at the bottom of the Configuration section. Note that like the TOC, the files and settings of merged projects are only shown for projects inserted in publish-time merging mode. Runtime-merged projects are just placeholders and are not really part of your project, they must be opened and edited separately. </text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

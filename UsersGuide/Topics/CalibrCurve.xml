@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Калибровочная кривая</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Калибровочная кривая</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Одним из графиков программы анализа данных является используемая кривая калибровки с параметрами фитирования.</text></para>
+    <para styleclass="Normal"><br/><br/><image src="calibr1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

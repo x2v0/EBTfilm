@@ -1,0 +1,14 @@
+<topic template="Default" lasteditedby="Tim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Productivity Tip</title>
+  <body>
+    <para styleclass="Body Text" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; white-space:normal; page-break-inside:auto; page-break-after:auto;"></para>
+    <para styleclass="Body Text" style="text-align:center;"><table id="callout-table" rowcount="1" colcount="1" style="width:300px; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#000000; border-style:solid; background-color:#eeeeee; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:300px; background-color:#ffffff;">
+          <para styleclass="Tip Heading"><conditional-text type="IFNOT" value="PDF"/><image id="callout-icon" src="prod_tip.gif" scale="100.00%" styleclass="Tip Heading"></image><text styleclass="Tip Heading" translate="true"> &#160; &#160; &#160; </text><conditional-text type="END"/><text styleclass="Tip Heading" translate="true">Productivity Tip</text></para>
+          <para styleclass="Tip Body"></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

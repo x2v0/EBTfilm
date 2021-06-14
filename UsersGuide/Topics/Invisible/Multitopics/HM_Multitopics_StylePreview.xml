@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic class="popup" template="Popup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Style and font preview mode</title>
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Preview mode for screen/print styles and font sizes]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="cell-padding:0px; cell-spacing:0px; border-width:0px; cell-border-width:0px;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">You can switch the editor display to show the styles definitions for screen output (electronic help files) and print output (PDF, RTF and printed manuals). You can also switch the editor&apos;s basic font sizes to emulate Windows&apos; &quot;large fonts&quot; and &quot;small fonts&quot; settings to check how your help will look on users&apos; systems with these settings.</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Note that different styles will only be displayed if you have actually defined different style settings for screen and print output!</text></para>
+          <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Display buttons in the status bar:</text></para>
+          <para styleclass="Body Text HowTo"><image src="wn_dpi.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Formatting_Styles_HelpPrint" styleclass="Body Text HowTo" translate="true">Help and print styles</link><text styleclass="Body Text HowTo" translate="true"> for more information on using different style sets for different output formats.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic class="popup" template="Popup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Add TOC Entry</title>
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How to add a TOC entry to a topic file]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="cell-padding:0px; cell-spacing:0px; border-width:0px; cell-border-width:0px;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Sometimes you may decide that you would like to add a TOC entry to a topic file that does not yet have one. To do this you just need to create a new entry in the TOC and specify the Topic ID of the topic file.</text></para>
+          <list id="1" type="ol" listtype="decimal" formatstring="%0:s." levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Select the topic file you want to create a TOC item for and open the  tab behind the editor.</text><text styleclass="HowTo Numbered" style="font-weight:bold;" translate="true"> </text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Copy the Topic ID to the Windows clipboard.</text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Move to the Table of Contents section in the Project Explorer, click where you want to insert the new TOC item and select </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Add Topic</text><text styleclass="HowTo Numbered" translate="true"> in </text><text styleclass="T_Menu" translate="true">Project &gt; Manage Topics.</text><text styleclass="HowTo Numbered" translate="true"> </text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Select </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Topic/Chapter</text><text styleclass="HowTo Numbered" translate="true"> on the left and enter a heading for the topic.</text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Paste the topic ID you copied in step 2 In the </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Topic ID:</text><text styleclass="HowTo Numbered" translate="true"> field and then click on OK.</text></li>
+          </list>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">You will be asked if you want to create a new item for an existing topic. Confirm to create the new TOC item.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

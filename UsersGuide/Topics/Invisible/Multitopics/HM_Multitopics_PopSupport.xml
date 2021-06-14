@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Popup Support</title>
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Where popups are supported]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text HowTo"><table rowcount="7" colcount="3" style="width:auto; cell-padding:5px; cell-spacing:0px; page-break-inside:avoid; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:169px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Output Format</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Supported Popup Types</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Where Supported</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:169px;">
+          <para><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">HTML Help (.CHM):</text></para>
+        </td>
+        <td>
+          <list id="6" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" style="font-family:Symbol; font-size:10pt; color:#000000;">
+            <li><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Plain-text popups integrated in the main help file. Context numbers are </text><text style="font-family:Verdana; font-size:10pt; text-decoration:underline; color:#000000;" translate="true">required</text><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true"> for these popup topics!</text></li>
+            <li><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Formatted </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Topics_JSPops" style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">JavaScript popups</link><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true"> stored in the main help file.</text></li>
+          </list>
+        </td>
+        <td>
+          <para><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Plain-text popups are supported both in the help text and as field-level popups in applications. </text></para>
+          <para><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Formatted JavaScript popups can only be used in the help text. They are not supported for context-sensitive help.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:169px;">
+          <para><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">Browser-based HTML </text><br/><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">(.HTM):</text></para>
+        </td>
+        <td>
+          <list id="7" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" style="font-family:Symbol; font-size:10pt; color:#000000;">
+            <li><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Fully-formatted </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Topics_JSPops" style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">JavaScript popups</link><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true"> integrated in the individual HTML files.</text></li>
+          </list>
+        </td>
+        <td>
+          <para><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">JavaScript popups can only be used in help topics. You cannot link to them from your application.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:169px;">
+          <para><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">Windows Exe eBooks:</text></para>
+        </td>
+        <td>
+          <list id="8" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" style="font-family:Symbol; font-size:10pt; color:#000000;">
+            <li><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Fully-formatted popups with graphics, fonts, emphasis (bold, italics etc.) and hyperlinks (topic and Internet links). </text></li>
+          </list>
+        </td>
+        <td>
+          <para><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Only available within eBooks. eBooks do not support context calls of any kind.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:169px;">
+          <para><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">iBooks®/ePub eBooks:</text></para>
+        </td>
+        <td>
+          <list id="9" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:10pt; color:#000000;">
+            <li styleclass="Normal"><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Popups are not supported. Popup links are automatically converted to plain text.</text></li>
+          </list>
+        </td>
+        <td>
+          <para><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">N/A</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:169px;">
+          <para><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">Adobe PDF and printed  user manuals:</text></para>
+        </td>
+        <td>
+          <list id="10" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" style="font-family:Symbol; font-size:10pt; color:#000000;">
+            <li><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Popups are not supported. Popup links are automatically converted to plain text.</text></li>
+          </list>
+        </td>
+        <td>
+          <para><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">N/A</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:169px;">
+          <para><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">Word RTF:</text></para>
+        </td>
+        <td>
+          <list id="11" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" style="font-family:Symbol; font-size:10pt; color:#000000;">
+            <li><text style="font-family:Verdana; font-size:10pt; color:#000000;" translate="true">Popups are not supported. Popup links are automatically converted to plain text.</text></li>
+          </list>
+        </td>
+        <td>
+          <para><text style="font-family:Arial; font-size:10pt; color:#000000;" translate="true">N/A</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Гистограмма Доза-Площадь</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Гистограмма Доза-Площадь</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Гистограмма Доза-Площадь была введена по просьбе наших обнинских коллег.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Она является аналогом гистограммы Доза-Объём, используемой для оценки качества планирования облучения.</text><br/><text styleclass="Normal" translate="true">Она представляет собой график распределения дозы внутри облучаемой области. </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Для идеального распределения дозы по отношению к планируемому гистограмма Доза-Площадь имеет форму прямоугольника.</text><br/></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Для создания гистограммы необходимо кликнуть мышью на треугольник максимума дозы внутри изодозной гистограммы. </text><br/></para>
+    <para styleclass="Normal"><image src="DAH2.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"><br/></para>
+    <para styleclass="Normal"><br/><text styleclass="Normal" translate="true">Гистограммы Доза-Площадь</text><br/><br/><image src="DAH1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-style:normal;" translate="true">Ниже приведён пример нескольких областей. </text></para>
+    <para styleclass="Normal"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-style:normal;" translate="true">Каждая из кривых создаётся по клику на треугольник максимума дозы.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="DAH3.png" scale="100.00%" styleclass="Image Caption"></image><br/><br/><br/><image src="DAH4.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

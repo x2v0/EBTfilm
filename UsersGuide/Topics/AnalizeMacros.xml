@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Ассоциация TIFF файлов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Ассоциация TIFF файлов</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">В результате установки программы все файлы с расширением </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">.tiff</text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true"> ассоциируются с программой анализа данных (программа будет запускатся по двойному щелчку мыши по файлу с расширением </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">.tiff</text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">)</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В случае нарушения данной ассоциации (на пример, после установки какой-нибудь другой программы), её можно восстановить с помощью следующей процедуры.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">Запустите файл </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Tif2RootReg.bat </text><text styleclass="Normal" style="font-weight:normal;" translate="true">расположенный в директории </text><text styleclass="Normal" style="font-weight:bold;" translate="true">%ROOTSYS%\macros</text></para>
+    <para styleclass="Normal"><br/><text styleclass="Normal" style="font-weight:normal;" translate="true">Появится окно диалога</text><br/><image src="install5.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"><br/><text styleclass="Normal" style="font-weight:normal;" translate="true">Нажмите клавишу </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Enter</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> (в качестве </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ROOT path</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> будет использована текущая директория установки</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> ROOT</text><text styleclass="Normal" style="font-weight:normal;" translate="true">)</text><text styleclass="Normal" style="font-weight:bold;" translate="true">&#32;</text><text styleclass="Normal" style="font-weight:normal;" translate="true">или введите альтернативную директорию установки </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ROOT.</text><br/><br/><text styleclass="Normal" style="font-weight:normal;" translate="true">Для удаления ассоциации достаточно выполнить файл </text><text styleclass="Normal" style="font-weight:bold;" translate="true">RemoveTif.reg </text><text styleclass="Normal" style="font-weight:normal;" translate="true">расположенный в директории </text><text styleclass="Normal" style="font-weight:bold;" translate="true">%ROOTSYS%\macros</text></para>
+    <para styleclass="Normal"><br/></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

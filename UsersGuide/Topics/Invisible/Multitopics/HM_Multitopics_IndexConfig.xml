@@ -1,0 +1,16 @@
+﻿<topic template="Default" lasteditedby="Tim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Multitopics_IndexConfig</title>
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Viewing Topic Options and the topic at the same time:]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Working with index keywords is easier if you can see  and the topic content at the same time. You can&apos;t undock the  tab but you can display it next to the editor. To do this drag the  tab to the right or left border of the editor (choose the border not currently occupied by the index tool). Drag back down to the tab bar to restore it to its original position. </text></para>
+          <para styleclass="Body Text HowTo" style="margin-left:48px;"><image src="exp_indexconfig.bmp" scale="100.00%" styleclass="Image Caption"></image><br/><text styleclass="Image Caption" translate="true">Drag the  tab to the right or left editor margin to move it. Double-click on the Index </text><br/><text styleclass="Image Caption" translate="true">tool title bar to undock/redock it. Click on the &quot;pin&quot; icon in the Explorer title bar to pin/unpin it.</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Since this can make the editor a little narrow on smaller monitors it can be helpful to undock the Index tool. To do this just double-click on the Index tool title bar. You can also get more space when you are working in this mode by pinning the Project Explorer to the left margin so that it collapses automatically when it is not needed. </text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_QuickStart_Explorer_Docking" styleclass="Body Text HowTo" translate="true">Tips &amp; Tricks in the Project Explorer</link><text styleclass="Body Text HowTo" translate="true"> for instructions and more details on these features. </text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

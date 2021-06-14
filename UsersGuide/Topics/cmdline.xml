@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Запуск из командной строки</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Запуск из командной строки</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Все операции, описанные в предыдущем разделе можно выполнить из командной строки или из-под </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Total Commander</text><text styleclass="Normal" translate="true">а.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="cmd1.png" scale="100.00%" styleclass="Image Caption"></image><br/><br/><image src="cmd2.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-style:normal;" translate="true">Предпочтительнее использовать макрос </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">doseHistA.C</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">, &#160;потому что он использует скомпилированную версию </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">doseHist.C</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true"> макроса.</text></para>
+  </body>
+</topic>

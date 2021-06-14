@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Запуск программы</title>
+  <keywords>
+    <keyword translate="true">Help &amp; Manual<keyword translate="true">Quick Start Tutorials</keyword></keyword>
+    <keyword translate="true">tutorials<keyword translate="true">Quick Start</keyword></keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Запуск программы</text></para>
+    </header>
+    <para styleclass="Body Text" style="text-align:left;"><text styleclass="Body Text" translate="true">Запуск программы может производится тремя способами:</text></para>
+    <list id="2" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Body Text" style="text-align:left; font-family:Arial; font-size:12pt; color:#000000;">
+      <li styleclass="Body Text" style="text-align:left;"><text styleclass="Body Text" translate="true">из под </text><text styleclass="Body Text" style="font-weight:bold;" translate="true">ROOT</text><text styleclass="Body Text" translate="true">а;</text></li>
+      <li styleclass="Body Text" style="text-align:left;"><text styleclass="Body Text" translate="true">из командной строки;</text></li>
+      <li styleclass="Body Text" style="text-align:left;"><text styleclass="Body Text" translate="true">по двойному щелчку мыши </text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">по файлу с расширением </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">.tiff</text></li>
+    </list>
+    <para styleclass="Body Text" style="text-align:left;"><br/></para>
+  </body>
+</topic>

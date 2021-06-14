@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="TMG" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">PDF Templates</title>
+  <body>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The layout of Help &amp; Manual&apos;s PDF and print manual output is controlled by template files called &quot;print manual templates&quot; with the extension </text><text styleclass="T_Entry" translate="true">.mnl</text><text styleclass="Body Text" translate="true"> that do much more than just define the appearance of your pages. These templates can also add front and back covers, multiple title pages at the beginning, an introduction, a formatted table of contents, title pages for individual chapters, graphics, headers and footers, a formatted index and multiple endnotes pages. You can also define your own additional pages and insert topics from your project or external files with a &quot;snippets&quot; function.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">All the global variables and user-defined variables from your project file can be used in your print manual templates. Since the templates are external files you can use them in multiple projects, applying them to your output just as you apply </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Publishing_Skins" styleclass="Body Text" translate="true">skins</link><text styleclass="Body Text" translate="true"> to HTML-based output formats. </text></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How to select a print manual template]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">You can select separate templates for PDF output and printed manuals. </text></para>
+          <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Selecting a print manual template for PDF output:</text></para>
+          <list id="3" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Select </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Publish</text><text styleclass="HowTo Numbered" translate="true"> in the Project menu, then select PDF as your publishing format.</text><text styleclass="HowTo Numbered" style="font-weight:bold;" translate="true"> </text></li>
+          </list>
+          <para styleclass="Body Text HowTo" style="margin-left:24px;"><image src="dlg_mnlselect.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+          <list id="3" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Click on the dropdown area shown above to select the template you want to use.</text></li>
+          </list>
+          <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Selecting a print manual template for printing a user manual:</text></para>
+          <list id="4" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Select the File menu and click on </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Ribbon_File_PrintManual" styleclass="HowTo Numbered" translate="true">Print User Manual</link><text styleclass="HowTo Numbered" translate="true">.</text><text styleclass="HowTo Numbered" style="font-weight:bold;" translate="true"> </text></li>
+          </list>
+          <para styleclass="Body Text HowTo" style="margin-left:24px;"><image src="dlg_mnlselect_print.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+          <list id="4" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Click on the dropdown area shown above to select the template you want to use.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How to edit a print manual template]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <list id="5" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="HowTo Bulleted" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="HowTo Bulleted"><text styleclass="HowTo Bulleted" translate="true">Select </text><text styleclass="T_Menu" translate="true">Project  &gt; Tools &gt; </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_Tools_PMD" styleclass="T_Menu" translate="true">Manual Designer</link><text styleclass="HowTo Bulleted" translate="true"> to open the Print Manual Designer. Then select</text><text styleclass="T_Menu" translate="true"> File &gt; Open</text><text styleclass="HowTo Bulleted" translate="true"> in the Designer to open the template for editing. You can find a selection of standard templates that you can edit in the </text><var styleclass="T_Code">&lt;%TEMPLATEDIR%&gt;</var><text styleclass="T_Code" translate="true">\pdf</text><text styleclass="HowTo Bulleted" translate="true"> folder in the Help &amp; Manual program directory.</text></li>
+            <li styleclass="HowTo Bulleted"><text styleclass="HowTo Bulleted" translate="true">When you open the Manual Designer it will automatically load the last PDF template used for the current Help &amp; Manual project, if there is one.</text></li>
+          </list>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">The Print Manual Designer is a separate program with its own documentation. See the help in the Designer for details on how to use it.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Location of the standard print manual templates]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Help &amp; Manual comes with a selection of standard print manual templates that are stored in the</text><text styleclass="T_Code" translate="true"> </text><var styleclass="T_Code">&lt;%TEMPLATEDIR%&gt;</var><text styleclass="T_Code" translate="true">\pdf</text><text styleclass="Body Text HowTo" translate="true"> subdirectory in the Help &amp; Manual program directory. These templates have the file extension </text><text styleclass="T_Entry" translate="true">.mnl</text><text styleclass="Body Text HowTo" translate="true">.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

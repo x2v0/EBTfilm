@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">HM_Multitopics_PDFNamedDs</title>
+  <body>
+    <para style="margin-top:5px; margin-bottom:5px; margin-left:24px; page-break-after:avoid;"><text styleclass="Heading3" translate="true">Named destinations are supported with interactive PDFs only:</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">If the PDF you are linking to is created with Help &amp; Manual it must be generated using the &quot;interactive PDF&quot; option in your </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_ProjectProps_PDFEx_Layout" styleclass="Body Text HowTo" translate="true">PDF settings</link><text styleclass="Body Text HowTo" translate="true">. Named destinations are only generated for interactive PDF documents.</text></para>
+    <para styleclass="Heading3" style="margin-left:24px;"><text styleclass="Heading3" translate="true">Current restrictions on PDF-to-PDF links</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">The PDF engine used in Help &amp; Manual currently has some restrictions on exporting links to page numbers and named destinations to PDF documents. At the moment you can only create links to page numbers, not to named destinations. Also, links to page numbers will jump two pages ahead of the specified number (see below). </text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">These restrictions do not apply if you are adding links to a PDF in Acrobat or another PDF editing application. You can link to both named destinations and page numbers and the page number links will link to the correct number.</text></para>
+    <para styleclass="Heading Toggle_atocs_"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Heading Toggle_atocs_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" src-print="none" styleclass="Heading Toggle_atocs_"><caption translate="true"><![CDATA[Linking to a specific page number between PDF documents:]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Heading Toggle_atocs_"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Links created in Help &amp; Manual:</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">To link from a PDF created in Help &amp; Manual you need to create a file link with the page number added to it. This number must the number you want to link to </text><text styleclass="Body Text" style="text-decoration:underline;" translate="true">minus 2</text><text styleclass="Body Text" translate="true">! For example, if you want to link to page 7, you must specify page 5. </text></para>
+          <list id="10" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Follow the instructions for inserting a </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Links_File" anchor="filelink" styleclass="HowTo Numbered" translate="true">file link</link><text styleclass="HowTo Numbered" translate="true"> and enter the name of the PDF file you want to link to.</text><text styleclass="HowTo Numbered" style="font-weight:bold;" translate="true"> </text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Add a </text><text styleclass="HowTo Numbered" style="font-weight:bold;" translate="true">#</text><text styleclass="HowTo Numbered" translate="true"> character and the page number to the end of the file name </text><text styleclass="HowTo Numbered" style="text-decoration:underline;" translate="true">minus 2</text><text styleclass="HowTo Numbered" translate="true">, like this:</text></li>
+          </list>
+          <para styleclass="Body Text HowTo" style="margin-left:48px;"><text styleclass="T_Entry" translate="true">myfile.pdf#123</text><text styleclass="Body Text HowTo" translate="true"> (jumps to page 121)</text><br/><text styleclass="T_Entry" translate="true">myfile.pdf#0</text><text styleclass="Body Text HowTo" translate="true"> (jumps to page 2)</text><br/><text styleclass="T_Entry" translate="true">myfile.pdf#12</text><text styleclass="Body Text HowTo" translate="true"> (jumps to page 10)</text></para>
+          <para styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">To link to page 1, just link to the PDF document without any page number.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Links created in Adobe Acrobat or another PDF tool:</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">If you are using Adobe Acrobat or another PDF editing tool you can add links to PDFs to jump to named destinations and page numbers in PDFs created by Help &amp; Manual.  You can enter the exact page number you want to jump to. Then</text><text styleclass="T_Entry" translate="true"> myfile.pdf#123</text><text styleclass="Body Text" translate="true"> will really jump to page 123. For instructions, see the  documentation of your PDF editing tool.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading Toggle_atocs_"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Heading Toggle_atocs_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" src-print="none" styleclass="Heading Toggle_atocs_"><caption translate="true"><![CDATA[Linking to named destinations between PDF documents:]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Heading Toggle_atocs_"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">At the moment you can&apos;t create PDF links to named destinations in another PDF in Help &amp; Manual itself, the links won&apos;t work and will only jump to the first or second page of the PDF document. Sorry about that – this will be improved in a later release of Help &amp; Manual. </text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">However, if you are using Adobe Acrobat or another PDF editing tool you </text><text styleclass="Body Text" style="text-decoration:underline;" translate="true">can</text><text styleclass="Body Text" translate="true"> add links to other PDFs to jump to named destinations and page numbers in PDFs created by Help &amp; Manual. For instructions, see the documentation of your PDF editing tool.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

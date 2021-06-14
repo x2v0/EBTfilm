@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Where to use variables</title>
+  <body>
+    <para styleclass="Body Text"><table rowcount="6" colcount="2" style="width:auto; cell-padding:5px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:209px;">
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">Location:</text></para>
+        </td>
+        <td>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">Supported variables:</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:209px;">
+          <para styleclass="Normal"><text styleclass="T_Menu" translate="true">Topic text and headers</text></para>
+        </td>
+        <td>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">Plain-text variables:</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Global predefined variables and user-defined variables inserted with the </text><image src="BTN_Insert_Variable.bmp" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Body Text" translate="true"> Text Variable tool in </text><text styleclass="T_Menu" translate="true">Write &gt; Insert Object:</text><text styleclass="Body Text" translate="true"> </text></para>
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%VARIABLE_NAME%&gt;</text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">Note that variables typed in manually are not highlighted in the editor and double-clicking on them will not open the variable selection list.</text></para>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">HTML variables:</text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">HTML variables inserted in these locations will only insert the text portion of the HTML code. For example, if the variable contains:</text></para>
+          <para styleclass="Body Text"><text styleclass="T_Code" style="color:#0000ff;" translate="true">&lt;a href=&quot;http://www.ec-software.com&gt;</text><text styleclass="Body Text" translate="true">EC Software Website</text><text styleclass="T_Code" style="color:#0000ff;" translate="true">&lt;/a&gt;</text><text styleclass="T_Code" translate="true"> </text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">only &quot;EC Software Website&quot; will be inserted. All the HTML code (blue) will be stripped out.  If there is no plain-text portion nothing will be inserted.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:209px;">
+          <para styleclass="Normal"><text styleclass="T_Menu" translate="true">TOC, keywords, image captions, link captions, macros in macro links</text></para>
+        </td>
+        <td>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">Plain-text variables:</text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">Global predefined variables and user-defined variables inserted manually by typing the variable names. </text></para>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">HTML variables:</text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">In these locations only the plain-text portion of HTML variable values will be inserted (see example above).  If there is no plain-text portion nothing will be inserted.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:209px;">
+          <para styleclass="Normal"><text styleclass="T_Menu" translate="true">HTML code objects and scripts in script links</text></para>
+        </td>
+        <td>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">Plain-text variables:</text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">Global predefined variables and user-defined variables inserted manually by typing the variable names.</text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;" translate="true">Important: </text><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">You cannot use </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Variables_HTML" style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">HTML template variables</link><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true"> in HTML code objects or script links because the code objects are parsed together with the topic content, before it is inserted in the template. </text></para>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">HTML variables:</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">You can use HTML variables in HTML code objects and scripts in script links. However, don&apos;t use HTML template variables as part of the variable value because they won&apos;t be parsed (see above).</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:209px;">
+          <para styleclass="Normal"><text styleclass="T_Menu" translate="true">HTML templates</text></para>
+        </td>
+        <td>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">Plain-text variables:</text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">Global predefined variables, user-defined variables and special HTML template variables inserted manually by typing the variable names.</text></para>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">HTML variables:</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">You can use HTML variables without restriction in HTML templates. The HTML code stored in the variable will be inserted in the in the template. You can also use </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Variables_HTML" styleclass="Body Text" translate="true">HTML template variables</link><text styleclass="Body Text" translate="true"> as part of the value of the HTML variable. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:209px;">
+          <para styleclass="Normal"><text styleclass="T_Menu" translate="true">PDF templates edited with Manual Designer</text></para>
+        </td>
+        <td>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">Plain-text variables:</text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">Global predefined variables, user-defined variables and special PDF template variables inserted manually by typing the variable names.</text></para>
+          <para styleclass="Heading3_atocs_"><text styleclass="Heading3_atocs_" translate="true">HTML variables:</text></para>
+          <para styleclass="Body Text"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">HTML variables will only insert the plain-text portion of the variable value in PDF templates. If there is no plain-text portion nothing will be inserted.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

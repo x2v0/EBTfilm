@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">3D гистограмма </title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">3D гистограмма </text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Трёхмерная гистограмма даёт общее пространственное представление о дозном распределении.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Гистограмму можно вращать, передвигать в трёхмерном пространстве.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="3d1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">С помощью вращения колёсика мыши её можно увеличивать/уменьшать.</text><br/><br/><image src="3d2.png" scale="100.00%" styleclass="Image Caption"></image><br/></para>
+  </body>
+</topic>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic class="popup" template="Popup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Modify Style from Example</title>
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Modifying an existing style on the basis of a selection in the editor]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="cell-padding:0px; cell-spacing:0px; border-width:0px; cell-border-width:0px;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">You can also modify a style on the basis of a modified paragraph or text formatted with the style. This is often the easiest way to edit a style because it is much easier to see your formatting in the editor.</text></para>
+          <list id="1" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">Use the manual formatting tools to format a paragraph or some text formatted with the style you want to change.</text><text style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;" translate="true"> </text></li>
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Make sure that the cursor is inside the formatted text, then select </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Styles &gt; Create Style from Selection</text><text styleclass="HowTo Numbered" translate="true"> in the </text><text styleclass="T_Menu" translate="true">Write</text><text styleclass="HowTo Numbered" translate="true"> tab. </text></li>
+          </list>
+          <para styleclass="Body Text HowTo" style="margin-left:48px;"><text styleclass="Body Text HowTo" translate="true">You don&apos;t need to select any text, the cursor must only be inside the formatted text you want to use as a model. If you do select text it should all be formatted in the same way – don&apos;t try to create a style based on text with some words formatted in one way and some in another!</text></para>
+          <list id="1" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Select the </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">Change existing style</text><text styleclass="HowTo Numbered" translate="true"> option in the dialog displayed. The style at the cursor should be selected automatically. If it isn&apos;t close the dialog and check the position of the cursor in the editor.</text></li>
+          </list>
+          <para styleclass="Body Text HowTo" style="margin-left:48px;"><image src="DLG_StyleFromSelection.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+          <para styleclass="Body Text HowTo" style="margin-left:48px;"><text styleclass="Body Text HowTo" translate="true">The </text><text styleclass="Body Text HowTo" style="font-style:italic;" translate="true">Assign paragraph attributes</text><text styleclass="Body Text HowTo" translate="true"> option will be selected automatically for paragraph styles and deselected for text styles. Only change this if you want to change the style type. (See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Styles_ParaText" styleclass="Body Text HowTo" translate="true">Paragraph and text styles</link><text styleclass="Body Text HowTo" translate="true"> for details on changing the style type.)</text></para>
+          <list id="1" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+            <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Click on OK to apply the changes to the selected style. </text></li>
+          </list>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_FormatStyles_Define" styleclass="Body Text HowTo" translate="true">Defining styles</link><text styleclass="Body Text HowTo" translate="true"> for details on using this function to create a new styles.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

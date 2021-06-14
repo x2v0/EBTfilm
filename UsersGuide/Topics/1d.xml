@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Гистограмма сигналов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Гистограмма сигналов</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Эта гистограмма представляет из себя гистограмму сигналов без вычета пьедестала.</text><br/><text styleclass="Normal" translate="true">Она даёт общее представление о распределении сигналов, а также полезна для определения величины пьедестала.</text><br/></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Наведя курсор на ось X или Y, при появлении курсора в виде руки, можно выделить область увеличения.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="raw1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="raw2.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

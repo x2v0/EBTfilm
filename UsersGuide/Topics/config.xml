@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Конфигурационный файл</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Конфигурационный файл</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Конфигурационный файл - </text><text styleclass="Normal" style="font-weight:bold;" translate="true">doseConfig.h </text><text styleclass="Normal" style="font-weight:normal;" translate="true">содержит переменные, которые загружаются в процессе выполнения программы.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">В настоящее время такой переменной является </text><text styleclass="Normal" style="font-weight:bold;" translate="true">double gPedestal, </text><text styleclass="Normal" style="font-weight:normal;" translate="true">которая позволяет задавать значение пьедестала.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">В случае если переменная </text><text styleclass="Normal" style="font-weight:bold;" translate="true">gPedestal</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> не определёна или имеет отрицательное значение, то пьедестал приравнивается наименьшей величине в плёнке.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Сообщения о загружаемых величинах отображаются в консольном окне программы.</text><br/><br/><image src="console1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"><br/><text styleclass="Normal" style="font-weight:normal;" translate="true">Конфигурационный файл, который расположен в директории </text><text styleclass="Normal" style="font-weight:bold;" translate="true"> %ROOTSYS%\macros </text><text styleclass="Normal" style="font-weight:normal;" translate="true">является глобальным</text><text styleclass="Normal" style="font-weight:bold;" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">Но, может быть задан также и локальный конфигурационный файл (</text><text styleclass="Normal" style="font-weight:bold;" translate="true">doseConfig.h</text><text styleclass="Normal" style="font-weight:normal;" translate="true">), который располагается в директории </text><text styleclass="Normal" style="font-weight:bold;" translate="true">TIFF</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> файла. В этом случае, в процессе выполнения программы, будет &#160;загружаться именно этот файл.</text></para>
+  </body>
+</topic>

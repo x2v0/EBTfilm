@@ -1,0 +1,155 @@
+{
+//=========Macro generated from canvas: c1/Calibration of Epson_v700 Thu Jun 25 12:13:52 2015
+//=========  (Thu Jun 25 12:15:00 2015) by ROOT version5.34/05
+   TCanvas *c1 = new TCanvas("c1", "Calibration of Epson_v700 Thu Jun 25 12:13:52 2015",10,23,700,500);
+   gStyle->SetOptFit(1);
+   c1->Range(10125,-0.98125,48875,1.33125);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameBorderMode(0);
+   
+   TH2F *htemp__1 = new TH2F("htemp__1","Epson_v700 20150625",40,14000,45000,40,-0.75,1.1);
+   htemp__1->SetDirectory(0);
+   htemp__1->SetStats(0);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   htemp__1->SetLineColor(ci);
+   htemp__1->GetXaxis()->SetTitle("r");
+   htemp__1->GetXaxis()->SetRange(1,40);
+   htemp__1->GetXaxis()->SetLabelFont(42);
+   htemp__1->GetXaxis()->SetLabelSize(0.035);
+   htemp__1->GetXaxis()->SetTitleSize(0.035);
+   htemp__1->GetXaxis()->SetTitleFont(42);
+   htemp__1->GetYaxis()->SetTitle("log10(dose)");
+   htemp__1->GetYaxis()->SetRange(1,40);
+   htemp__1->GetYaxis()->SetLabelFont(42);
+   htemp__1->GetYaxis()->SetLabelSize(0.035);
+   htemp__1->GetYaxis()->SetTitleSize(0.035);
+   htemp__1->GetYaxis()->SetTitleFont(42);
+   htemp__1->GetZaxis()->SetLabelFont(42);
+   htemp__1->GetZaxis()->SetLabelSize(0.035);
+   htemp__1->GetZaxis()->SetTitleSize(0.035);
+   htemp__1->GetZaxis()->SetTitleFont(42);
+   htemp__1->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.3808046,0.9339831,0.7643103,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   TText *text = pt->AddText("Epson_v700 20150625");
+   pt->Draw();
+   
+   TGraph *graph = new TGraph(22);
+   graph->SetName("port_red");
+   graph->SetTitle("Portrait, red");
+   graph->SetLineColor(2);
+   graph->SetMarkerStyle(21);
+   graph->SetPoint(0,43050.62109,-0.6382721561);
+   graph->SetPoint(1,40508.74609,-0.3010299957);
+   graph->SetPoint(2,38458.98438,-0.1611509108);
+   graph->SetPoint(3,32445.46289,0.2095150158);
+   graph->SetPoint(4,31035.61523,0.2600714005);
+   graph->SetPoint(5,28615.73047,0.361727827);
+   graph->SetPoint(6,27233.24219,0.4393326938);
+   graph->SetPoint(7,24970.08594,0.5658478266);
+   graph->SetPoint(8,22990.16406,0.6608654708);
+   graph->SetPoint(9,19167.62305,0.8061799805);
+   graph->SetPoint(10,16044.28516,0.964259632);
+   graph->SetPoint(11,16044.28516,0.964259632);
+   graph->SetPoint(12,19167.62305,0.8061799805);
+   graph->SetPoint(13,22990.16406,0.6608654708);
+   graph->SetPoint(14,24970.08594,0.5658478266);
+   graph->SetPoint(15,27233.24219,0.4393326938);
+   graph->SetPoint(16,28615.73047,0.361727827);
+   graph->SetPoint(17,31035.61523,0.2600714005);
+   graph->SetPoint(18,32445.46289,0.2095150158);
+   graph->SetPoint(19,38458.98438,-0.1611509108);
+   graph->SetPoint(20,40508.74609,-0.3010299957);
+   graph->SetPoint(21,43050.62109,-0.6382721561);
+   
+   TH1F *Graph_port_red1 = new TH1F("Graph_port_red1","Portrait, red",100,13343.65,45751.25);
+   Graph_port_red1->SetMinimum(-0.7985253);
+   Graph_port_red1->SetMaximum(1.124513);
+   Graph_port_red1->SetDirectory(0);
+   Graph_port_red1->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_port_red1->SetLineColor(ci);
+   Graph_port_red1->GetXaxis()->SetLabelFont(42);
+   Graph_port_red1->GetXaxis()->SetLabelSize(0.035);
+   Graph_port_red1->GetXaxis()->SetTitleSize(0.035);
+   Graph_port_red1->GetXaxis()->SetTitleFont(42);
+   Graph_port_red1->GetYaxis()->SetLabelFont(42);
+   Graph_port_red1->GetYaxis()->SetLabelSize(0.035);
+   Graph_port_red1->GetYaxis()->SetTitleSize(0.035);
+   Graph_port_red1->GetYaxis()->SetTitleFont(42);
+   Graph_port_red1->GetZaxis()->SetLabelFont(42);
+   Graph_port_red1->GetZaxis()->SetLabelSize(0.035);
+   Graph_port_red1->GetZaxis()->SetTitleSize(0.035);
+   Graph_port_red1->GetZaxis()->SetTitleFont(42);
+   graph->SetHistogram(Graph_port_red1);
+   
+   
+   TPaveStats *ptstats = new TPaveStats(0.62,0.695,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   text = ptstats->AddText("#chi^{2} / ndf = 0.0031 / 16");
+   text = ptstats->AddText("p0       = 7.017 #pm 2.512 ");
+   text = ptstats->AddText("p1       = -0.001122 #pm 0.0004717 ");
+   text = ptstats->AddText("p2       = 8.474e-008 #pm 3.435e-008 ");
+   text = ptstats->AddText("p3       = -3.254e-012 #pm 1.215e-012 ");
+   text = ptstats->AddText("p4       = 6.113e-017 #pm 2.091e-017 ");
+   text = ptstats->AddText("p5       = -4.512e-022 #pm 1.404e-022 ");
+   ptstats->SetOptStat(0);
+   ptstats->SetOptFit(111);
+   ptstats->Draw();
+   graph->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(graph->GetListOfFunctions());
+   
+   TF1 *PrevFitTMP = new TF1("PrevFitTMP","pol5",13343.65,45751.25);
+   PrevFitTMP->SetFillColor(19);
+   PrevFitTMP->SetFillStyle(0);
+   PrevFitTMP->SetLineColor(2);
+   PrevFitTMP->SetLineWidth(2);
+   PrevFitTMP->SetChisquare(0.003099731);
+   PrevFitTMP->SetNDF(16);
+   PrevFitTMP->GetXaxis()->SetLabelFont(42);
+   PrevFitTMP->GetXaxis()->SetLabelSize(0.035);
+   PrevFitTMP->GetXaxis()->SetTitleSize(0.035);
+   PrevFitTMP->GetXaxis()->SetTitleFont(42);
+   PrevFitTMP->GetYaxis()->SetLabelFont(42);
+   PrevFitTMP->GetYaxis()->SetLabelSize(0.035);
+   PrevFitTMP->GetYaxis()->SetTitleSize(0.035);
+   PrevFitTMP->GetYaxis()->SetTitleFont(42);
+   PrevFitTMP->SetParameter(0,7.016571);
+   PrevFitTMP->SetParError(0,2.51212);
+   PrevFitTMP->SetParLimits(0,0,0);
+   PrevFitTMP->SetParameter(1,-0.00112173);
+   PrevFitTMP->SetParError(1,0.0004717333);
+   PrevFitTMP->SetParLimits(1,0,0);
+   PrevFitTMP->SetParameter(2,8.47372e-008);
+   PrevFitTMP->SetParError(2,3.434959e-008);
+   PrevFitTMP->SetParLimits(2,0,0);
+   PrevFitTMP->SetParameter(3,-3.254381e-012);
+   PrevFitTMP->SetParError(3,1.214758e-012);
+   PrevFitTMP->SetParLimits(3,0,0);
+   PrevFitTMP->SetParameter(4,6.113076e-017);
+   PrevFitTMP->SetParError(4,2.090607e-017);
+   PrevFitTMP->SetParLimits(4,0,0);
+   PrevFitTMP->SetParameter(5,-4.512462e-022);
+   PrevFitTMP->SetParError(5,1.403797e-022);
+   PrevFitTMP->SetParLimits(5,0,0);
+   graph->GetListOfFunctions()->Add(PrevFitTMP);
+   graph->Draw("lpp");
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

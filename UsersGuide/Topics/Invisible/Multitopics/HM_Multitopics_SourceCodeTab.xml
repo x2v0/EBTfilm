@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Multitopics_SourceCodeTab</title>
+  <body>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">HTML Source Code tab:</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text" translate="true">This tab allows you to see and edit all the code of the TOC template manually. Experience in editing HTML code is necessary for using this mode! Note</text><text styleclass="Body Text HowTo" translate="true"> that the code in this template is essential for the proper functioning of the TOC. Please don&apos;t change or delete anything that you don&apos;t fully understand!</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" style="font-weight:bold;" translate="true">Warning:</text><text styleclass="Body Text HowTo" translate="true"> </text><text styleclass="Body Text HowTo" style="text-decoration:underline;" translate="true">Don&apos;t</text><text styleclass="Body Text HowTo" translate="true"> switch back to the Simple tab after editing the source code! Doing so will reset the standard template and delete all your edits!</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="2" colcount="2" style="width:100%; cell-padding:5px; cell-spacing:0px; page-break-inside:avoid; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:170px; height:62px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Editing window:</text></para>
+        </td>
+        <td style="height:62px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The editor provides full HTML syntax highlighting to make editing easier. To enlarge the window for easier editing just resize the window.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:170px; height:62px;">
+          <para styleclass="Body Text"><image src="BTN_ResetDefaults.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="height:62px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This button automatically clears the HTML template and reloads the default template. Use with caution. This function completely overwrites </text><text styleclass="Body Text" style="text-decoration:underline;" translate="true">all</text><text styleclass="Body Text" translate="true"> your editing changes in the source code !</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

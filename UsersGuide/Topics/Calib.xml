@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Процедура калибровки плёнок EBT</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Процедура калибровки плёнок EBT</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Калибровка производилась на основе набора плёнок равномерно облученных по всей площади с постоянной дозой в каждой точке облучения.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Обработав этот набор плёнок была получена зависимость величины дозы от величины красной компоненты в плёнке.</text><br/><br/><text styleclass="Normal" translate="true">Ниже приведена последовательность действий для получения калибровочного файла.</text></para>
+    <para styleclass="Normal"><br/><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">Из под папки, содержащей калибровочные файл</text><text styleclass="Normal" style="font-family:Arial;" translate="true">ы,</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true"> запускаем</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true"> root.</text></para>
+    <para styleclass="Normal"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">Далее, </text><text styleclass="Image Caption" style="font-size:12pt; font-weight:normal; font-style:normal;" translate="true">и</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">з под командной строки </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">ROOT</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">a запускаем макрос</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-style:normal;" translate="true">&#32;</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">calibrate.C</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"><image src="clip0001.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:left; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:left; margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true"> В результате обработки калибровочных файлов получаем кривую, требующую дополнительной обработки.</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"><image src="clip0002.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:left; margin-left:24px;"><text styleclass="Normal" style="font-size:12pt; font-weight:normal;" translate="true">Для начала убираем артифакты. </text></para>
+    <para styleclass="Normal" style="text-align:left; margin-left:24px;"><text styleclass="Normal" style="font-size:12pt; font-weight:normal;" translate="true">Для этого наводим курсор на &quot;плохую&quot; точку и нажимаем правую клавишу мыши и убираем эту точку.</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"><image src="remove.PNG" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:left; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:left; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:left; margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:left; margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">Далее производим фитирование кривой</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">. </text></para>
+    <para styleclass="Normal" style="text-align:left; margin-left:24px;"><text styleclass="Normal" style="font-size:12pt; font-weight:normal;" translate="true">Для этого наводим курсор на кривую и нажимаем правую клавишу мыши.</text><br/><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">В контекстном меню выбираем </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">FitPanel</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"><image src="FitPanel.PNG" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-style:normal;" translate="true">&#32;</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">В качестве</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true"> Fit Function </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">выбираем</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true"> pol3</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true"> (полином третей степени).</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"><image src="pol3.PNG" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">В результате фитирования получаем искомые четыре коэффициента полинома третей степени (</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">p0, p1, p2, p3</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">).</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"><image src="result.PNG" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">На основе этих данных создаём калибровочный файл вызывая из-под коммандой строки </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">ROOT</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">а</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">&#32;</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">функцию </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">CreateCalibrFile()</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"><image src="CreateCalibrFile.PNG" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">В результате выполнения этой функции получается файл</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-style:normal;" translate="true">&#32;</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">PortraitRed.h</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-style:normal;" translate="true">,</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true"> который представляет из себя </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">include file</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true"> с массивом калибровочных данных.</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">С помощью директивы </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">#include &quot;PortraitRed.h&quot; </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">он может вставляться в любую программу написанную на языке C/C++.</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">Он выглядит следующим образом образом:</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:24px;"><image src="PostraiRed.PNG" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"><text styleclass="Normal" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">Выходные файлы &#160;</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">PortraitRed.h, PortraitRedCalibr.C</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true"> автоматически копируются в директорию </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true">%ROOTSYS%/macros</text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">, где располагаются макросы для обработки дозных полей.</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"><conditional-text type="IF" value="future"/></para>
+    <para styleclass="Normal" style="margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">Предыдущая версия калибровочного файла сохраняется под тем же именем, но с &quot;расширением&quot; указывающим на дату создания и директорию, в которой лежали предыдущие калибровочные данные. </text></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Normal" style="margin-left:24px;"><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal;" translate="true">На пример, </text><text styleclass="Image Caption" style="font-family:Arial; font-size:12pt; font-weight:bold; font-style:normal;" translate="true"> PortraitRed.h.20141223.Epson_v700</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"><conditional-text type="END"/></para>
+    <para styleclass="Normal" style="margin-left:24px;"><br/><br/></para>
+  </body>
+</topic>

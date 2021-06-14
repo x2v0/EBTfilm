@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">PDF Levels</title>
+  <body>
+    <para styleclass="Body Text" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:24px; line-height:1.0; white-space:normal; page-break-inside:auto; page-break-after:auto;"><table rowcount="1" colcount="2" style="width:100%; cell-padding:3px; cell-spacing:0px; page-break-inside:avoid; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#000000; border-style:solid; background-color:#fffff0; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:top; width:47px;">
+          <para styleclass="Normal"><image src="lightbulb.bmp" scale="100.00%" padding="3" styleclass="Normal"></image></para>
+        </td>
+        <td style="height:56px;">
+          <para styleclass="Callouts Header"><text styleclass="Callouts Header" style="font-weight:bold;" translate="true">Only 6 TOC levels are supported in PDF and manuals:</text></para>
+          <para styleclass="Callouts"><text styleclass="Callouts" translate="true">Note that you cannot use more than six TOC levels in printed user manuals and PDF documents. If you have more levels than this (which is both unlikely and not recommended) all levels below level 6 will be included on the same level in the Table of Contents. The content of the topics will be included in your output but they will not have headings because the heading generation system only supports a maximum of 6 levels. </text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Multitopics_HTML_Templates_Edit</title>
+  <body>
+    <para styleclass="Body Text" style="text-align:center;"><table id="callout-table" rowcount="1" colcount="1" style="width:450px; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#000000; border-style:solid; background-color:#eeeeee; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="background-color:#ffffff;">
+          <para styleclass="Tip Heading"><conditional-text type="IFNOT" value="PDF"/><image id="callout-icon-flag" src="flag_green.gif" scale="100.00%" styleclass="Tip Heading"></image><text styleclass="Tip Heading" translate="true">        </text><conditional-text type="END"/><text styleclass="Tip Heading" translate="true">Key Information</text></para>
+          <para styleclass="Tip Body"><text styleclass="Tip Body" translate="true">If you are publishing </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_Templates_Skins" styleclass="Tip Body" translate="true">with a skin</link><text styleclass="Tip Body" translate="true"> you must edit the templates in the skin, not in your project! Skins always replace all the HTML templates in your project. Changes made in HTML templates your project will not be reflected in your output when you use skins!</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

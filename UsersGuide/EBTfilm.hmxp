@@ -1,0 +1,1004 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<helpproject xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd" version="1.6" isskin="false" isrepository="false">
+  <config>
+    <namespaces/>
+    <export-task-groups>
+      <export-task-group name="Common">
+        <export-tasks>
+          <export-task name="Publish your project in CHM format" format="CHM">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">HELPMAN6.chm</task-config-value>
+              <task-config-value name="deletetemp">1</task-config-value>
+              <task-config-value name="make0include">CHM</task-config-value>
+              <task-config-value name="make0status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+          <export-task name="Publish your project in PDF format" format="PDF">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">HELPMAN6.pdf</task-config-value>
+              <task-config-value name="template">C:\Program Files (x86)\EC Software\HelpandManual6\Templates\pdf\Standard_manual.mnl</task-config-value>
+              <task-config-value name="make4include">PDF</task-config-value>
+              <task-config-value name="make4status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+          <export-task name="Publish your project in HTML format" format="HTM">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">.\HTML\index.html</task-config-value>
+              <task-config-value name="make3include">HTML</task-config-value>
+              <task-config-value name="make3status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+        </export-tasks>
+      </export-task-group>
+      <export-task-group name="Recent Publishes">
+        <export-tasks>
+          <export-task name="Publish as CHM" format="CHM">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">..\HelpMan.chm</task-config-value>
+              <task-config-value name="skin">..\..\..\..\..\Program Files\EC Software\HelpAndManual6\Templates\HTML Skins\PP_DEMO_pp2phone.hmskin</task-config-value>
+              <task-config-value name="deletetemp">1</task-config-value>
+              <task-config-value name="make0include">CHM</task-config-value>
+              <task-config-value name="make0status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+          <export-task name="Publish as HTM" format="HTM">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">..\HTML\index.html</task-config-value>
+              <task-config-value name="skin">..\..\..\Program Files\EC Software\HelpAndManual6\Templates\HTML Skins\Twoframe_Classic_Skin_Blue.hmskin</task-config-value>
+              <task-config-value name="make3include">HTML</task-config-value>
+              <task-config-value name="make3status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+          <export-task name="Publish as PDF" format="PDF">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">..\EBTfilm.pdf</task-config-value>
+              <task-config-value name="template">HM_ManualTemplate.mnl</task-config-value>
+              <task-config-value name="make4include">PDF</task-config-value>
+              <task-config-value name="make4status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+          <export-task name="Publish as RTF" format="RTF">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">.\Manual\EBTfilm.rtf</task-config-value>
+              <task-config-value name="make5include">PRINT</task-config-value>
+              <task-config-value name="make5status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+        </export-tasks>
+      </export-task-group>
+    </export-task-groups>
+    <helpwindows>
+      <helpwindow name="ExtWin" left="-1" top="-1" width="-1" height="-1">
+        <caption translate="true">&lt;%APP%&gt; Help</caption>
+        <window-options-hlp autosize="false" maximize="false" posabsolute="false" keepontop="false" buttons="0" headercolor="#F0F0F0" textcolor="#FFFFFF"/>
+        <window-options-chm navigation="false" navigationwidth="0" search="false" favorite="false" saveregistry="false" buttons="0">
+          <user-button name="home">
+            <caption translate="true">home</caption>
+          </user-button>
+        </window-options-chm>
+      </helpwindow>
+      <helpwindow name="Main" left="8" top="12" width="924" height="578">
+        <caption translate="true">&lt;%TITLE%&gt;</caption>
+        <window-options-hlp autosize="false" maximize="false" posabsolute="false" keepontop="false" buttons="0" headercolor="#F0F0F0" textcolor="#FFFFFF"/>
+        <window-options-chm navigation="true" navigationwidth="200" search="true" favorite="true" saveregistry="true" buttons="798734">
+          <user-button name="Home">
+            <caption translate="true">Home</caption>
+          </user-button>
+          <user-button name="Jump1" href="javascript:window.open('http://helpman.it-authoring.com/','_blank');history.back(0);">
+            <caption translate="true">User &amp;Forum</caption>
+          </user-button>
+          <user-button name="Jump2" href="javascript:window.open('http://www.ec-software.com/','_blank');history.back(0);">
+            <caption translate="true">EC &amp;Software</caption>
+          </user-button>
+        </window-options-chm>
+      </helpwindow>
+    </helpwindows>
+    <styleclasses>
+      <styleclass name="InThisTopic LinkList" shortcut="0">
+        <style-set media="screen" type="text">font-size:18pt;</style-set>
+      </styleclass>
+      <styleclass name="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-family:Arial; font-size:12pt; letter-spacing:normal;</style-set>
+      </styleclass>
+      <styleclass name="Body Text" parentclass="Normal" shortcut="114">
+        <style-set media="screen" type="para">margin-bottom:10px;</style-set>
+        <style-set media="screen" type="text">font-family:Arial; font-size:12pt;</style-set>
+      </styleclass>
+      <styleclass name="Body Text HowTo" parentclass="Body Text" shortcut="8306">
+        <style-set media="screen" type="para">margin-left:24px;</style-set>
+      </styleclass>
+      <styleclass name="HowTo Bulleted" parentclass="Body Text" shortcut="24642">
+        <style-set media="screen" type="para">text-indent:-15px; margin-left:39px;</style-set>
+      </styleclass>
+      <styleclass name="HowTo Numbered" parentclass="Body Text" shortcut="24654">
+        <style-set media="screen" type="para">text-indent:-22px; margin-left:48px;</style-set>
+      </styleclass>
+      <styleclass name="Note" parentclass="Body Text" shortcut="0">
+        <style-set media="screen" type="para">text-indent:-59px; margin-left:83px;</style-set>
+      </styleclass>
+      <styleclass name="Callouts" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-bottom:5px;</style-set>
+        <style-set media="screen" type="text">font-family:Verdana; font-size:10pt; letter-spacing:-1px;</style-set>
+      </styleclass>
+      <styleclass name="Callouts Bulleted" parentclass="Callouts" shortcut="0">
+        <style-set media="screen" type="para">text-indent:-27px; margin-right:24px; margin-bottom:10px; margin-left:51px;</style-set>
+      </styleclass>
+      <styleclass name="Callouts Header" parentclass="Callouts" shortcut="0">
+        <style-set media="screen" type="para">margin-bottom:3px;</style-set>
+        <style-set media="screen" type="text">font-weight:bold;</style-set>
+      </styleclass>
+      <styleclass name="Code Example" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">white-space:nowrap;</style-set>
+        <style-set media="screen" type="text">font-family:'Courier New'; font-size:10pt;</style-set>
+      </styleclass>
+      <styleclass name="Comment" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">text-align:center;</style-set>
+      </styleclass>
+      <styleclass name="Heading HowTo_atoc_" parentclass="Normal" shortcut="115">
+        <style-set media="screen" type="para">margin-top:20px; margin-bottom:15px; background-color:#f0f0f0; page-break-after:avoid; padding:3px; border-color:#c0c0c0; border-style:single; border-width:1px;</style-set>
+        <style-set media="screen" type="text">font-family:Verdana; font-size:13pt; letter-spacing:-1px;</style-set>
+      </styleclass>
+      <styleclass name="Heading HowTo Toggle_atoc_" parentclass="Heading HowTo_atoc_" shortcut="8307">
+        <style-set media="screen" type="para">text-indent:-20px; margin-left:20px;</style-set>
+      </styleclass>
+      <styleclass name="Heading Toggle_atocs_" parentclass="Normal" shortcut="24648">
+        <style-set media="screen" type="para">text-indent:-19px; margin-bottom:10px; margin-left:43px;</style-set>
+        <style-set media="screen" type="text">font-family:Verdana; font-size:10pt; font-weight:bold;</style-set>
+        <style-set media="print" type="text">font-family:Verdana; font-size:10pt; font-weight:bold;</style-set>
+      </styleclass>
+      <styleclass name="Heading Toggle Larger_atocs_" parentclass="Heading Toggle_atocs_" shortcut="0">
+        <style-set media="screen" type="text">font-size:11pt;</style-set>
+        <style-set media="print" type="text">font-size:11pt;</style-set>
+      </styleclass>
+      <styleclass name="Heading1" parentclass="Normal" shortcut="119">
+        <style-set media="screen" type="para">page-break-after:avoid;</style-set>
+        <style-set media="screen" type="text">font-family:Tahoma; font-size:18pt; font-weight:bold;</style-set>
+      </styleclass>
+      <styleclass name="Heading2_atoc_" parentclass="Normal" nextclass="Body Text HowTo" shortcut="116">
+        <style-set media="screen" type="para">margin-top:15px; margin-bottom:10px; page-break-after:avoid; padding:1px; border-color:#c0c0c0; border-style:thick-outside; border-width:1px; border-top:none; border-right:none; border-left:none;</style-set>
+        <style-set media="screen" type="text">font-size:14pt; color:#000080;</style-set>
+      </styleclass>
+      <styleclass name="Heading2 Toggle_atoc_" parentclass="Heading2_atoc_" nextclass="Body Text HowTo" shortcut="0">
+        <style-set media="screen" type="para">text-indent:-20px; margin-left:20px; border:none;</style-set>
+      </styleclass>
+      <styleclass name="Heading3_atocs_" parentclass="Heading2_atoc_" nextclass="Body Text HowTo" shortcut="117">
+        <style-set media="screen" type="para">margin-top:5px; margin-bottom:5px; border:none;</style-set>
+        <style-set media="screen" type="text">font-size:12pt; font-weight:bold;</style-set>
+        <style-set media="print" type="text">font-weight:bold;</style-set>
+      </styleclass>
+      <styleclass name="Heading3 Underline_atocs_" parentclass="Heading3_atocs_" nextclass="Body Text HowTo" shortcut="0">
+        <style-set media="screen" type="para">border-style:single; border-top:none; border-right:none; border-left:none;</style-set>
+      </styleclass>
+      <styleclass name="Heading3_atoc_" parentclass="Heading3_atocs_" nextclass="Body Text HowTo" shortcut="0"/>
+      <styleclass name="Heading3" parentclass="Heading3_atoc_" nextclass="Body Text HowTo" shortcut="32882"/>
+      <styleclass name="InThisTopic Heading" parentclass="Heading3_atocs_" nextclass="NotesBox" shortcut="0"/>
+      <styleclass name="Image Caption" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-family:Verdana; font-size:9pt; font-style:italic;</style-set>
+      </styleclass>
+      <styleclass name="Notes" parentclass="Normal" shortcut="0"/>
+      <styleclass name="NotesBox" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-top:10px;</style-set>
+      </styleclass>
+      <styleclass name="Popup Box" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-size:9pt;</style-set>
+      </styleclass>
+      <styleclass name="SeeAlso" parentclass="Normal" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-top:10px; page-break-after:avoid;</style-set>
+        <style-set media="screen" type="text">font-size:12pt; font-weight:bold;</style-set>
+        <style-set media="print" type="text">font-size:12pt; font-weight:bold; font-style:italic;</style-set>
+      </styleclass>
+      <styleclass name="Tip Body" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-family:Verdana; font-size:10pt; letter-spacing:-1px;</style-set>
+        <style-set media="print" type="text">font-size:9pt;</style-set>
+      </styleclass>
+      <styleclass name="Tip Heading" parentclass="Normal" nextclass="Body Text HowTo" shortcut="0">
+        <style-set media="screen" type="text">font-family:Tahoma; font-weight:bold;</style-set>
+      </styleclass>
+      <styleclass name="T_Code" shortcut="24643">
+        <style-set media="screen" type="text">font-family:'Courier New'; font-size:11pt; letter-spacing:-1px;</style-set>
+      </styleclass>
+      <styleclass name="T_Emphasis" shortcut="0">
+        <style-set media="screen" type="text">font-family:Arial; font-size:10pt; font-weight:bold; font-style:normal; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;</style-set>
+      </styleclass>
+      <styleclass name="T_Entry" shortcut="24645">
+        <style-set media="screen" type="text">font-family:'Courier New'; font-size:11pt; font-weight:bold; font-style:normal; letter-spacing:-1px;</style-set>
+      </styleclass>
+      <styleclass name="T_Entry 10pt" parentclass="T_Entry" shortcut="0">
+        <style-set media="screen" type="text">font-size:10pt; font-style:italic;</style-set>
+      </styleclass>
+      <styleclass name="T_Menu" shortcut="24653">
+        <style-set media="screen" type="text">font-family:Verdana; font-size:10pt; font-weight:bold; font-style:normal; color:#000000; letter-spacing:normal;</style-set>
+      </styleclass>
+      <styleclass name="T_Menu 10p" parentclass="T_Menu" shortcut="0"/>
+      <styleclass name="T_ToggleLink" shortcut="0">
+        <style-set media="screen" type="text">font-family:Tahoma; font-size:10pt; font-weight:bold; letter-spacing:normal;</style-set>
+      </styleclass>
+      <styleclass name="T_ToggleLinkLarge" parentclass="T_ToggleLink" shortcut="0">
+        <style-set media="screen" type="text">font-size:11pt;</style-set>
+      </styleclass>
+      <styleclass name="T_Toggletext" shortcut="0">
+        <style-set media="screen" type="para">background-color:#ffffbb; border:none;</style-set>
+        <style-set media="screen" type="text">font-family:'Times New Roman'; font-size:10pt; font-weight:normal; font-style:italic; background-color:#ffffbb; letter-spacing:normal;</style-set>
+      </styleclass>
+      <tablestyleclass name="Default">
+        <style-set media="screen">width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;</style-set>
+      </tablestyleclass>
+    </styleclasses>
+    <config-group name="project">
+      <config-value name="author" translate="true">Валерий Онучин</config-value>
+      <config-value name="versionmajor">5900</config-value>
+      <config-value name="versionminor">205</config-value>
+      <config-value name="versionbuild">7070</config-value>
+      <config-value name="lcid" translate="true">ru</config-value>
+      <config-value name="bidimode">0</config-value>
+      <config-value name="charset" translate="true">RUSSIAN_CHARSET</config-value>
+      <config-value name="deffont">font-family:'MS Sans Serif'; font-size:8pt; color:#000000;</config-value>
+      <config-value name="contents">BasicInfo</config-value>
+      <config-value name="topicprefix">HM_</config-value>
+      <config-value name="autohelpstart">11297</config-value>
+      <config-value name="autohelpincrement">1</config-value>
+      <config-value name="autohelpanchor">0</config-value>
+      <config-value name="imageshortcuts">weblink.bmp;arrow_right_16.gif;BTN_Browse.bmp;wblnk.bmp;Arrow_r.bmp;</config-value>
+      <config-group name="custombuilds">
+        <config-value name="demo">Demo build</config-value>
+        <config-value name="future">Future Stuff</config-value>
+      </config-group>
+      <config-value name="imageshortcuts_includebaggage">1</config-value>
+      <config-value name="make0include">CHM</config-value>
+      <config-value name="make0status">*</config-value>
+      <config-group name="spellcheck">
+        <config-value name="project">1</config-value>
+        <config-value name="maindictionaries">dict-en.oxt::en_US.aff::en_US.dic;</config-value>
+        <config-value name="customdictionaries">helpman.adu;</config-value>
+        <config-value name="activecustomdict">helpman.adu</config-value>
+        <config-value name="hyphendictionary">dict-en.oxt::hyph_en_GB.dic</config-value>
+      </config-group>
+      <config-value name="make3include">HTML</config-value>
+      <config-value name="make3status">*</config-value>
+      <config-value name="LISTSTYLES"></config-value>
+      <config-value name="searchpath">.\;.\Graphics\;.\Graphics Buttons\;.\Topics\Snippets\</config-value>
+      <config-group name="TOPICSTATUS">
+        <config-value name="Needs Review">#B6FEAB</config-value>
+        <config-value name="Out Of Date">#FEC79E</config-value>
+        <config-value name="Under Construction">#FEFC9E</config-value>
+        <config-value name="New Graphics">#80FFFF</config-value>
+      </config-group>
+      <config-value name="summary" translate="true">Программа dicom2fmm.exe - «Создание входного файла (FMM) системы планирования». Руководство пользователя.</config-value>
+      <config-value name="comment">Программа dicom2fmm.exe - « Создание входного файла (FMM) системы планирования ». Руководство пользователя.</config-value>
+      <config-value name="make4include">PDF</config-value>
+      <config-value name="make4status">*</config-value>
+      <config-value name="make5include">PRINT</config-value>
+      <config-value name="make5status">*</config-value>
+    </config-group>
+    <config-group name="hlp">
+      <config-value name="citation" translate="true"></config-value>
+      <config-value name="afootnotes">A</config-value>
+      <config-value name="fts">1</config-value>
+      <config-value name="anchorseparator">:</config-value>
+      <config-value name="cntoffset">0</config-value>
+      <config-value name="hpj" translate="true"></config-value>
+      <config-value name="outputfile">Helpman.hlp</config-value>
+      <config-value name="deletetemp">1</config-value>
+    </config-group>
+    <config-group name="chm">
+      <config-value name="htmlpopup">3</config-value>
+      <config-value name="htmlpopuptextfile">CSHelp.txt</config-value>
+      <config-group name="htmlpopupjavaoptions">
+        <config-value name="borderwidth">2</config-value>
+        <config-value name="padding">7</config-value>
+        <config-value name="bgcolor">#FFFFD7</config-value>
+        <config-value name="bordercolor">#464646</config-value>
+        <config-value name="filter0">progid:DXImageTransform.Microsoft.DropShadow(color='b0b0b0', Direction=135, OffX='3', OffY='3')</config-value>
+        <config-value name="filter1">progid:DXImageTransform.Microsoft.Fade(Overlap=1.00)</config-value>
+      </config-group>
+      <config-value name="hhcwindowstyles">8390183</config-value>
+      <config-value name="usesecondarywindows">0</config-value>
+      <config-value name="outputfile">..\HelpMan.chm</config-value>
+      <config-value name="deletetemp">1</config-value>
+      <config-value name="skin">..\..\..\..\..\Program Files\EC Software\HelpAndManual6\Templates\HTML Skins\PP_DEMO_pp2phone.hmskin</config-value>
+    </config-group>
+    <config-group name="hxs">
+      <config-value name="namespace"></config-value>
+      <config-value name="uniqueid"></config-value>
+      <config-value name="filetype">0</config-value>
+      <config-value name="fts">1</config-value>
+      <config-value name="akeywords">1</config-value>
+      <config-value name="htmlpopup">0</config-value>
+      <config-value name="outputfile"></config-value>
+      <config-value name="buildhwproj">0</config-value>
+      <config-value name="deletetemp">0</config-value>
+    </config-group>
+    <config-group name="html">
+      <config-value name="topiceditor">1</config-value>
+      <config-value name="topicsimplebuttons">1</config-value>
+      <config-group name="topicsimplebutton1">
+        <config-value name="CAPTION" translate="true">Top</config-value>
+      </config-group>
+      <config-group name="topicsimplebutton2">
+        <config-value name="CAPTION" translate="true">Previous</config-value>
+      </config-group>
+      <config-group name="topicsimplebutton3">
+        <config-value name="CAPTION" translate="true">Next</config-value>
+      </config-group>
+      <config-group name="topictemplates">
+        <config-value name="default" translate="true"><![CDATA[<%DOCTYPE%>
+<html>
+<head>
+   <title><%TOPIC_TITLE%></title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="<%TOPIC_KEYWORDS%>" />
+   <meta http-equiv="Content-Type" content="text/html; charset=<%DOCCHARSET%>" />
+   <link type="text/css" href="<%STYLESHEET%>" rel="stylesheet" />
+   <style type="text/css">
+     body { margin: 0px; background: #FFFFFF; }
+   </style>
+</head>
+<body>
+
+<IF_TOPIC_HEADER>
+<table style="width:100%; border:none; border-spacing:0px; padding:5px; background:#C0C0C0">
+  <tr style="vertical-align:middle">
+    <td style="text-align:left">
+      <%TOPIC_HEADER%>
+    </td>
+    <td style="text-align:right">
+     <a href="<%HREF_DEFAULT_PAGE%>">Top</a>&nbsp;
+     <IF_PREVIOUS_PAGE><a href="<%HREF_PREVIOUS_PAGE%>">Previous</a>&nbsp;</IF_PREVIOUS_PAGE>
+     <IF_NEXT_PAGE><a href="<%HREF_NEXT_PAGE%>">Next</a></IF_NEXT_PAGE>
+    </td>
+  </tr>
+</table>
+</IF_TOPIC_HEADER>
+
+<!-- Placeholder for topic body. -->
+<table style="width:100%;border:none;border-spacing:0px"><tr style="vertical-align:top"><td style="text-align:left;padding:5px">
+<%TOPIC_TEXT%>
+</td></tr></table>
+
+</body>
+</html>
+]]></config-value>
+      </config-group>
+      <config-value name="topicsimpleheadercolor">#C0C0C0</config-value>
+      <config-value name="topicsimpletextcolor">#FFFFFF</config-value>
+      <config-value name="navigationstyle">2</config-value>
+      <config-value name="frameeditor">0</config-value>
+      <config-value name="contentborder">1</config-value>
+      <config-value name="contentwidth">60</config-value>
+      <config-value name="headframeheight">100</config-value>
+      <config-value name="headframescroll">0</config-value>
+      <config-value name="frametemplate" translate="true"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+  "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<title><%TITLE%></title>
+<meta http-equiv="Content-Type" content="text/html; charset=<%DOCCHARSET%>">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="helpman_settings.js"></script>
+<script type="text/javascript" src="helpman_navigation.js"></script>
+<script type="text/javascript">
+<!--
+var defaulttopic="<%HREF_DEFAULT_PAGE%>";
+if (location.href.lastIndexOf("?") > 0) defaulttopic=location.href.substring(location.href.lastIndexOf("?")+1,location.href.length).replace(/:/g,"");
+document.write('<frameset cols="60%,*" frameborder="1" framespacing="1">');
+if (document.getElementById) {
+  document.write('<frame name="hmnavigation" src="<%HREF_CONTENT_PAGE_DYN%>" title="Navigation frame">'); }
+else {
+  document.write('<frame name="hmnavigation" src="<%HREF_CONTENT_PAGE_STATIC%>" title="Navigation frame">'); }
+document.write('<frame name="hmcontent" src="' + defaulttopic + '" title="Content frame">');
+document.write('</frameset>');
+//-->
+</script>
+</head>
+<noscript>
+  <frameset cols="60%,*" frameborder="1" framespacing="1">
+    <frame name="hmnavigation" src="<%HREF_CONTENT_PAGE_STATIC%>" title="Navigation frame">
+    <frame name="hmcontent" src="<%HREF_DEFAULT_PAGE%>" title="Content frame">
+    <noframes>
+      This page requires frames<br><a href="<%HREF_CONTENT_PAGE_STATIC%>">Click here to view the table of contents without frames</a>
+    </noframes>
+  </frameset>
+</noscript>
+</html>]]></config-value>
+      <config-value name="hasindex">1</config-value>
+      <config-value name="hassearch">1</config-value>
+      <config-value name="contentnumbers">0</config-value>
+      <config-value name="contentlazysync">0</config-value>
+      <config-value name="contentindent">20</config-value>
+      <config-value name="contentsingleclick">1</config-value>
+      <config-value name="contentautocollapse">0</config-value>
+      <config-value name="contentexpand">0</config-value>
+      <config-value name="defaulticons">1</config-value>
+      <config-value name="toceditor">0</config-value>
+      <config-value name="tocsimpletext1" translate="true"><![CDATA[<p class="navbar"><b>Contents</b>
+<IF_INDEX_PAGE> | <a href="<%HREF_INDEX_PAGE%>">Index</a></IF_INDEX_PAGE>
+<IF_SEARCH_PAGE> | <a href="<%HREF_SEARCH_PAGE%>">Search</a></IF_SEARCH_PAGE>
+</p>
+<hr/>
+]]></config-value>
+      <config-value name="tocsimplefont1">font-family:Arial,Helvetica; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="tocsimplefont2">font-family:Arial,Helvetica; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="tocsimplefont3">font-family:Arial,Helvetica; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="tocsimplefont4">font-family:Arial,Helvetica; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="tocsimplefont5">font-family:Arial,Helvetica; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="tocsimplefont6">font-family:Arial,Helvetica; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="contenttemplate" translate="true"><![CDATA[<%DOCTYPE%>
+<html><head>
+   <title><%TITLE%></title>
+   <meta http-equiv="Content-Type" content="text/html; charset=<%DOCCHARSET%>" />
+
+   <!-- This line includes the general project style sheet (not required) -->
+   <link type="text/css" href="<%STYLESHEET%>" rel="stylesheet" />
+
+   <!-- This block defines the styles of the TOC headings, change them as needed -->
+   <style type="text/css">
+       body { background:#FFF; }
+       .navbar   { font-size: 120%; }
+
+       .heading1 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading2 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading3 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading4 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading5 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading6 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+
+       .hilight1 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight2 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight3 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight4 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight5 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight6 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+
+       /* TOC LIST CSS */
+       #toc    { padding: 0; margin: 0; }
+       #toc li { margin-top: 2px; }
+       #toc ul { padding-left:0; }
+       /* TOC LIST CSS */
+   </style>
+</head>
+<body>
+<p class="navbar"><b>Contents</b>
+<IF_INDEX_PAGE> | <a href="<%HREF_INDEX_PAGE%>">Index</a></IF_INDEX_PAGE>
+<IF_SEARCH_PAGE> | <a href="<%HREF_SEARCH_PAGE%>">Search</a></IF_SEARCH_PAGE>
+</p>
+<hr/>
+
+
+  <!-- Place holder for the TOC - this variable is REQUIRED! -->
+  <%TABLE_OF_CONTENTS%>
+
+
+</body>
+</html>
+]]></config-value>
+      <config-value name="indexeditor">1</config-value>
+      <config-value name="indexsimpletext1" translate="true"><![CDATA[<p class="navbar"><a href="<%HREF_CONTENT_PAGE%>">Contents</a>
+<IF_INDEX_PAGE> | <b>Index</b></IF_INDEX_PAGE>
+<IF_SEARCH_PAGE> | <a href="<%HREF_SEARCH_PAGE%>">Search</a></IF_SEARCH_PAGE>
+</p>
+<hr/>
+]]></config-value>
+      <config-value name="indexsections">A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</config-value>
+      <config-value name="indexsimplefont1">font-family:Arial,Helvetica; font-size:14pt; font-weight:bold; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="indexsimplefont2">font-family:Arial,Helvetica; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="indexsimplefont3">font-family:Arial,Helvetica; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="indexsimplefont4">font-family:Arial,Helvetica; font-size:9pt; font-weight:normal; font-style:normal; text-decoration:none;</config-value>
+      <config-value name="indextemplate" translate="true"><![CDATA[<%DOCTYPE%>
+<html><head>
+   <title><%TITLE%></title>
+   <meta http-equiv="Content-Type" content="text/html; charset=<%DOCCHARSET%>" />
+
+   <!-- This line includes the general project style sheet (not required) -->
+   <link type="text/css" href="<%STYLESHEET%>" rel="stylesheet" />
+
+   <style type="text/css">
+       body { background:#FFF; }
+       .navbar      { font-size: 120%; }
+
+       #idx          { margin: 0; padding: 0; }     /* div tag that wraps the keyword index */
+       #idx a        { font-color: #000; text-decoration: none; }  /* all links in index appear as text */
+
+       #idx p             { margin: 2px; }       /* keywords and secondary keywords */
+       #idx p.idxkeyword2 { margin-left: 20px }  /* indentation for secondary keywords */
+
+       table.idxtable { background: #F4F4F4;
+                        border: 1px solid #000000;
+                        border-collapse: collapse;
+                        -moz-box-shadow: 2px 2px 2px #B0B0B0;
+                        -webkit-box-shadow: 2px 2px 2px #B0B0B0;
+                        box-shadow: 2px 2px 2px #B0B0B0;
+                        filter: progid:DXImageTransform.Microsoft.Shadow(color=B0B0B0, Direction=135, Strength=4); }
+       td.idxtable    { background: #F4F4F4; }
+
+       /* font definitions for keyword section, keywords and popup links */
+       .idxsection  { font-family: Arial,Helvetica; font-weight: bold; font-size: 14pt; color: #000000; text-decoration: none;
+                      margin-top: 15px; margin-bottom: 15px; }
+       .idxkeyword  { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .idxkeyword2 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .idxlink     { font-family: Arial,Helvetica; font-weight: normal; font-size: 9pt; color: #000000; text-decoration: none; }
+
+   </style>
+</head>
+<body>
+<p class="navbar"><a href="<%HREF_CONTENT_PAGE%>">Contents</a>
+<IF_INDEX_PAGE> | <b>Index</b></IF_INDEX_PAGE>
+<IF_SEARCH_PAGE> | <a href="<%HREF_SEARCH_PAGE%>">Search</a></IF_SEARCH_PAGE>
+</p>
+<hr/>
+
+  <!-- Place holder for the keyword index - this variable is REQUIRED! -->
+  <%KEYWORD_INDEX%>
+
+</body>
+</html>
+]]></config-value>
+      <config-value name="searcheditor">1</config-value>
+      <config-value name="searchsimpletext1" translate="true"><![CDATA[<p class="navbar"><a href="<%HREF_CONTENT_PAGE%>">Contents</a>
+<IF_INDEX_PAGE> | <a href="<%HREF_INDEX_PAGE%>">Index</a></IF_INDEX_PAGE>
+<IF_SEARCH_PAGE> | <b>Search</b></IF_SEARCH_PAGE>
+</p>
+<hr/>
+<p class="submit">Enter one or more keywords to search ('*' and '?' wildcards are supported):</p>
+]]></config-value>
+      <config-value name="searchtemplate" translate="true"><![CDATA[<%DOCTYPE%>
+<html><head>
+   <title><%TITLE%></title>
+   <meta http-equiv="Content-Type" content="text/html; charset=<%DOCCHARSET%>" />
+
+   <!-- This line includes the general project style sheet (not required) -->
+   <link type="text/css" href="<%STYLESHEET%>" rel="stylesheet" />
+
+   <!-- You can change the fonts, text colors, and styles of your search results with the CSS below -->
+   <style type="text/css">
+        body { background:#FFF; }
+        .navbar { font-size: 120%; }
+
+        .submit { font-size: 9pt; }
+        .highlight { background: #FFFF40; }
+        .searchheading { font-size: 9pt; font-weight: bold; }
+        .summary { font-size: 8pt; font-style: italic; }
+        .results { font-size: 9pt; }
+        .description { font-size: 9pt; }
+        .context { font-size: 9pt; }
+        .result_title { font-size: 9pt; }
+
+	       .suggestion { font-size: 100%; }
+	       .category { color: #999999; }
+	       .sorting { text-align: right; }
+	       .zoom_searchform { font-size: 100%; }
+	       .zoom_results_per_page { font-size: 80%; margin-left: 10px; }
+	       .zoom_match { font-size: 80%; margin-left: 10px;}
+	       .zoom_categories { font-size: 80%; }
+	       .zoom_categories ul { display: inline; margin: 0px; padding: 0px;}
+	       .zoom_categories li { display: inline; margin-left: 15px; list-style-type: none; }
+	       input.zoom_button {  }
+	       input.zoom_searchbox {  }
+	       .result_image { float: left; display: block; }
+	       .result_image img { margin: 10px; width: 80px; border: 0px; }
+	       .result_block { margin-top: 15px; margin-bottom: 15px; clear: left; }
+	       .result_altblock { margin-top: 15px; margin-bottom: 15px; clear: left; }
+	       .result_pages { font-size: 100%; }
+	       .result_pagescount { font-size: 100%; }
+	       .searchtime { font-size: 80%; }
+	       .recommended
+	       {
+		        background: #DFFFBF;
+	       		border-top: 1px dotted #808080;
+	       		border-bottom: 1px dotted #808080;
+	       		margin-top: 15px;
+	       		margin-bottom: 15px;
+	       }
+	       .recommended_heading { float: right; font-weight: bold; }
+	       .recommend_block { margin-top: 15px; margin-bottom: 15px; clear: left; }
+	       .recommend_title { font-size: 100%; }
+	       .recommend_description { font-size: 100%; color: #008000; }
+	       .recommend_infoline { font-size: 80%; font-style: normal; color: #808080;}
+
+ 	</style>
+</head>
+<body>
+<p class="navbar"><a href="<%HREF_CONTENT_PAGE%>">Contents</a>
+<IF_INDEX_PAGE> | <a href="<%HREF_INDEX_PAGE%>">Index</a></IF_INDEX_PAGE>
+<IF_SEARCH_PAGE> | <b>Search</b></IF_SEARCH_PAGE>
+</p>
+<hr/>
+<p class="submit">Enter one or more keywords to search ('*' and '?' wildcards are supported):</p>
+
+  <!-- This is where the search form and results will appear -->
+  <%SEARCH_SCRIPT%>
+
+<noscript>
+<p>You must have JavaScript enabled to use this version of the search engine.</p>
+</noscript>
+</body>
+</html>
+]]></config-value>
+      <config-group name="searchconstants">
+        <config-value name="STR_FORM_SEARCHFOR" translate="true">Search for:</config-value>
+        <config-value name="STR_FORM_SUBMIT_BUTTON" translate="true">Submit</config-value>
+        <config-value name="STR_FORM_RESULTS_PER_PAGE" translate="true">Results per page:</config-value>
+        <config-value name="STR_FORM_MATCH" translate="true">Match:</config-value>
+        <config-value name="STR_FORM_ANY_SEARCH_WORDS" translate="true">any words</config-value>
+        <config-value name="STR_FORM_ALL_SEARCH_WORDS" translate="true">all words</config-value>
+        <config-value name="STR_NO_QUERY" translate="true">No search query entered.</config-value>
+        <config-value name="STR_RESULTS_FOR" translate="true">Search results for:</config-value>
+        <config-value name="STR_NO_RESULTS" translate="true">No results</config-value>
+        <config-value name="STR_RESULT" translate="true">result</config-value>
+        <config-value name="STR_RESULTS" translate="true">results</config-value>
+        <config-value name="STR_PHRASE_CONTAINS_COMMON_WORDS" translate="true">The following phrase contains very common words on this site, resulting in a limited search. Please define a more specific phrase for better results.</config-value>
+        <config-value name="STR_SKIPPED_FOLLOWING_WORDS" translate="true">The following word(s) are in the skip word list and have been omitted from your search:</config-value>
+        <config-value name="STR_SKIPPED_PHRASE" translate="true">Note that you can not search for exact phrases beginning with a skipped word</config-value>
+        <config-value name="STR_SUMMARY_NO_RESULTS_FOUND" translate="true">No results found.</config-value>
+        <config-value name="STR_SUMMARY_FOUND_CONTAINING_ALL_TERMS" translate="true">found containing all search terms.</config-value>
+        <config-value name="STR_SUMMARY_FOUND_CONTAINING_SOME_TERMS" translate="true">found containing some search terms.</config-value>
+        <config-value name="STR_SUMMARY_FOUND" translate="true">found.</config-value>
+        <config-value name="STR_PAGES_OF_RESULTS" translate="true">pages of results.</config-value>
+        <config-value name="STR_POSSIBLY_GET_MORE_RESULTS" translate="true">You can possibly get more results searching for</config-value>
+        <config-value name="STR_ANY_OF_TERMS" translate="true">any of the terms</config-value>
+        <config-value name="STR_DIDYOUMEAN" translate="true">Did you mean:</config-value>
+        <config-value name="STR_SORTEDBY_RELEVANCE" translate="true">Sorted by relevance</config-value>
+        <config-value name="STR_SORTBY_RELEVANCE" translate="true">Sort by relevance</config-value>
+        <config-value name="STR_SORTBY_DATE" translate="true">Sort by date</config-value>
+        <config-value name="STR_SORTEDBY_DATE" translate="true">Sorted by date</config-value>
+        <config-value name="STR_RESULT_TERMS_MATCHED" translate="true">Terms matched:</config-value>
+        <config-value name="STR_RESULT_SCORE" translate="true">Score:</config-value>
+        <config-value name="STR_RESULT_URL" translate="true">URL:</config-value>
+        <config-value name="STR_RESULT_PAGES" translate="true">Results Pages:</config-value>
+        <config-value name="STR_RESULT_PAGES_PREVIOUS" translate="true">Previous</config-value>
+        <config-value name="STR_RESULT_PAGES_NEXT" translate="true">Next</config-value>
+      </config-group>
+      <config-value name="searchstoplist" translate="true">and or the it is an on we us to of has be all for in as so are that can you at its by have with into</config-value>
+      <config-value name="searchskipwordsmin">3</config-value>
+      <config-value name="searchjoinwordchars">.-_'</config-value>
+      <config-value name="searchhighlight">1</config-value>
+      <config-value name="searchallowdate">1</config-value>
+      <config-value name="searchaccentinsensitive">0</config-value>
+      <config-value name="searchsinglecase">0</config-value>
+      <config-value name="htmlpopup">3</config-value>
+      <config-group name="htmlpopupjavaoptions">
+        <config-value name="borderwidth">2</config-value>
+        <config-value name="padding">3</config-value>
+        <config-value name="bgcolor">#FFFFD7</config-value>
+        <config-value name="bordercolor">#464646</config-value>
+        <config-value name="filter0">progid:DXImageTransform.Microsoft.DropShadow(color='b0b0b0', Direction=135, OffX='3', OffY='3')</config-value>
+        <config-value name="filter1">progid:DXImageTransform.Microsoft.Fade(Overlap=1.00)</config-value>
+      </config-group>
+      <config-value name="defaultext">.htm</config-value>
+      <config-value name="cssfile">styles.css</config-value>
+      <config-value name="fontsizeencoding">1</config-value>
+      <config-value name="fontsizebase">100</config-value>
+      <config-value name="exportmarkersastext">1</config-value>
+      <config-value name="exportstylenames">1</config-value>
+      <config-value name="exportxhtml">1</config-value>
+      <config-value name="imageconversion">1</config-value>
+      <config-value name="jpgquality">90</config-value>
+      <config-value name="imagehint">1</config-value>
+      <config-value name="outputfile">..\HTML\index.html</config-value>
+      <config-value name="skin">..\..\..\Program Files\EC Software\HelpAndManual6\Templates\HTML Skins\Twoframe_Classic_Skin_Blue.hmskin</config-value>
+      <config-value name="layoutthreeframe">0</config-value>
+      <config-value name="exportutf8bom">1</config-value>
+      <config-value name="synctimestamp">1</config-value>
+      <config-value name="syncarchivebit">1</config-value>
+      <config-value name="searchplatform">PHP</config-value>
+      <config-value name="searchexactphrase">0</config-value>
+      <config-value name="googleanalytics">UA-486863-1</config-value>
+      <config-value name="iframebackcolor">#C1E0FF</config-value>
+      <config-value name="iframenavwidth">1000</config-value>
+      <config-value name="iframemargins">5</config-value>
+      <config-value name="iframeborderwidth">1</config-value>
+      <config-value name="iframebordercolor">#C0C0C0</config-value>
+      <config-value name="iframeheaderheight">60</config-value>
+      <config-value name="iframeheaderhtml" translate="true"><![CDATA[<p><%TITLE%></p>
+]]></config-value>
+      <config-value name="contentnumberstyle">1.1.1.1.1.1</config-value>
+      <config-value name="animations">1</config-value>
+      <config-value name="imagelightbox">1</config-value>
+      <config-value name="forcetocsync">1</config-value>
+      <config-value name="sitemap">http://www.helpandmanual.com/help/</config-value>
+      <config-value name="headframehtml" translate="true"><![CDATA[<%DOCTYPE%>
+<html>
+  <head>
+    <title><%TITLE%></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=<%DOCCHARSET%>">
+  </head>
+  </head>
+  <body>
+    <p><%TITLE%></p>
+    <p>Content of the top frame goes here...</p>
+  </body>
+</html>]]></config-value>
+    </config-group>
+    <config-group name="pdf">
+      <config-value name="template">HM_ManualTemplate.mnl</config-value>
+      <config-value name="style">0</config-value>
+      <config-value name="createoutline">1</config-value>
+      <config-value name="createhotspots">1</config-value>
+      <config-value name="createthumbnails">0</config-value>
+      <config-value name="insertseealso">1</config-value>
+      <config-value name="linkcolor">16711680</config-value>
+      <config-value name="ignoreblank">1</config-value>
+      <config-value name="compression">1</config-value>
+      <config-value name="jpegquality">0</config-value>
+      <config-value name="openmode">1</config-value>
+      <config-value name="zoommode">0</config-value>
+      <config-value name="userprint">1</config-value>
+      <config-value name="usercopy">1</config-value>
+      <config-value name="userchange">1</config-value>
+      <config-value name="encrypt128bit">0</config-value>
+      <config-value name="title" translate="true">&lt;%TITLE%&gt;</config-value>
+      <config-value name="subject" translate="true">Программа dicom2fmm.exe - « Создание входного файла (FMM) системы планирования ». Руководство пользователя.</config-value>
+      <config-value name="author" translate="true">Валерий Онучин</config-value>
+      <config-value name="embedfonts">1</config-value>
+      <config-value name="embedfontsexclude">Arial;Courier;Courier New;Times New Roman;</config-value>
+      <config-value name="cidfontmode">0</config-value>
+      <config-value name="newfontsubsetting">1</config-value>
+      <config-value name="textasglyphs">0</config-value>
+      <config-value name="outputfile">..\EBTfilm.pdf</config-value>
+      <config-value name="outlinesnumbered">1</config-value>
+      <config-value name="insertseealsostyle">0</config-value>
+    </config-group>
+    <config-group name="rtf">
+      <config-value name="papersize">A4 210 x 297 mm</config-value>
+      <config-value name="pageorientation">Portrait</config-value>
+      <config-value name="topmargin">720</config-value>
+      <config-value name="bottommargin">720</config-value>
+      <config-value name="leftmargin">720</config-value>
+      <config-value name="rightmargin">720</config-value>
+      <config-value name="flipmargin">0</config-value>
+      <config-value name="headerfont">font-family:Arial; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; color:#000000;</config-value>
+      <config-value name="footerfont">font-family:Arial; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; color:#000000;</config-value>
+      <config-value name="pagenumfont">font-family:Arial; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; color:#000000;</config-value>
+      <config-value name="chapterfont1">font-family:'Arial Black'; font-size:20pt; font-weight:bold; font-style:normal; text-decoration:none; color:#000000;</config-value>
+      <config-value name="chapternumbering1">1.2.3</config-value>
+      <config-value name="chapterbreak1">Yes</config-value>
+      <config-value name="chapterfont2">font-family:'Arial Black'; font-size:16pt; font-weight:bold; font-style:normal; text-decoration:none; color:#000000;</config-value>
+      <config-value name="chapternumbering2">1.2.3</config-value>
+      <config-value name="chapterbreak2">No</config-value>
+      <config-value name="chapterfont3">font-family:'Arial Black'; font-size:14pt; font-weight:bold; font-style:normal; text-decoration:none; color:#000000;</config-value>
+      <config-value name="chapternumbering3">1.2.3</config-value>
+      <config-value name="chapterbreak3">No</config-value>
+      <config-value name="chapterfont4">font-family:Arial; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; color:#000000;</config-value>
+      <config-value name="chapternumbering4">None</config-value>
+      <config-value name="chapterbreak4">false</config-value>
+      <config-value name="chapterfont5">font-family:Arial; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; color:#000000;</config-value>
+      <config-value name="chapternumbering5">None</config-value>
+      <config-value name="chapterbreak5">false</config-value>
+      <config-value name="chapterfont6">font-family:Arial; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; color:#000000;</config-value>
+      <config-value name="chapternumbering6">None</config-value>
+      <config-value name="chapterbreak6">false</config-value>
+      <config-value name="imagemarker">0</config-value>
+      <config-value name="activehyperlinks">1</config-value>
+      <config-value name="outputfile">.\Manual\EBTfilm.rtf</config-value>
+    </config-group>
+    <config-group name="ebook">
+      <config-value name="template">D:\Program Files\Help Authoring\HelpandManual4\Templates\EBook_Default.skin</config-value>
+      <config-value name="icon"></config-value>
+      <config-value name="splashbmp"></config-value>
+      <config-value name="left">-1</config-value>
+      <config-value name="top">-1</config-value>
+      <config-value name="width">-1</config-value>
+      <config-value name="height">-1</config-value>
+      <config-value name="maximized">0</config-value>
+      <config-value name="language" translate="true">English.lng</config-value>
+      <config-value name="showindex">1</config-value>
+      <config-value name="showsearch">1</config-value>
+      <config-value name="compressviewer">0</config-value>
+      <config-value name="saveregistry">0</config-value>
+      <config-value name="about" translate="true"></config-value>
+      <config-value name="splashwav"></config-value>
+      <config-value name="pagewav"></config-value>
+      <config-value name="password"></config-value>
+      <config-value name="serialnumber"></config-value>
+      <config-value name="enableselect">1</config-value>
+      <config-value name="outputfile"></config-value>
+    </config-group>
+    <config-group name="user">
+      <config-group name="alexander">
+        <config-group name="project">
+          <config-value name="lastexport">4</config-value>
+        </config-group>
+      </config-group>
+      <config-group name="tim">
+        <config-group name="project">
+          <config-value name="lastexport">0</config-value>
+        </config-group>
+        <config-group name="report">
+          <config-value name="type">4</config-value>
+          <config-value name="sort">0</config-value>
+          <config-value name="include">ALL</config-value>
+        </config-group>
+      </config-group>
+      <config-group name="timg">
+        <config-group name="report">
+          <config-value name="type">4</config-value>
+          <config-value name="sort">0</config-value>
+          <config-value name="include">ALL</config-value>
+        </config-group>
+        <config-group name="project">
+          <config-value name="lastexport">0</config-value>
+        </config-group>
+      </config-group>
+      <config-group name="tim64">
+        <config-group name="project">
+          <config-value name="lastexport">0</config-value>
+        </config-group>
+        <config-group name="report">
+          <config-value name="type">0</config-value>
+          <config-value name="sort">4</config-value>
+          <config-value name="include">ALL</config-value>
+        </config-group>
+      </config-group>
+      <config-group name="timmbp64">
+        <config-group name="project">
+          <config-value name="lastexport">0</config-value>
+        </config-group>
+      </config-group>
+      <config-group name="tmg">
+        <config-group name="project">
+          <config-value name="lastexport">0</config-value>
+        </config-group>
+      </config-group>
+      <config-value name="project.lastexport">5</config-value>
+      <config-group name="plan">
+        <config-group name="project">
+          <config-value name="lastexport">3</config-value>
+        </config-group>
+      </config-group>
+      <config-value name="report.type">3</config-value>
+      <config-value name="report.sort">0</config-value>
+      <config-value name="report.include">ALL</config-value>
+    </config-group>
+    <variables>
+      <variable id="APP" type="text" translate="true">dicom2fmm</variable>
+      <variable id="AUTHOR" type="text" translate="true">Валерий Онучин</variable>
+      <variable id="DICDIR" type="text" translate="true">\Dictionaries</variable>
+      <variable id="EXINLINE" type="text" translate="true">Click to display a definition</variable>
+      <variable id="EXTOGGLE" type="text" translate="true">Click to expand/collapse</variable>
+      <variable id="EXTPROJ" type="text" translate="true">.HMXP</variable>
+      <variable id="GAPP" type="text" translate="true">Impict</variable>
+      <variable id="GAPPEXT" type="text" translate="true">.IPP</variable>
+      <variable id="GAPPFILE" type="text" translate="true">impict.exe</variable>
+      <variable id="HMTEMPLATE" type="text" translate="true">HELPMAN.hmxz</variable>
+      <variable id="IMGCOLLAPSE" type="text" translate="true">Click for smaller image</variable>
+      <variable id="IMGEXPAND" type="text" translate="true">Click to expand image</variable>
+      <variable id="IMGTOGGLE" type="text" translate="true">Click to see collapsed image</variable>
+      <variable id="PROGNAME" type="text" translate="true">HELPMAN.EXE</variable>
+      <variable id="PROGPATH" type="text" translate="true">C:\Program Files\EC Software\HelpAndManual6</variable>
+      <variable id="TEMPLATEDIR" type="text" translate="true">\Templates</variable>
+      <variable id="VNUM" type="text" translate="true">&lt;%VERSION_MAJOR%&gt;</variable>
+      <variable id="XMLLANG" type="text" translate="true">Help &amp; Manual XML Language</variable>
+      <variable id="XMLREF" type="text" translate="true">Help &amp; Manual XML Language Reference</variable>
+    </variables>
+    <helpcontext-numbers>
+      <helpcontext-number href="1d" value="11297"/>
+      <helpcontext-number href="3Dhist" value="11288"/>
+      <helpcontext-number href="AnalizeMacros" value="11281"/>
+      <helpcontext-number href="BasicInfo" value="6000"/>
+      <helpcontext-number href="Calib" value="11277"/>
+      <helpcontext-number href="CalibrCurve" value="11290"/>
+      <helpcontext-number href="cmdline" value="11284"/>
+      <helpcontext-number href="colorHist" value="11287"/>
+      <helpcontext-number href="config" value="11295"/>
+      <helpcontext-number href="DAH" value="11293"/>
+      <helpcontext-number href="develop" value="11296"/>
+      <helpcontext-number href="doubleClick" value="11285"/>
+      <helpcontext-number href="EBT" value="11282"/>
+      <helpcontext-number href="Finish" value="11272"/>
+      <helpcontext-number href="HM_Multitopics_AddTOC" value="11060"/>
+      <helpcontext-number href="HM_Multitopics_CID" value="10820"/>
+      <helpcontext-number href="HM_Multitopics_ConvertOld" value="11036"/>
+      <helpcontext-number href="HM_Multitopics_CustomDics" value="11072"/>
+      <helpcontext-number href="HM_Multitopics_DateFormat" value="11065"/>
+      <helpcontext-number href="HM_Multitopics_ePub_Info" value="11113"/>
+      <helpcontext-number href="HM_Multitopics_ePub_Settings" value="11116"/>
+      <helpcontext-number href="HM_Multitopics_ePubResources" value="11110"/>
+      <helpcontext-number href="HM_Multitopics_ExWindows_HowTo" value="11045"/>
+      <helpcontext-number href="HM_Multitopics_Format_PopupFormat" value="11167"/>
+      <helpcontext-number href="HM_Multitopics_GraphicsTags" value="11061"/>
+      <helpcontext-number href="HM_Multitopics_H1" value="11197"/>
+      <helpcontext-number href="HM_Multitopics_Headers" value="11069"/>
+      <helpcontext-number href="HM_Multitopics_HTML_Conds" value="11093"/>
+      <helpcontext-number href="HM_Multitopics_HTML_Templates_Edit" value="11142"/>
+      <helpcontext-number href="HM_Multitopics_HTML_Templates_Typ" value="11179"/>
+      <helpcontext-number href="HM_Multitopics_HTML_Vars" value="11092"/>
+      <helpcontext-number href="HM_Multitopics_ImportInvisibles" value="11090"/>
+      <helpcontext-number href="HM_Multitopics_IndexConfig" value="11100"/>
+      <helpcontext-number href="HM_Multitopics_MergedProjects" value="11099"/>
+      <helpcontext-number href="HM_Multitopics_ModstyleExample" value="11039"/>
+      <helpcontext-number href="HM_Multitopics_MultiInclude" value="11101"/>
+      <helpcontext-number href="HM_Multitopics_PDF_Levels" value="11014"/>
+      <helpcontext-number href="HM_Multitopics_PDF_Templates" value="10810"/>
+      <helpcontext-number href="HM_Multitopics_PDFEmbed" value="10860"/>
+      <helpcontext-number href="HM_Multitopics_PDFNamedLinkHTML" value="11141"/>
+      <helpcontext-number href="HM_Multitopics_PDFNamedLinkPDF" value="11140"/>
+      <helpcontext-number href="HM_Multitopics_PopSupport" value="10830"/>
+      <helpcontext-number href="HM_Multitopics_Props_CommonHTMLSets" value="10780"/>
+      <helpcontext-number href="HM_Multitopics_Props_HTMExport" value="10770"/>
+      <helpcontext-number href="HM_Multitopics_Props_JavaPops" value="10790"/>
+      <helpcontext-number href="HM_Multitopics_Props_TopicPagesProps" value="10760"/>
+      <helpcontext-number href="HM_Multitopics_Redefine_Vars" value="11046"/>
+      <helpcontext-number href="HM_Multitopics_Repos_Toptions" value="11096"/>
+      <helpcontext-number href="HM_Multitopics_Searching" value="10870"/>
+      <helpcontext-number href="HM_Multitopics_Skins" value="11073"/>
+      <helpcontext-number href="HM_Multitopics_SourceCodeTab" value="11169"/>
+      <helpcontext-number href="HM_Multitopics_StylePreview" value="11084"/>
+      <helpcontext-number href="HM_Multitopics_Styles_Tables" value="10850"/>
+      <helpcontext-number href="HM_Multitopics_Tasks_CommandLine" value="11160"/>
+      <helpcontext-number href="HM_Multitopics_Tasks_Variables" value="11159"/>
+      <helpcontext-number href="HM_Multitopics_TestAsian" value="10920"/>
+      <helpcontext-number href="HM_Multitopics_TreeFilter" value="11083"/>
+      <helpcontext-number href="HM_Multitopics_Variables_WhereUse" value="10840"/>
+      <helpcontext-number href="HM_Multitopics_WebLinks" value="11058"/>
+      <helpcontext-number href="HM_Multitopics_XMLSchema" value="10910"/>
+      <helpcontext-number href="HM_Poptest" value="10970"/>
+      <helpcontext-number href="ImageHist" value="11289"/>
+      <helpcontext-number href="InstallProgram" value="11202"/>
+      <helpcontext-number href="intens" value="11294"/>
+      <helpcontext-number href="izo" value="11286"/>
+      <helpcontext-number href="QuickStart" value="6070"/>
+      <helpcontext-number href="ROOT" value="11280"/>
+      <helpcontext-number href="ROOTstrart" value="11283"/>
+      <helpcontext-number href="Snip_Key_Information" value="11102"/>
+      <helpcontext-number href="Snip_Productivity_Tip" value="11103"/>
+      <helpcontext-number href="Steps" value="11279"/>
+      <helpcontext-number href="SystemReq" value="11129"/>
+      <helpcontext-number href="Yproject" value="11291"/>
+    </helpcontext-numbers>
+  </config>
+  <xi:include parse="xml" href="Maps/table_of_contents.xml"/>
+  <project-files>
+    <file href="Topics/*.xml" build="ALL" filetype="topic"/>
+    <file href="Topics/Invisible/*.xml" build="ALL" filetype="topic"/>
+    <file href="Topics/Invisible/Multitopics/*.xml" build="ALL" filetype="topic">
+      <file-mod href="HM_Multitopics_CID.xml"/>
+      <file-mod href="HM_Multitopics_ConvertOld.xml"/>
+      <file-mod href="HM_Multitopics_CustomDics.xml"/>
+      <file-mod href="HM_Multitopics_DateFormat.xml"/>
+      <file-mod href="HM_Multitopics_ExWindows_HowTo.xml"/>
+      <file-mod href="HM_Multitopics_GraphicsTags.xml"/>
+      <file-mod href="HM_Multitopics_Headers.xml"/>
+      <file-mod href="HM_Multitopics_HTML_Conds.xml"/>
+      <file-mod href="HM_Multitopics_HTML_Vars.xml"/>
+      <file-mod href="HM_Multitopics_ImportInvisibles.xml"/>
+      <file-mod href="HM_Multitopics_ModstyleExample.xml"/>
+      <file-mod href="HM_Multitopics_PDF_Levels.xml"/>
+      <file-mod href="HM_Multitopics_PDF_Templates.xml"/>
+      <file-mod href="HM_Multitopics_PDFEmbed.xml"/>
+      <file-mod href="HM_Multitopics_PopSupport.xml"/>
+      <file-mod href="HM_Multitopics_Props_CommonHTMLSets.xml"/>
+      <file-mod href="HM_Multitopics_Props_HTMExport.xml"/>
+      <file-mod href="HM_Multitopics_Props_JavaPops.xml"/>
+      <file-mod href="HM_Multitopics_Props_TopicPagesProps.xml"/>
+      <file-mod href="HM_Multitopics_Redefine_Vars.xml"/>
+      <file-mod href="HM_Multitopics_Repos_Toptions.xml"/>
+      <file-mod href="HM_Multitopics_Searching.xml"/>
+      <file-mod href="HM_Multitopics_Skins.xml"/>
+      <file-mod href="HM_Multitopics_StylePreview.xml"/>
+      <file-mod href="HM_Multitopics_Styles_Tables.xml"/>
+      <file-mod href="HM_Multitopics_TestAsian.xml"/>
+      <file-mod href="HM_Multitopics_TreeFilter.xml"/>
+      <file-mod href="HM_Multitopics_Variables_WhereUse.xml"/>
+      <file-mod href="HM_Multitopics_XMLSchema.xml"/>
+      <file-mod href="HM_Multitopics_WebLinks.xml"/>
+      <file-mod href="HM_Multitopics_AddTOC.xml"/>
+      <file-mod href="HM_Multitopics_MergedProjects.xml"/>
+      <file-mod href="HM_Multitopics_IndexConfig.xml"/>
+      <file-mod href="HM_Multitopics_MultiInclude.xml"/>
+      <file-mod href="HM_Multitopics_ePubResources.xml"/>
+      <file-mod href="HM_Multitopics_ePub_Info.xml"/>
+      <file-mod href="HM_Multitopics_ePub_Settings.xml"/>
+      <file-mod href="HM_Multitopics_PDFNamedLinkPDF.xml"/>
+      <file-mod href="HM_Multitopics_PDFNamedLinkHTML.xml"/>
+      <file-mod href="HM_Multitopics_HTML_Templates_Edit.xml"/>
+      <file-mod href="HM_Multitopics_Tasks_Variables.xml"/>
+      <file-mod href="HM_Multitopics_Tasks_CommandLine.xml"/>
+      <file-mod href="HM_Multitopics_Format_PopupFormat.xml"/>
+      <file-mod href="HM_Multitopics_SourceCodeTab.xml"/>
+      <file-mod href="HM_Multitopics_HTML_Templates_Typ.xml"/>
+      <file-mod href="HM_Multitopics_H1.xml"/>
+    </file>
+    <file href="Topics/Snippets/*.xml" build="ALL" filetype="topic"/>
+    <file href="Baggage/*.*" build="ALL" filetype="baggage"/>
+  </project-files>
+</helpproject>

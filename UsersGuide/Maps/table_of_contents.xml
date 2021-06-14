@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="383437698967313" build="ALL" modified="2019-06-21T17:28:12.701Z" icon="0" href="BasicInfo">
+    <caption translate="true">Введение</caption>
+  </topicref>
+  <topicref type="topic" id="436723975628546" build="ALL" modified="2019-07-26T10:07:12.894Z" icon="0" href="EBT">
+    <caption translate="true">Обработка плёнок</caption>
+  </topicref>
+  <topicref type="topic" id="396068321440992" build="ALL" modified="2019-07-25T13:35:08.609Z" icon="0" href="InstallProg">
+    <caption translate="true">Установка и запуск программы</caption>
+    <topicref type="topic" id="400705583493411" build="ALL" modified="2019-04-10T13:39:45.562Z" icon="0" href="SystemReq">
+      <caption translate="true">Системные требования</caption>
+    </topicref>
+    <topicref type="topic" id="435585911564608" build="ALL" modified="2019-07-25T13:36:00.390Z" icon="0" href="InstallProgram">
+      <caption translate="true">Комплект файлов для установки программы</caption>
+    </topicref>
+    <topicref type="topic" id="43669885412635" build="ALL" modified="2019-07-29T12:12:32.640Z" icon="0" href="Steps">
+      <caption translate="true">Установка программы</caption>
+      <topicref type="topic" id="436715047095428" build="ALL" modified="2019-07-25T13:37:47.015Z" icon="0" href="ROOT">
+        <caption translate="true">Установка ROOT</caption>
+      </topicref>
+      <topicref type="topic" id="436717682419598" build="ALL" modified="2019-07-29T12:18:04.015Z" icon="0" href="AnalizeMacros">
+        <caption translate="true">Ассоциация TIFF файлов</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="383437750974525" build="ALL" modified="2019-06-20T20:52:54.967Z" icon="0" href="QuickStart">
+      <caption translate="true">Запуск программы</caption>
+      <topicref type="topic" id="436724105778349" build="ALL" modified="2019-07-26T12:29:37.597Z" icon="0" href="ROOTstrart">
+        <caption translate="true">Запуск из под ROOTа</caption>
+      </topicref>
+      <topicref type="topic" id="436723740233863" build="ALL" modified="2019-07-26T13:23:22.019Z" icon="0" href="cmdline">
+        <caption translate="true">Запуск из командной строки</caption>
+      </topicref>
+      <topicref type="topic" id="436726902313311" build="ALL" modified="2019-07-26T15:44:20.519Z" icon="0" href="doubleClick">
+        <caption translate="true">Запуск по двойному щелчку мыши</caption>
+      </topicref>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="436417441214643" build="ALL" modified="2019-07-27T12:53:37.701Z" icon="2" href="Finish">
+    <caption translate="true">Анализ данных</caption>
+    <topicref type="topic" id="436754829013821" build="ALL" modified="2019-07-29T16:37:59.885Z" icon="0" href="1d">
+      <caption translate="true">Гистограмма сигналов</caption>
+    </topicref>
+    <topicref type="topic" id="436755683935123" build="ALL" modified="2019-07-29T14:58:43.916Z" icon="0" href="iso">
+      <caption translate="true">Изодозная гистограмма</caption>
+    </topicref>
+    <topicref type="topic" id="436726603307271" build="ALL" modified="2019-07-29T18:23:27.010Z" icon="0" href="colorHist">
+      <caption translate="true">Цветовая гистограмма. Гистограммы X,Y срезов</caption>
+    </topicref>
+    <topicref type="topic" id="43673541221770" build="ALL" modified="2019-07-26T16:06:34.394Z" icon="0" href="3Dhist">
+      <caption translate="true">3D гистограмма</caption>
+    </topicref>
+    <topicref type="topic" id="436725840446905" build="ALL" modified="2019-07-29T16:36:09.666Z" icon="0" href="ImageHist">
+      <caption translate="true">Image гистограмма</caption>
+    </topicref>
+    <topicref type="topic" id="436727616427718" build="ALL" modified="2019-07-26T16:10:56.894Z" icon="0" href="CalibrCurve">
+      <caption translate="true">Калибровочная кривая</caption>
+    </topicref>
+    <topicref type="topic" id="436728221081424" build="ALL" modified="2019-07-28T09:03:17.109Z" icon="0" href="Yproject">
+      <caption translate="true">Y проекция. Пик Брэгга</caption>
+    </topicref>
+    <topicref type="topic" id="436728689709079" build="ALL" modified="2019-07-26T16:18:27.769Z" icon="0" href="DAH">
+      <caption translate="true">Гистограмма Доза-Площадь</caption>
+    </topicref>
+    <topicref type="topic" id="4366288504852" build="ALL" modified="2019-07-27T12:53:00.060Z" icon="0" href="intens">
+      <caption translate="true">Измерение интенсивности протонного пучка</caption>
+    </topicref>
+    <topicref type="topic" id="436736024226466" build="ALL" modified="2019-07-27T12:54:28.232Z" icon="0" href="config">
+      <caption translate="true">Конфигурационный файл</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="436716565940304" build="ALL" modified="2019-07-27T17:36:57.029Z" icon="1" href="Calib">
+    <caption translate="true">Процедура калибровки плёнок EBT</caption>
+  </topicref>
+  <topicref type="topic" id="436755164876504" build="ALL" modified="2019-07-29T07:59:02.375Z" icon="1" href="develop">
+    <caption translate="true">Для разработчиков</caption>
+  </topicref>
+</map>

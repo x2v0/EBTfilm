@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Y проекция. Пик Брэгга</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Y проекция. Пик Брэгга</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Проинтегрировав сигналы вдоль поперечной оси X, можно &quot;убрать&quot; эффект размытия протонного пучка из-за многократного рассеяния, тем самым получить профиль дозного &quot;распределения от единичного протона&quot; - пик Брэгга.</text><br/><br/><image src="bragg1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">FAQ for Upgraders</title>
+  <keywords>
+    <keyword translate="true">FAQ for upgraders</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="text-align:left;"><text styleclass="Heading1" translate="true">Установка и запуск программы</text></para>
+    </header>
+    <para styleclass="Body Text" style="text-align:center;"><conditional-text type="IF" value="HTML"/></para>
+    <para styleclass="Body Text" style="text-align:center;"><table id="overview-table" rowcount="1" colcount="1" style="width:60%; cell-padding:20px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:400px;">
+          <para styleclass="Heading2_atoc_" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:10px; margin-left:0px; line-height:1.0; white-space:normal; page-break-inside:auto; page-break-after:avoid;"><image id="callout-icon" src="tipbulb.gif" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Heading2_atoc_" translate="true">Установка программы</text></para>
+          <list id="1" type="ul" listtype="bullet" formatstring="&#216;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="HowTo Bulleted" style="font-family:Wingdings; font-size:12pt; color:#000000;">
+            <li styleclass="HowTo Bulleted"><link displaytype="text" defaultstyle="true" type="topiclink" href="SystemReq" styleclass="HowTo Bulleted" translate="true">Системные требования</link></li>
+            <li styleclass="HowTo Bulleted"><link displaytype="text" defaultstyle="true" type="topiclink" href="InstallProgram" styleclass="HowTo Bulleted" translate="true">Порядок установки</link></li>
+            <li styleclass="HowTo Bulleted"><link displaytype="text" defaultstyle="true" type="topiclink" href="QuickStart" styleclass="HowTo Bulleted" translate="true">Запуск программы</link></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Body Text" style="text-align:center;"><conditional-text type="END"/></para>
+    <para styleclass="Body Text" style="text-align:center;"></para>
+  </body>
+</topic>

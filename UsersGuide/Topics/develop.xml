@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="plan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Для разработчиков</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Для разработчиков</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Среда разработки необходимая для создания скомпилированных </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ROOT</text><text styleclass="Normal" translate="true"> макросов.</text></para>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:12pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Cygwin</text><text styleclass="Normal" translate="true"> &#160;— UNIX-подобная среда и интерфейс командной строки для Microsoft Windows. </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Cygwin</text><text styleclass="Normal" translate="true"> обеспечивает тесную интеграцию приложений, данных и ресурсов Windows с приложениями, данными и ресурсами UNIX-подобной среды. Из среды </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Cygwin</text><text styleclass="Normal" translate="true"> можно запускать обычные приложения Windows, также можно использовать инструменты </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Cygwin</text><text styleclass="Normal" translate="true"> из Windows. </text><br/><br/><text styleclass="Normal" style="font-weight:bold;" translate="true">Cygwin </text><text styleclass="Normal" translate="true">можно загрузить из сайта </text><link displaytype="text" defaultstyle="true" type="weblink" href=" https://cygwin.com/" target="_blank" styleclass="Normal" translate="true"> https://cygwin.com/</link></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:12pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Microsoft Visual Studio 2010</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:12pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">ROOT</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> скомпилированный под </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Microsoft Visual Studio 2010. </text><br/><text styleclass="Normal" style="font-weight:normal;" translate="true">Установочный файл -</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> &#160;root_v5.34.32.win32.vc10.exe</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:12pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">bash </text><text styleclass="Normal" style="font-weight:normal;" translate="true">скрипты, которые устанавливают необходимые переменные окружения для среды </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Cygwin</text><text styleclass="Normal" style="font-weight:normal;" translate="true">: </text><br/><text styleclass="Normal" style="font-weight:bold;" translate="true">bash_profile, vsvars10.sh</text></li>
+    </list>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true"> &#160; &#160;</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Эти файлы лежат в &#160;директории </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">%ROOTSYS%\macros.</text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">&#32;</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true"> &#160; &#160; Их необходимо скопировать в пользовательскую</text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true"> $HOME </text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">директорию.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true"> &#160; &#160; На пример, </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">D:\Cygwin\home\onuchin</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true"> &#160; &#160; </text></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-size:14pt; font-weight:normal; color:#000000;" translate="true">Пример компиляции макроса </text><text styleclass="Normal" style="font-size:14pt; font-weight:bold; color:#000000;" translate="true">doseHist.C</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">Запускаем </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">cygwin</text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true"> терминал и переходим в директорию, где лежит этот файл</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">&#32;</text><image src="cygwin1.png" scale="100.00%" styleclass="Image Caption"></image><br/><br/></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">Запускаем </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">ROOT</text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true"> и из под командной строки выполняем команду </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">.L doseHist.C++</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="cygwin2.png" scale="100.00%" styleclass="Image Caption"></image><br/><br/><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true">В результате создаётся </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">DLL</text><text styleclass="Normal" style="font-weight:normal; color:#000000;" translate="true"> файл («динамически подключаемая библиотека») </text><text styleclass="Normal" style="font-weight:bold; color:#000000;" translate="true">doseHist_C.dll</text><br/></para>
+  </body>
+</topic>

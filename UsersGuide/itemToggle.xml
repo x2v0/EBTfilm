@@ -1,0 +1,12 @@
+<topic template="" lasteditedby="Tim64">
+  <body>
+    <para styleclass="Heading Toggle_atocs_"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="Heading Toggle_atocs_"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" src-print="none" styleclass="Heading Toggle_atocs_"><caption translate="true"><![CDATA[toggle]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Heading Toggle_atocs_"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">toggle</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

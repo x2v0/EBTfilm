@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Image гистограмма</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Image гистограмма</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Эта гистограмма аналогична </text><link displaytype="text" defaultstyle="true" type="topiclink" href="colorHist" styleclass="Normal" translate="true">2D цветовой гистограмме  </link><text styleclass="Normal" translate="true">, &#160;но позволяет иметь нелинейную палитру и выбирать диапазон сигналов.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="2" colcount="2">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><image src="im1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><image src="1d1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><image src="im2.png" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><image src="im3.png" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Примечание.</text><br/></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">Данный интерфейс был разработан для</text><text styleclass="Normal" style="font-weight:bold;" translate="true"> ROOT </text><text styleclass="Normal" style="font-weight:normal;" translate="true">автором программы.</text><br/><text styleclass="Normal" style="font-weight:normal;" translate="true">В настоящее время он активно используется для анализа астрофизических данных.</text></para>
+  </body>
+</topic>

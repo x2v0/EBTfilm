@@ -1,0 +1,39 @@
+   body { 
+   padding: 0 2px 0 4px;
+   background-color: #fafafa;
+   }
+   a:link { color: #717499; text-decoration: none;}
+   .idxsection  { font-family: Arial,Helvetica; font-weight: bold; font-size: 12pt; text-decoration: none;
+				  margin-top: 4px; margin-bottom: 5px; }
+   .idxkeyword  { font-family: Arial,Helvetica; font-weight: bold; font-size: 10pt; text-decoration: none; margin-bottom: 2px; }
+    p.idxkeyword {border-bottom: 1px solid #bcbcbc;}
+   .idxkeyword a:link {font-weight: normal; color: #717499; border-bottom: 0;}
+   .idxkeyword a:visited {font-weight: normal; color: #717499;}
+   .idxkeyword2 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; text-decoration: none; margin-bottom: 2px;}
+    p.idxkeyword2 { border-bottom: 1px solid #bcbcbc;}
+   .idxkeyword2 a:link {font-weight: normal; color: #717499; border-bottom: 0;}
+   .idxkeyword2 a:visited {font-weight: normal; color: #717499;}
+   .idxlink     { color: #717499; font-family: Arial,Helvetica; font-weight: normal; font-size: 8pt; line-height: 20%; text-decoration: none; }
+   .idxlink
+	a#current span.idxkeyword2,  a#current span.idxkeyword, a#current span.idxlink, a#current span {background-color: #999; color: white;}
+   table.idxtable {background: #f9f9f9; border-width: 1px; border-color: #666; border-style: solid; border-collapse: collapse; margin-right: 2px;}
+   table.idxtable td   { background: #fff; white-space: wrap; padding:1px 1px 2px 1px; line-height: 80%; }
+   div#pageContent {
+   border-right: 1px solid #000;
+   }
+   div#pageContent, div#pageScroller {
+   padding-right: 0;
+   margin-right: 0;
+   }
+   div#loader {
+   position: absolute;
+   top: 0; bottom: 0; left: 0; right: 0;
+   background-color: #fff;
+   z-index: 1001;
+   }
+   div#loader p {
+   font-size: large;
+   font-weight: bold;
+   font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+   text-align: center;
+   }

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Customize JavaPops</title>
+  <body>
+    <para style="margin-bottom:10px; margin-left:60px;"><image src="DLG_JSPops_Config.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="6" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:130px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Click/mouseover:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Displays the popup on user click or mouseover (i.e. as soon as the user moves the mouse pointer over the link). Be careful with using the mouseover option as many users find this intrusive and it may also trigger popup blockers in some browsers.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:130px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Border width:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Enter 0 for no border, any value above 0 (in pixels) to draw a border around the popup box.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:130px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Border padding:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The distance between the popup content and the border or edge of the popup (if there is no border) in pixels.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:130px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Background:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The background color of the popup box.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:130px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Border color:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The color of the border, if there is one.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:130px;">
+          <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">Rounded borders and drop shadow:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">These effects are only supported by modern browsers: Internet Explorer 9, Firefox 3.6, Opera 10.6, Google Chrome 10 or later.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic class="popup" template="Popup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Auto-Parsed Graphics Tags</title>
+  <body>
+    <para styleclass="Body Text HowTo"><table rowcount="4" colcount="2" style="cell-padding:4px; cell-spacing:0px; border-width:0px; cell-border-width:0px;">
+      <tr style="vertical-align:top">
+        <td style="width:156px; background-color:#e0e0e0;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" style="font-size:12pt; font-weight:bold;" translate="true">Automatically Parsed Tags</text></para>
+        </td>
+        <td style="background-color:#e0e0e0;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-size:12pt; font-weight:bold;" translate="true">Supported Attributes</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:156px;">
+          <para styleclass="Body Text" style="text-align:center;"><text styleclass="T_Menu" translate="true">&lt;body&gt; </text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Images referenced with the </text><text styleclass="T_Code" translate="true">background=&quot;&quot;</text><text styleclass="Body Text" translate="true"> attribute.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold; font-style:italic;" translate="true">OR</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Images referenced within the </text><text styleclass="T_Code" translate="true">style=&quot;&quot;</text><text styleclass="Body Text" translate="true"> attribute using the syntax </text></para>
+          <para styleclass="Body Text"><text styleclass="T_Code" style="font-weight:bold;" translate="true">style=&quot;background: #FFFFFF url(image.jpg)&quot; </text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">(this can be combined with other style elements, of course)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:156px;">
+          <para styleclass="Body Text" style="text-align:center;"><text styleclass="T_Menu" translate="true">&lt;img&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Images referenced with the </text><text styleclass="T_Code" translate="true">src=&quot;&quot;</text><text styleclass="Body Text" translate="true"> attribute</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:156px;">
+          <para styleclass="Body Text" style="text-align:center;"><text styleclass="T_Menu" translate="true">&lt;table&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Images referenced with the </text><text styleclass="T_Code" translate="true">background=&quot;&quot;</text><text styleclass="Body Text" translate="true"> attribute</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold; font-style:italic;" translate="true">OR</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Images referenced within the </text><text styleclass="T_Code" translate="true">style=&quot;&quot;</text><text styleclass="Body Text" translate="true"> attribute using the syntax </text></para>
+          <para styleclass="Body Text"><text styleclass="T_Code" style="font-weight:bold;" translate="true">style=&quot;background: #FFFFFF url(image.jpg)&quot; </text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">(this can be combined with other style elements, of course)</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

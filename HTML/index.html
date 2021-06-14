@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>&nbsp;</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+  <meta name="robots" content="noindex,follow" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="helpman_settings.js"></script>
+  <script type="text/javascript" src="helpman_navigation.js"></script>
+
+  <link type="text/css" href="styles.css" rel="stylesheet" />
+
+  <style type="text/css">
+    html {
+      overflow: hidden;
+    }
+    body { 
+      margin:0;
+      padding:0;
+      height:100%;
+      overflow:hidden; 
+      background: #F9F9F9 url('background.png') top center repeat-x;
+    }
+
+    #hmheadbox {
+      position: absolute;
+      left: 60px;
+      right: 0px;
+      top: 0px;
+      height: 120px;
+      background:url(background-logo.png) top left no-repeat;  
+      }
+    #navbar {
+      font-size: 120%;
+      margin:115px 0 0 5px;
+      }
+    #navbar img {
+      border:none;      
+      margin-right:10px;
+      }             
+    #hmnavbox {
+      position: absolute;
+      left: 10px;
+      width: 245px;
+      min-width: 50px;
+      top: 156px;
+      bottom: 10px;      
+      }
+
+    #hmcontentbox {
+      position: absolute;
+      top: 130px;
+      right: 10px;
+      bottom: 10px;
+      left: 260px;      
+      background: #FFF;
+      box-shadow: 0px 4px 12px #777;
+      }
+
+    iframe {
+      position: absolute;left:0;top:0;width:100%;height:100%;border:none;
+      }
+  
+/* Start of EC Software main navigation menus */
+
+#primary_nav {       
+    position:absolute;
+    display: block;
+    font-size: 14px;
+    top:90px;
+    right:0;
+}
+			
+#nav a:link    { color: #FFFFFF; text-decoration: none }
+#nav a:visited { color: #FFFFFF; text-decoration: none }
+#nav a:hover   { color: #FFFFFF; text-decoration: none } 
+						 
+#nav, #nav ul {   
+	z-index: 999;
+	line-height: 1.4;
+	list-style: none;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav a {
+	display: block;
+	width: auto;   /* main menu entry -> automatic width */
+	text-decoration: none;
+	margin: 5px 10px 5px 10px;  /* y, x - for all menu entries */
+}
+
+#nav li {
+	float: left;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+}
+
+/* dropdown menu box */
+#nav li ul {  
+	position: absolute;
+	left: -9990px;
+	height: auto;
+	width: 200px;  /* width of dropdown menu */
+	font-weight: normal;
+	line-height: 1.2;
+	background: url('menu_background.png');  /* background of dropdown menu */
+	border: none; 
+	border-top: none;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+	box-shadow: 1px 1px 8px #888;
+	padding: 8px 0 8px 0;
+	margin: 0;
+}
+
+#nav li li {
+	width: 200px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+}
+
+/* dropdown entry */
+#nav li ul a {  
+   text-align: left;
+	width: 13em;
+	background: transparent;
+}
+
+#nav li ul a.subnav {
+	width: 13em;
+}
+
+#nav li ul ul {
+	width: 200px;
+	margin: -2em 0 0 13.5em;  /* position of sub-dropdowns */
+}
+
+#nav hr {	
+		height: 1px; 
+		border: none;
+		border-bottom: 1px solid #6b97b9; 
+		margin: 2px 8px 2px 10px; 
+		padding: 0;
+}		
+
+#nav a.selected { 
+	border-bottom: 3px #FF8200 solid; /* orange */
+}
+
+#nav li.subentry { 
+	text-indent: 10px;
+	line-height: 1.0;
+	padding: 0;
+}
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+	left: -999em;
+}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {
+	left: auto;
+}
+
+#nav li:hover, #nav li.sfhover {
+	background: url('menu_background.png') top center no-repeat;  /* background color of hovered main menu entry */
+}
+
+#nav li li:hover, #nav li li.sfhover {
+	background: #6b97b9; /* bg col of hovered dropdown menu entry */
+
+}
+
+#nav li li.separator:hover, #nav li li.separator {
+	background: transparent;
+}
+
+#nav li li.hr:hover, #nav li li.hr {
+	background: transparent;
+}
+
+#nav a.selected { 
+	border-bottom: 3px #FF8200 solid; /* orange */
+}
+
+/* End of EC Software main navigation menus */      
+      
+  </style>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if (!hmSupportsAbspos()) {
+      	$(window).bind("resize", function() {
+      	  hmNoAbsposResize($("#hmheadbox"), true, false);
+      	  hmNoAbsposResize($("#hmnavbox"), false, true);
+      	  hmNoAbsposResize($("#hmcontentbox"), true, true);
+	    });
+	    $(window).trigger("resize");
+	  }
+      hmCreateVSplitter($("#hmnavbox"),$("#hmcontentbox"));
+    });
+  </script>
+
+</head>
+<body>
+<div id="hmheadbox">
+  <img src="background-slogan.png" style="float:right;margin:3px 10px 0 0"/>
+  <p id="navbar"><a class="selected" href="ebtfilm_content.htm" title="Table of Contents" target="hmnavigation"><img src="hm_btn_toc.png" alt="Table of Contents"
+      onmouseover="this.src='hm_btn_toc_orange.png'" 
+      onmouseout="this.src='hm_btn_toc.png'"/></a>
+<a href="ebtfilm_kwindex.htm" title="Keyword Index" target="hmnavigation"><img src="hm_btn_index.png" alt="Keyword Index"
+      onmouseover="this.src='hm_btn_index_orange.png'" 
+      onmouseout="this.src='hm_btn_index.png'"/></a>
+<a href="ebtfilm_ftsearch.htm" title="Search" target="hmnavigation"><img src="hm_btn_search.png" alt="Search"
+      onmouseover="this.src='hm_btn_search_orange.png'" 
+      onmouseout="this.src='hm_btn_search.png'"/></a></p>
+
+  <!-- Start of EC Software Menu -->  	
+  <div id="primary_nav">
+
+  </div>
+  <!-- End of EC Software Menu -->  	
+
+</div>
+<div id="hmnavbox">
+  <iframe name="hmnavigation" id="hmnavigation" src="ebtfilm_content.htm" seamless="seamless" title="Navigation Pane" frameborder="0"></iframe>
+</div>
+
+<div id="hmcontentbox" >
+  <script type="text/javascript">
+    var defaulttopic="basicinfo.htm";
+    if (location.href.lastIndexOf("?") > 0) defaulttopic=location.href.substring(location.href.lastIndexOf("?")+1,location.href.length).replace(/:/g,"");
+    document.write('<iframe name="hmcontent" id="hmcontent" src="'+defaulttopic+'" seamless="seamless" title="Content Page" frameborder="0"></iframe>');
+  </script>
+  <noscript>
+    <iframe name="hmcontent" id="hmcontent" src="basicinfo.htm" seamless="seamless" title="Content Page" frameborder="0"></iframe>
+  </noscript>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">WebHelp Links</title>
+  <body>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">You can create context-sensitive calls to </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Formats_HTML" styleclass="Body Text" translate="true">WebHelp</link><text styleclass="Body Text" translate="true"> (web HTML) from your application or web pages with normal URLs using the syntax explained below. These calls can be made locally, across networks or across the Internet.</text></para>
+    <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Field-level popups are not supported in WebHelp, they can only be implemented with HTML Help (CHM). The </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Topics_JSPops" styleclass="Body Text" translate="true">JavaScript popups</link><text styleclass="Body Text" translate="true"> supported in WebHelp can only be used within your help, you cannot make calls to them from your application or web pages. </text></para>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">HM2Go mini server for local WebHelp</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text" translate="true">If you want your WebHelp to be opened locally without a server (for example WebHelp on CDs and DVDs), Help &amp; Manual has a special mini server that you can distribute with your help for better performance. See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_ConfigOutput_HM2Go" styleclass="Body Text" translate="true">HM2Go - mini server for local WebHelp</link><text styleclass="Body Text" translate="true"> for details. </text></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[How to make calls to Webhelp topics]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Calls to WebHelp must be normal URLs, made in the same way as any other URL link that opens a browser with a specific web location or local HTML file, using exactly the same syntax: </text></para>
+          <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Calling syntax:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Code" translate="true">index.html?topicname.htm#anchorname</text></para>
+          <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Examples:</text></para>
+          <para styleclass="Body Text HowTo"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">This example uses the standard file names and extensions and accesses an anchor in the referenced topic:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Code" translate="true">index.html?introduction.htm#gettingstarted</text></para>
+          <para styleclass="Body Text HowTo"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">The following example shows a call to a project that was published with both a non-standard index file name and a non-standard extension for the topic files (see below). There is no reference to an anchor in this example.</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Code" translate="true">help.html?new_features.html</text></para>
+          <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Elements of the calls: </text></para>
+          <para styleclass="Body Text HowTo"><table rowcount="3" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+            <tr style="vertical-align:top">
+              <td style="width:130px;">
+                <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">index.html</text></para>
+              </td>
+              <td>
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This is the name of the index file of your WebHelp (this is the default, it can be changed in the </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Ribbon_File_Publish" styleclass="Body Text" translate="true">Publish</link><text styleclass="Body Text" translate="true"> dialog when you publish). If you use this on its own it will simply display the help system with the standard home topic.</text></para>
+              </td>
+            </tr>
+            <tr style="vertical-align:top">
+              <td style="width:130px;">
+                <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">?topicname.htm</text></para>
+              </td>
+              <td>
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This is the name of the topic you want to display. This is created by combining the </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_TOC_AssignIDs" styleclass="Body Text" translate="true">topic ID</link><text styleclass="Body Text" translate="true"> with the extension </text><text styleclass="T_Entry" translate="true">.htm</text><text styleclass="Body Text" translate="true">..</text></para>
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This is the default topic extension, you can change it in </text><text styleclass="T_Menu" translate="true">Project Configuration &gt;  Publishing Options &gt; WebHelp &gt; </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_ProjectProps_HTMLEx_HTMLEx" styleclass="T_Menu" translate="true">HTML Export Options</link><text styleclass="Body Text" translate="true">. (These settings are shared with the other HTML-based output formats and can also be accessed in the HTML Help and Visual Studio Help sections.)</text></para>
+              </td>
+            </tr>
+            <tr style="vertical-align:top">
+              <td style="width:130px;">
+                <para styleclass="Body Text"><text styleclass="T_Menu" translate="true">#anchorname</text></para>
+              </td>
+              <td>
+                <para styleclass="Normal"><text styleclass="Normal" translate="true">Optional. This is the name of an </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Links_Anchors" styleclass="Normal" translate="true">anchor</link><text styleclass="Normal" translate="true"> in the topic that you want to jump to. </text></para>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Calling Webhelp topics without the TOC]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Normally, a link to a topic file will automatically display the entire help with the TOC even if you don&apos;t include the </text><text styleclass="T_Code" translate="true">index.html</text><text styleclass="Body Text HowTo" translate="true"> part of the URL. This is achieved with a redirect script in every topic page. However, It is also possible to call just the topic without the TOC if you want. You do this by adding a simple switch to your URL.</text></para>
+          <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Calling syntax for topic only:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Code" translate="true">topicname.htm?toc=0#anchorname </text><text styleclass="Body Text HowTo" translate="true">(with an anchor)</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Code" translate="true">topicname.htm?toc=0 </text><text styleclass="Body Text HowTo" translate="true">(without an anchor)</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Avoid direct calls to the topic file]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Normal"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Theoretically you don&apos;t actually need to include the </text><text styleclass="T_Entry" translate="true">index.html</text><text styleclass="Body Text" translate="true"> file in the URL. If you make a direct call with the format </text><text styleclass="T_Entry" translate="true">topicname.htm</text><text styleclass="Body Text" translate="true"> or </text><text styleclass="T_Entry" translate="true">topicname.htm#anchorname</text><text styleclass="Body Text" translate="true"> this will automatically display the entire help system with the Table of Contents. </text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">This is not a good idea, however: Under some circumstances it can confuse the browser history, making it impossible for users to navigate with the Back and Next buttons. </text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">It is thus always advisable to use the full call including the index file, using the standard syntax:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Code" translate="true">index.html?introduction.htm#gettingstarted</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="SeeAlso"><text styleclass="SeeAlso" translate="true">See also:</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Topics_Popups" styleclass="Normal" translate="true">Creating popup topics</link></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_ContextPop" styleclass="Normal" translate="true">Context-Sensitive Help &amp; Popups</link></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_TOC_OrgInvisible" styleclass="Normal" translate="true">Topic files without TOC entries</link></para>
+  </body>
+</topic>

@@ -1,0 +1,186 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+   <title>Процедура калибровки плёнок EBT</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta name="description" content="?????????? ????????????? ?? ?????? ?????? ?????? ?????????? ?????????? ?? ???? ??????? ? ?????????? ????? ? ?????? ????? ?????????." />
+   <meta http-equiv="X-UA-Compatible" content="IE=8" />
+   <link type="text/css" href="styles.css" rel="stylesheet" />
+   <link type="text/css" href="custom.css" rel="stylesheet">
+
+   <style TYPE="text/css" media="screen"> 
+      html, body { margin:0; 
+             padding:0; 
+             overflow: hidden;
+             background: #FFFFFF; 
+       } 
+
+      div#printheader { display: none; }
+      #idheader { width:100%; 
+                  height:auto; 
+                  padding: 0; 
+                  margin: 0; 
+       } 
+      #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+      #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+      #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+      #callout-table a {text-decoration: none; color: blue;}
+      #callout-table a:visited {text-decoration: none; color: blue;}
+      #overview-table a {text-decoration: none; color: black;}
+      #overview-table a:visited {text-decoration: none; color: black;}
+      #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}       
+      p.help-url { margin: 20px 0 5px 0; text-align: center; font-size: 80%; text-decoration: none }      
+      #switchtoggles { text-align: right; padding: 0 2px 0 0; font-size: 90%; } 
+  </style>
+   <noscript>
+   <style type="text/css">
+   html, body { overflow: auto; }
+   </style> 
+   </noscript>
+   <style type="text/css" media="print">
+      span.f_Heading1 { color: black; }
+      #idheader, #printheader img { display:none; }
+      #printheader { display: block; margin-top: 20px; }
+      #idcontent { margin-top: 10px; }
+   </style>   
+
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+   <script type="text/javascript" src="nsh.js"></script>
+
+   <script type="text/javascript">
+     HMSyncTOC("index.html", "calib.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+<body>
+<div id="breadcrumbs" style="display:none"></div>
+
+<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1">Процедура калибровки плёнок EBT</span></h1>
+</div>
+<div id="idheader">
+<div id="idheaderbg">
+<table style="width:100%;border:none;margin:0px;background:url(topic_header_background.jpg)" cellspacing="0" cellpadding="0"> 
+  <tr valign="bottom">
+    <td align="left" valign="bottom" class="topichead">
+   <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+   &raquo;No topics above this level&laquo;
+   </p>
+   <h1 class="p_Heading1"><span class="f_Heading1">Процедура калибровки плёнок EBT</span></h1>
+
+    </td>
+    <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+    
+     <a href="config.htm"
+        onmouseover="document.images.prev.src='hm_btn_navigate_prev_orange.png'" 
+        onmouseout="document.images.prev.src='hm_btn_navigate_prev.png'"
+        ><img name="prev" src="hm_btn_navigate_prev.png" border=0 alt="Previous page"
+        ></a><a href="basicinfo.htm"
+        onmouseover="document.images.main.src='hm_btn_navigate_top_orange.png'" 
+        onmouseout="document.images.main.src='hm_btn_navigate_top.png'"><img name=main src="hm_btn_navigate_top.png" border=0 alt="Return to chapter overview"
+        ></a><a href="develop.htm"
+        onmouseover="document.images.next.src='hm_btn_navigate_next_orange.png'" 
+        onmouseout="document.images.next.src='hm_btn_navigate_next.png'"><img name=next src="hm_btn_navigate_next.png" border=0 alt="Next page"
+        ></a>
+    </td>
+  </tr>  
+</table>
+<!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+  
+</div>
+</div>  
+
+<div id="idcontent"><div id="innerdiv">
+<!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser --> 
+<!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+
+<!--ZOOMRESTART-->
+<p>Калибровка производилась на основе набора плёнок равномерно облученных по всей площади с постоянной дозой в каждой точке облучения.</p>
+<p>Обработав этот набор плёнок была получена зависимость величины дозы от величины красной компоненты в плёнке.<br />
+&nbsp;<br />
+Ниже приведена последовательность действий для получения калибровочного файла.</p>
+<p>&nbsp;<br />
+<span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">Из под папки, содержащей калибровочные файл</span>ы,<span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;"> запускаем</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;"> root.</span></p>
+<p><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">Далее, </span><span class="f_ImageCaption" style="font-size: 16px; font-style: normal;">и</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">з под командной строки </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">ROOT</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">a запускаем макрос</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;"> </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">calibrate.C</span></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;"><img src="clip0001.png" width="668" height="331" alt="clip0001" style="border:none" /></p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;"><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;"> В результате обработки калибровочных файлов получаем кривую, требующую дополнительной обработки.</span></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;"><img src="clip0002.png" width="696" height="472" alt="clip0002" style="border:none" /></p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">Для начала убираем артифакты. </p>
+<p style="margin: 0px 0px 0px 24px;">Для этого наводим курсор на &quot;плохую&quot; точку и нажимаем правую клавишу мыши и убираем эту точку.</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;"><img src="remove.png" width="707" height="531" alt="remove" style="border:none" /></p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;"><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">Далее производим фитирование кривой</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">. </span></p>
+<p style="margin: 0px 0px 0px 24px;">Для этого наводим курсор на кривую и нажимаем правую клавишу мыши.<br />
+<span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">В контекстном меню выбираем </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">FitPanel</span></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;"><img src="fitpanel.png" width="1080" height="660" alt="FitPanel" style="border:none" /></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;"><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;"> </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">В качестве</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;"> Fit Function </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">выбираем</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;"> pol3</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;"> (полином третей степени).</span></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;"><img src="pol3.png" width="1078" height="656" alt="pol3" style="border:none" /></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;"><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">В результате фитирования получаем искомые четыре коэффициента полинома третей степени (</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">p0, p1, p2, p3</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">).</span></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;"><img src="result.png" width="708" height="527" alt="result" style="border:none" /></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;"><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">На основе этих данных создаём калибровочный файл вызывая из-под коммандой строки </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">ROOT</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">а</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;"> </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">функцию </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">CreateCalibrFile()</span></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;"><img src="createcalibrfile.png" width="808" height="456" alt="CreateCalibrFile" style="border:none" /></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;"><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">В результате выполнения этой функции получается файл</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;"> </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">PortraitRed.h</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">,</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;"> который представляет из себя </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">include file</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;"> с массивом калибровочных данных.</span></p>
+<p style="margin: 0px 0px 0px 24px;"><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">С помощью директивы </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">#include &quot;PortraitRed.h&quot; </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">он может вставляться в любую программу написанную на языке C/C++.</span></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;"><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">Он выглядит следующим образом образом:</span></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="text-align: center; margin: 0px 0px 0px 24px;"><img src="postraired.png" width="808" height="672" alt="PostraiRed" style="border:none" /></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">Выходные файлы  <span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">PortraitRed.h, PortraitRedCalibr.C</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;"> автоматически копируются в директорию </span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal; font-weight: bold;">%ROOTSYS%/macros</span><span class="f_ImageCaption" style="font-size: 16px; font-family: Arial; font-style: normal;">, где располагаются макросы для обработки дозных полей.</span></p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;<br />
+&nbsp;<br />
+&nbsp;</p>
+
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript">
+
+var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+if( document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh" )
+{
+ if (document.all) setTimeout(function() {nsrInit();},20); 
+    else nsrInit();
+ } 
+
+
+</script>
+</body>
+</html>

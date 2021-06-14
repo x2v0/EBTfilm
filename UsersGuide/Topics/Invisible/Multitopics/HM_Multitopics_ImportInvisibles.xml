@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Import Invisibles</title>
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Invisible topics from old Help & Manual projects]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">If your old HMX or HM3 project contains &quot;invisible topics&quot; (topics without TOC entries) they will be moved to a sub-folder called </text><text styleclass="Body Text HowTo" style="font-style:italic;" translate="true">Topics\Invisible</text><text styleclass="Body Text HowTo" translate="true"> in the Topic Files section in the Project Explorer</text><text styleclass="Body Text HowTo" style="font-style:italic;" translate="true">.</text><text styleclass="Body Text HowTo" translate="true"> </text></para>
+          <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Automatic Converter:</text></para>
+          <para styleclass="Body Text HowTo"><table rowcount="2" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:avoid; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+            <tr style="vertical-align:top">
+              <td style="width:182px;">
+                <para styleclass="Normal"><image src="exp_movedinvisibles.bmp" scale="100.00%" styleclass="Normal"></image></para>
+              </td>
+              <td style="vertical-align:middle;">
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">When you use the automatic converter a chapter called </text><text styleclass="Body Text" style="font-style:italic;" translate="true">(Former Invisible Topics)</text><text styleclass="Body Text" translate="true"> will also be created at the bottom of the converted project&apos;s Table of Contents (TOC) section. </text></para>
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">These TOC entries are linked to the topic files of the former invisible topics but they will still not be included in your published output because their include options are automatically set to &quot;None&quot;. </text></para>
+              </td>
+            </tr>
+            <tr style="vertical-align:top">
+              <td style="vertical-align:middle; width:182px;">
+                <para styleclass="Body Text"><text styleclass="Body Text" translate="true">You can delete the (Former Invisible Topics) chapter by selecting it and pressing DELETE. Before confirming, deselect the option </text><text styleclass="Body Text" style="font-style:italic;" translate="true">Also delete referred topic files</text><text styleclass="Body Text" translate="true"> to keep the actual topic files. </text></para>
+              </td>
+              <td style="vertical-align:middle;">
+                <para styleclass="Normal"><image src="dlg_deleteinvisibles.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+              </td>
+            </tr>
+          </table></para>
+          <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">External Converter:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">When you use the external converter program you can decide what you want to do with your old invisible topics:</text></para>
+          <para styleclass="Body Text HowTo" style="margin-left:48px;"><image src="dlg_importinvisibles.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" style="font-weight:bold;" translate="true">Add invisible topics to TOC</text><text styleclass="Body Text HowTo" translate="true"> creates the (Former Invisible Topics) chapter described above. We recommend deselecting this option.</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" style="font-weight:bold;" translate="true">Keep organization structure</text><text styleclass="Body Text HowTo" translate="true"> creates sub-folders in the Topic Files section to match your folder structure in your old project. You can create a maximum of 10 levels but the converter will not create more levels than the original project contained.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">PDF File Embedding</title>
+  <body>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">You can </text><text styleclass="Body Text" translate="true">automatically embed files referenced with file links into the PDF file when you export your project to PDF. This makes it possible to distribute additional files with your PDF document without having to use multiple files. </text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">When the user clicks on the link the file will be displayed with the application with which it is associated in Windows. This works for most file types, including other PDF files, documents and images of all kinds and even executable EXE files.</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="%0:s." format-charset="DEFAULT_CHARSET" levelreset="false" legalstyle="false" startfrom="1" styleclass="HowTo Numbered" style="font-family:Arial; font-size:11pt; font-weight:bold; color:#000000;">
+      <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">In the Project Explorer go to </text><text styleclass="T_Menu" translate="true">Configuration &gt; Publishing Options &gt; Adobe PDF &gt; PDF Layout</text><text styleclass="HowTo Numbered" translate="true"> and activate the option </text><text styleclass="HowTo Numbered" style="font-style:italic;" translate="true">File links - embed linked files with the following extensions:.</text><text styleclass="HowTo Numbered" style="font-weight:bold;" translate="true"> </text></li>
+      <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Make sure that the files you want to link to are stored in one of the folders referenced in your </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_ProjectProps_Common_ImageFolders" styleclass="HowTo Numbered" translate="true">Image Folders</link><text styleclass="HowTo Numbered" translate="true"> list in your project configuration settings. If you have many folder references place the files in one of the first few folders in the list.</text></li>
+      <li styleclass="HowTo Numbered"><text styleclass="HowTo Numbered" translate="true">Create your file links using the normal procedure. </text></li>
+    </list>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">When you publish your project the files referenced with file links will be physically embedded in the PDF file. You no longer need to distribute these files separately as they are now part of the PDF. This will increase the size of the PDF accordingly, of course.</text></para>
+  </body>
+</topic>

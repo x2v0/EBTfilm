@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic class="popup" template="Popup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Date formatting in variables</title>
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Date and time formatting in variables]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="cell-padding:0px; cell-spacing:0px; border-width:0px; cell-border-width:0px;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">A number of the predefined variables in Help &amp; Manual like </text><text styleclass="T_Code" translate="true">&lt;%\NOW%&gt;</text><text styleclass="Body Text HowTo" translate="true"> and </text><text styleclass="T_Code" translate="true">&lt;%\TOPICLASTEDITED%&gt;</text><text styleclass="Body Text HowTo" translate="true"> enter the current date or time or the date or time associated with an item in your project. Normally these variables will automatically use the date and time format set in your Windows configuration. However, you can also define the date format by adding a format string to the variable in parentheses like this:</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="T_Code" translate="true">&lt;%\NOW(dddd, mmmm d, yyyy)%&gt;</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Variables_Dates" styleclass="Normal" translate="true">Date &amp; time formatting in variables</link><text styleclass="Normal" translate="true"> for details of the syntax.</text></para>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Note that this only works with variables that return date and time values, if you add format strings to any other variables the variable will no longer work. Also, you can only use this option by editing variables in the Help &amp; Manual editor </text><text styleclass="Body Text HowTo" style="font-family:Arial;" translate="true">–</text><text styleclass="Body Text HowTo" translate="true"> you cannot use the date and time formatting syntax in variable definitions. </text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Alexander" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">HTML Template Variables</title>
+  <body>
+    <para style="margin-bottom:10px;"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">You can use all </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Variables_Global" style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">global predefined variables</link><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true"> and </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Variables_UserDef" style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">user-defined variables</link><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true"> in </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_HTMLTemplates" style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">HTML templates</link><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">. In addition to this you can also use the following special predefined variables, which are only relevant in HTML templates.</text></para>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">Variables for use in topic page templates only:</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">These variables can only be used in topic page templates. They are valid in all HTML-based output formats (HTML Help, WebHelp, Windows Exe and ePub eBooks and Visual Studio Help).</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="21" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="width:250px; background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Variable</text></para>
+        </td>
+        <td style="background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Content and/or function of the variable</text></para>
+        </td>
+      </thead>
+      <thead style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Note on HREF-Variables:</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">All the </text><text styleclass="T_Code" translate="true">HREF</text><text styleclass="Body Text" translate="true"> variables insert the local names of the corresponding pages within the current directory without any path information, e.g. </text><text styleclass="T_Code" translate="true">topic1name.htm, topic2name.htm</text><text styleclass="Body Text" translate="true"> and so on.</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%DOCCHARSET%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the correct character set information in the meta tags at the beginning of the HTML output pages. This variable is essential in all templates and should not be removed. If you do remove it you will get an error message from the compiler.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%DOCTYPE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the correct </text><text styleclass="T_Code" translate="true">DOCTYPE</text><text styleclass="Body Text" translate="true"> tag at the beginning of the HTML output pages. This variable is essential in all templates and should normally not be removed. If you do remove it you will get an error message from the compiler.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">You can insert your own</text><text styleclass="T_Code" translate="true"> &lt;DOCTYPE&gt;</text><text styleclass="Body Text" translate="true"> declaration in the template explicitly and if you do this no error message will be displayed. However, it may produce unexpected results. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_CURRENT_PAGE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the current page.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_DEFAULT_PAGE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the &quot;Default&quot; topic. This is used for the standard </text><text styleclass="T_Menu" translate="true">Top</text><text styleclass="Body Text" translate="true"> navigation link in the topic headers so that users can return to the default topic in your project.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_NEXT_PAGE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the next topic.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_PARENT_CHAPTER%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the parent topic (chapter). This can be used as an alternative to </text><text styleclass="T_Code" translate="true">&lt;%HREF_DEFAULT_PAGE%&gt;</text><text styleclass="Body Text" translate="true">.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">If the parent is a chapter without text, this is the link address of the parent&apos;s parent. If no valid parent is available, the variable is the link address of the default page.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_PREVIOUS_PAGE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the previous topic (used for Previous/Next buttons). </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%STYLESHEET%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the reference to the CSS stylesheet containing all the styles information for your project. This variable is essential in all templates and should not be removed. If you do remove it you will get an error message from the compiler.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPIC_AKEYWORDS%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts all the </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Keywords_Akeywords" styleclass="Body Text" translate="true">A-keywords</link><text styleclass="Body Text" translate="true"> of the current topic, comma-separated.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPIC_BREADCRUMBS%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Generates a series of &quot;breadcrumb trail&quot; navigation links to topics above the current topic in the TOC tree. This variable is empty in top-level topics. In second-level topics and below the variable generates a series of links in the format </text><text styleclass="T_Menu" style="text-decoration:underline;" translate="true">Link1</text><text styleclass="T_Menu" translate="true"> &gt; </text><text styleclass="T_Menu" style="text-decoration:underline;" translate="true">Link2</text><text styleclass="T_Menu" translate="true"> &gt; </text><text styleclass="T_Menu" style="text-decoration:underline;" translate="true">Link3</text><text styleclass="Body Text" translate="true"> ...</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The current topic is not included in the series. If you want to place the current topic title at the end of the breadcrumb trail you can do so with the </text><text styleclass="T_Code" translate="true">&lt;%TOPIC_TITLE%&gt;</text><text styleclass="Body Text" translate="true"> variable (see below).</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The breadcrumb trail variable is empty in topics in the Invisible Topics section.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This variable has a matching condition pair: </text><text styleclass="T_Code" translate="true">&lt;IF_TOPIC_BREADCRUMBS&gt;</text><text styleclass="Body Text" translate="true"> and </text><text styleclass="T_Code" translate="true">&lt;IFNOT_TOPIC_BREADCRUMBS&gt;</text><text styleclass="Body Text" translate="true">. These conditions can be used to only insert the trail where it is relevant and to insert alternative content when it is not relevant.</text></para>
+          <para styleclass="Body Text"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_HTMLTemplates_Topics" styleclass="Body Text" translate="true">See here</link><text styleclass="Body Text" translate="true"> for details on how to use this variable.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPIC_HEADER%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the header of the current topic if it exists. If the current topic has no header the value of this variable is null. This can be different from the topic caption inserted with </text><text styleclass="T_Code" translate="true">&lt;%\TOPIC_TITLE%&gt;</text><text styleclass="Body Text" translate="true">.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPIC_HEADER_TEXT%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the header of the current topic as plain text. This is particularly useful if your project headers are different from and longer than the TOC captions, which is inserted with </text><text styleclass="T_Code" translate="true">&lt;%\TOPIC_TITLE%&gt;</text><text styleclass="Body Text" translate="true">.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This is used primarily for search engine optimization, for which you would insert it in the </text><text styleclass="T_Entry" translate="true">description</text><text styleclass="Body Text" translate="true"> meta tag, like this:</text></para>
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;meta name=&quot;description&quot; content=&quot;&lt;%\TOPIC_HEADER_TEXT%&gt;&quot;&gt;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPIC_DESCRIPTION%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the first paragraph of the topic body as plain text. If the text is longer than 180 characters, it gets truncated and extended by an elipsis (&quot;...&quot;).</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This is used primarily for search engine optimization, for which you would insert it in the </text><text styleclass="T_Entry" translate="true">description</text><text styleclass="Body Text" translate="true"> meta tag, like this:</text></para>
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;meta name=&quot;description&quot; content=&quot;&lt;%\TOPIC_DESCRIPTION%&gt;&quot;&gt;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPIC_KEYWORDS%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts all the </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Keywords_Adding" styleclass="Body Text" translate="true">keywords</link><text styleclass="Body Text" translate="true"> of the current topic, comma-separated. Needless to say, this variable is essential for the keyword index and shouldn&apos;t be removed...</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPIC_TEXT%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the body text of a topic, i.e. the entire topic as edited and formatted in your project in the Help &amp; Manual editor. This is the most important variable. If you leave it out your topics will be empty! </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPIC_TITLE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Topic title (this is the caption of the topic in the TOC).</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPIC_TITLE_PATH%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">This variable is similar to the breadcrumbs variable above but it delivers the breadcrumb trail as a plain text string without any links. Unlike the breadcrumbs variable it also includes the name of the current topic, so it always delivers a full trail.</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">The primary use of this variable is for search engine optimization, for which you would insert it in the </text><text styleclass="T_Code" translate="true">&lt;title&gt;</text><text styleclass="Body Text" translate="true"> tag of your topic page template instead of the normal </text><text styleclass="T_Code" translate="true">&lt;%\TOPIC_TITLE%&gt;</text><text styleclass="Body Text" translate="true"> variable, like this:</text></para>
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;title&gt;&lt;%\TOPIC_TITLE_PATH%&gt;&lt;/title&gt;</text></para>
+          <para style="margin-top:5px; margin-bottom:5px; page-break-after:avoid;"><text style="font-family:Arial; font-size:11pt; font-weight:bold; text-decoration:underline; color:#000000;" translate="true">Modification for HTML Help:</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">If you also output to HTML Help you should use conditional text to ensure that this variable is only used in Browser Help, otherwise you will get the full path as the topic name in your search results in the HTML Help viewer. Do it like this:</text></para>
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;title&gt;&lt;IF_HTML&gt;&lt;%\TOPIC_TITLE_PATH%&gt;&lt;/IF_HTML&gt;&lt;IF_CHM&gt;&lt;%\TOPIC_TITLE%&gt;&lt;/IF_CHM&gt;&lt;/title&gt;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\TOPICID%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Returns the plain topic ID as written in the </text><text styleclass="T_Menu" translate="true">Topic ID:</text><text styleclass="Body Text" translate="true"> field of , without any filename &#160;extension and without changing the ID text to lower case. This can be used to add an ID reference in your meta attributes in your web pages, for example:</text></para>
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;meta name=&quot;id&quot; content=&quot;&lt;%\TOPICID%&gt;&quot; /&gt;</text></para>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">(This variable can also be used in normal topic pages.)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%\XMLLANG%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Returns the project language code, e.g. </text><text styleclass="T_Entry" translate="true">en-us</text><text styleclass="Body Text" translate="true"> for US English. </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading2_atoc_"><text styleclass="Heading2_atoc_" translate="true">Variables for use in WebHelp only:</text></para>
+    <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">All the remaining variables are only relevant in </text><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_Formats_HTML" styleclass="Body Text" translate="true">WebHelp</link><text styleclass="Body Text" translate="true"> (HTML):</text></para>
+    <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Global variables for all WebHelp templates:</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="5" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="width:250px; background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Variable</text></para>
+        </td>
+        <td style="background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Content and/or function of the variable</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_CONTENT_PAGE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the TOC page</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_INDEX_PAGE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the keyword index-page</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_SEARCH_PAGE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the full-text search page</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:250px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_TOP_PAGE%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the top frame (e.g. &quot;index.html&quot;)</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading3_atocs_" style="margin-left:24px;"><anchor id="framevariables" styleclass="Heading3"></anchor><text styleclass="Heading3_atocs_" translate="true">Variables for the Layout frameset template only:</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="4" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:avoid; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <thead style="vertical-align:top">
+        <td style="width:249px; background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Variable</text></para>
+        </td>
+        <td style="background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Content and/or function of the variable</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_CONTENT_PAGE_DYN%&gt; </text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the dynamic TOC page.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%HREF_CONTENT_PAGE_STATIC%&gt; </text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Link address of the static TOC page.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%NAVIGATION_SCRIPT%&gt; </text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the navigation script required by the top frame.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Variables for the Table of Contents template only:</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="2" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:avoid; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:249px; background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Variable</text></para>
+        </td>
+        <td style="background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Content and/or function of the variable</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%TABLE_OF_CONTENTS%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the entire TOC in the page.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Variables for the Keyword Index template only:</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="2" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:avoid; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:249px; background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Variable</text></para>
+        </td>
+        <td style="background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Content and/or function of the variable</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%KEYWORD_INDEX%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the entire keyword index in the page.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-left:24px;"></para>
+    <para styleclass="Heading3_atocs_" style="margin-left:24px;"><text styleclass="Heading3_atocs_" translate="true">Variables for the Search template only:</text></para>
+    <para styleclass="Body Text" style="margin-left:24px;"><table rowcount="2" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:avoid; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:249px; background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Variable</text></para>
+        </td>
+        <td style="background-color:#eaeaea;">
+          <para styleclass="Body Text"><text styleclass="Body Text" style="font-weight:bold;" translate="true">Content and/or function of the variable</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:249px;">
+          <para styleclass="Body Text"><text styleclass="T_Code" translate="true">&lt;%SEARCH_SCRIPT%&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Body Text"><text styleclass="Body Text" translate="true">Inserts the full-text search script in the page.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="SeeAlso"><text styleclass="SeeAlso" translate="true">See also:</text></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Working_Variables" styleclass="Normal" translate="true">Using Variables</link></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_HTMLTemplates" styleclass="Normal" translate="true">Using HTML Templates</link></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Advanced_HTMLTemplates_Editing" styleclass="Normal" translate="true">Editing HTML templates</link></para>
+    <para styleclass="Normal" style="margin-left:24px;"><link displaytype="text" defaultstyle="true" type="topiclink" href="HM_Ref_HWindows" styleclass="Normal" translate="true">Help Windows</link></para>
+  </body>
+</topic>

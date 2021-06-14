@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Delete Extension
+[-HKEY_LOCAL_MACHINE\Software\Classes\.tif]
+[-HKEY_CURRENT_USER\Software\Classes\.tif]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.tif]

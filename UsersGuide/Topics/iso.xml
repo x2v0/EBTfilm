@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="plan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Изодозная гистограмма</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Изодозная гистограмма</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Изодозная гистограмма представляет из себя двухмерный график состоящий из изолиний.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Изолиния, представляет собой линию, в каждой точке которой измеряемая величина сохраняет одинаковое значение.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В случае дозного распределения, линии соответствуют 0 - 90% (с шагом 10%) величинам относительно максимального значения дозы.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Эта гистограмма также используется для создания гистограммы</text><link displaytype="text" defaultstyle="true" type="topiclink" href="DAH" styleclass="Normal" translate="true"> Доза-Площадь</link><text styleclass="Normal" translate="true">&#32;</text><br/></para>
+    <para styleclass="Normal"><image src="iso1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

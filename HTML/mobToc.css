@@ -1,0 +1,84 @@
+   * {
+   padding: 0;
+   margin: 0;
+   }
+   
+#pageContent {
+   position: relative;
+   z-index: 1;
+   width:auto;
+   overflow: auto;
+ 	border: 0px solid red;
+}
+#pageScroller {
+   width: auto;
+   overflow: auto;
+   border: 0px; 
+   border: 0px solid red;
+
+}
+
+.heading1 { font-family: Arial,Helvetica; font-weight: normal; font-size: 12px; color: #000000; text-decoration: none; line-height: 100%; }
+.heading2 { font-family: Arial,Helvetica; font-weight: normal; font-size: 11px; color: #000000; text-decoration: none; line-height: 100%; }
+.heading3 { font-family: Arial,Helvetica; font-weight: normal; font-size: 11px; color: #000000; text-decoration: none; line-height: 100%; }
+.heading4 { font-family: Arial,Helvetica; font-weight: normal; font-size: 11px; color: #000000; text-decoration: none; line-height: 100%; }
+.heading5 { font-family: Arial,Helvetica; font-weight: normal; font-size: 11px; color: #000000; text-decoration: none; line-height: 100%; }
+.heading6 { font-family: Arial,Helvetica; font-weight: normal; font-size: 11px; color: #000000; text-decoration: none; line-height: 100%; }
+
+.hilight1 { font-family: Arial,Helvetica; font-size: 12px; color: #000; text-decoration: none; line-height: 100%; }
+.hilight2 { font-family: Arial,Helvetica; font-size: 11px; color: #000; text-decoration: none; line-height: 100%; }
+.hilight3 { font-family: Arial,Helvetica; font-size: 11px; color: #000; text-decoration: none; line-height: 100%; }
+.hilight4 { font-family: Arial,Helvetica; font-size: 11px; color: #000; text-decoration: none; line-height: 100%; }
+.hilight5 { font-family: Arial,Helvetica; font-size: 11px; color: #000; text-decoration: none; line-height: 100%; }
+.hilight6 { font-family: Arial,Helvetica; font-size: 11px; color: #000; text-decoration: none; line-height: 100%; }
+
+
+/* Portrait and Landscape CSS queries don't actually work on documents in iFrames!! */
+
+@media screen and (orientation:landscape) { 
+	ul#toc {
+	width: 230px;
+	}
+}
+
+@media screen and (orientation:portrait) {
+	ul#toc {
+	width: 170px;
+	}
+}
+
+
+ul#toc {
+	line-height:80%;
+	border-bottom:1px solid #bbbbbb;
+	font-size:18px; font-weight:bold;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+      
+/* ul#toc li a */
+a.heading1, a.heading2, a.heading3, a.heading4, a.heading5, a.heading6 , a.headingNoText {
+	text-decoration: none;
+	display: block;
+	position: relative;
+	padding: 4px 5px; 
+	margin-right: 7px;
+	border: 1px solid transparent;
+	}
+a.heading1, a.heading2, a.heading3, a.heading4, a.heading5, a.heading6  {
+	border: 1px solid #bbbbbb;
+	background-image: -webkit-gradient(linear, 0 0, 0 100, from(#f4f5f7), to(#999da9));
+	-webkit-border-radius: 5px;
+}
+ul#toc li img {
+	margin-bottom: -5px;
+	}
+a#newHiTable
+ {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#2a55b1), to(#6297f2));
+	border-color: blue;
+}
+a#newHiTable span {
+	color: white;
+	font-weight: bold;
+}

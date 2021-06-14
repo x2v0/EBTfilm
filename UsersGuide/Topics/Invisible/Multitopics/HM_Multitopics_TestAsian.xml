@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic class="Popup" template="Popup" lasteditedby="Tim64" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Test-compiling Asian languages</title>
+  <body>
+    <para styleclass="Heading HowTo Toggle_atoc_"><image src="tog_plus.gif" scale="100.00%" styleclass="Heading HowTo Toggle_atoc_"></image><tab/><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="false" translate="true" src-collapsed="tog_plus.gif" src-expanded="tog_minus.gif" src-print="none" styleclass="Heading HowTo Toggle_atoc_"><caption translate="true"><![CDATA[Test-publishing Asian languages on non-Asian Windows]]></caption><title translate="true">&lt;%EXTOGGLE%&gt;</title></toggle></para>
+    <para styleclass="Body Text"><table rowcount="1" colcount="1" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Normally, you cannot publish help projects written Asian languages on non-Asian versions of Windows because the necessary language settings don&apos;t match. However, if you just want to do a quick test publish and don&apos;t have a Windows version in the matching Asian language there is a configuration setting that will allow you to do this.</text></para>
+          <list id="1" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="HowTo Bulleted" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="HowTo Bulleted"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true">Go to </text><text styleclass="T_Menu" translate="true">View &gt; Program Options &gt; Compilers</text><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true"> and activate the option </text><text style="font-family:Arial; font-size:11pt; font-style:italic; color:#000000;" translate="true">Tolerant handling of Asian languages</text><text styleclass="Image Caption" style="font-style:italic;" translate="true">.</text><text style="font-family:Arial; font-size:11pt; font-style:italic; color:#000000;" translate="true"> </text></li>
+          </list>
+          <para styleclass="Body Text HowTo"><text styleclass="Body Text HowTo" translate="true">Some features may not work correctly in the resulting help file in HTML Help if the languages of your Windows version and the help file don&apos;t match (Search, Keyword Index) but you will be able to complete the compilation, which is sufficient for testing.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

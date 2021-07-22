@@ -1,7 +1,3 @@
-![3D](HTML/3d1.png)
-
-
-
 Программа предназначена для обработки данных полученных с помощью дозиметрических плёнок EBT2/EBT3 
 http://www.gafchromic.com/gafchromic-film/radiotherapy-films/EBT/index.asp
 
@@ -19,3 +15,5 @@ http://www.gafchromic.com/gafchromic-film/radiotherapy-films/EBT/index.asp
 Подобное описание https://x2v0.github.io/EBTfilm/
 
 ![snapshot](snapshot.jpg)
+
+![3D](HTML/3d1.png)
